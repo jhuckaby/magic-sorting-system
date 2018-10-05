@@ -103,20 +103,20 @@ Players can still build out custom storage systems using hoppers, chests, furnac
 
 # Installation
 
-To install the data pack, download the latest ZIP file from the [releases page](https://github.com/jhuckaby/magic-sorting-system/releases), and install it to your `datapacks` folder for your Minecraft world.  Here are specific instructions for single and multiplayer:
+To install the data pack, download the latest ZIP file from the [releases page](https://github.com/jhuckaby/magic-sorting-system/releases), unzip the file, and copy the `magic-sorting-system-#.#.#` folder into your `datapacks` folder for your Minecraft world.  Here are specific instructions for single and multiplayer:
 
 ## Single Player
 
 - Open Minecraft.
 - Select your world, click on "**Edit**", then "**Open world folder**".
-- Open the folder named `datapacks`, and put the data pack ZIP file into it.
+- Open the folder named `datapacks`, and put the data pack folder file into it.
 - Play the world.
 
 ## Multiplayer
 
 - FTP to your server.
 - Open your server folder, then open the folder named `world`.
-- Upload the data pack ZIP file into a folder named `datapacks`.
+- Upload the data pack folder into a folder named `datapacks`.
 - Restart the server.
 
 # Usage
