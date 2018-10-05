@@ -130,7 +130,7 @@ To build the magic sorting system, assuming survival mode, you will have to play
 | Item | Name | Amount | Purpose |
 |------|------|--------|---------|
 | <img src="https://pixlcore.com/software/mss/images/gold_ingot.png" width="32" height="32"> | [Gold Ingot](https://minecraft.gamepedia.com/Gold_Ingot) | 9 | To build the lower base controller block. |
-| <img src="https://pixlcore.com/software/mss/images/lapis_lazuli.png" width="32" height="32"> | [Lapis Lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli) 9 | To build the upper base controller block. |
+| <img src="https://pixlcore.com/software/mss/images/lapis_lazuli.png" width="32" height="32"> | [Lapis Lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli) | 9 | To build the upper base controller block. |
 | <img src="https://pixlcore.com/software/mss/images/iron_ingot.png" width="32" height="32"> | [Iron Ingot](https://minecraft.gamepedia.com/Iron_Ingot) | 5 | To build the first [hopper](https://minecraft.gamepedia.com/Hopper). |
 | <img src="https://pixlcore.com/software/mss/images/oak_log.png" width="32" height="32"> | [Wood Log](https://minecraft.gamepedia.com/Log) | 6 | To build the first [chests](https://minecraft.gamepedia.com/Chest) and [item frame](https://minecraft.gamepedia.com/Item_Frame). |
 | <img src="https://pixlcore.com/software/mss/images/leather.png" width="32" height="32"> | [Leather](https://minecraft.gamepedia.com/Leather) | 1 | To build the first item frame. |
