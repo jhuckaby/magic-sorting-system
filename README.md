@@ -495,7 +495,7 @@ The Woodwork group contains all products made out of wood, including slabs, stai
 | `minecraft:spruce_slab` | <img src="https://pixlcore.com/software/mss/images/spruce_slab.png?v=3" width="32" height="32"> |
 | `minecraft:spruce_stairs` | <img src="https://pixlcore.com/software/mss/images/spruce_stairs.png?v=3" width="32" height="32"> |
 | `minecraft:spruce_trapdoor` | <img src="https://pixlcore.com/software/mss/images/spruce_trapdoor.png?v=3" width="32" height="32"> |
-| `minecraft:white_bed` | <img src="https://pixlcore.com/software/mss/images/white_bed.png?v=3" width="32" height="32"> |
+| `minecraft:white_bed` | <img src="https://pixlcore.com/software/mss/images/white_bed.png?v=4" width="32" height="32"> |
 | `minecraft:yellow_bed` | <img src="https://pixlcore.com/software/mss/images/yellow_bed.png?v=3" width="32" height="32"> |
 
 </p>
@@ -726,7 +726,7 @@ The Storage group contains all forms of storage, including chests, trapped chest
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `armor` | 27 | Tools | `minecraft:leather_chestplate` | <img src="https://pixlcore.com/software/mss/images/leather_chestplate.png?v=3" width="32" height="32"> |
+| `armor` | 27 | Tools | `minecraft:leather_chestplate` | <img src="https://pixlcore.com/software/mss/images/leather_chestplate.png?v=4" width="32" height="32"> |
 
 The Armor group contains all forms of armor in the game, including boots, chestplates, leggings and helmets of all types, horse armor, saddles, shields and armor stands.
 
@@ -755,10 +755,10 @@ The Armor group contains all forms of armor in the game, including boots, chestp
 | `minecraft:iron_helmet` | <img src="https://pixlcore.com/software/mss/images/iron_helmet.png?v=3" width="32" height="32"> |
 | `minecraft:iron_horse_armor` | <img src="https://pixlcore.com/software/mss/images/iron_horse_armor.png?v=3" width="32" height="32"> |
 | `minecraft:iron_leggings` | <img src="https://pixlcore.com/software/mss/images/iron_leggings.png?v=3" width="32" height="32"> |
-| `minecraft:leather_boots` | <img src="https://pixlcore.com/software/mss/images/leather_boots.png?v=3" width="32" height="32"> |
-| `minecraft:leather_chestplate` | <img src="https://pixlcore.com/software/mss/images/leather_chestplate.png?v=3" width="32" height="32"> |
-| `minecraft:leather_helmet` | <img src="https://pixlcore.com/software/mss/images/leather_helmet.png?v=3" width="32" height="32"> |
-| `minecraft:leather_leggings` | <img src="https://pixlcore.com/software/mss/images/leather_leggings.png?v=3" width="32" height="32"> |
+| `minecraft:leather_boots` | <img src="https://pixlcore.com/software/mss/images/leather_boots.png?v=4" width="32" height="32"> |
+| `minecraft:leather_chestplate` | <img src="https://pixlcore.com/software/mss/images/leather_chestplate.png?v=4" width="32" height="32"> |
+| `minecraft:leather_helmet` | <img src="https://pixlcore.com/software/mss/images/leather_helmet.png?v=4" width="32" height="32"> |
+| `minecraft:leather_leggings` | <img src="https://pixlcore.com/software/mss/images/leather_leggings.png?v=4" width="32" height="32"> |
 | `minecraft:saddle` | <img src="https://pixlcore.com/software/mss/images/saddle.png?v=3" width="32" height="32"> |
 | `minecraft:shield` | <img src="https://pixlcore.com/software/mss/images/shield.png?v=3" width="32" height="32"> |
 | `minecraft:turtle_helmet` | <img src="https://pixlcore.com/software/mss/images/turtle_helmet.png?v=3" width="32" height="32"> |
@@ -1075,7 +1075,7 @@ The Precious group contains items that can be classified as expensive or rare, l
 | `minecraft:heart_of_the_sea` | <img src="https://pixlcore.com/software/mss/images/heart_of_the_sea.png?v=3" width="32" height="32"> |
 | `minecraft:iron_ingot` | <img src="https://pixlcore.com/software/mss/images/iron_ingot.png?v=3" width="32" height="32"> |
 | `minecraft:iron_nugget` | <img src="https://pixlcore.com/software/mss/images/iron_nugget.png?v=3" width="32" height="32"> |
-| `minecraft:lapis_block` | <img src="https://pixlcore.com/software/mss/images/lapis_block.png?v=3" width="32" height="32"> |
+| `minecraft:lapis_block` | <img src="https://pixlcore.com/software/mss/images/lapis_block.png?v=4" width="32" height="32"> |
 | `minecraft:lapis_lazuli` | <img src="https://pixlcore.com/software/mss/images/lapis_lazuli.png?v=3" width="32" height="32"> |
 | `minecraft:nether_star` | <img src="https://pixlcore.com/software/mss/images/nether_star.png?v=3" width="32" height="32"> |
 | `minecraft:obsidian` | <img src="https://pixlcore.com/software/mss/images/obsidian.png?v=3" width="32" height="32"> |
