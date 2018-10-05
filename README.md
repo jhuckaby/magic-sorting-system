@@ -353,8 +353,8 @@ The Sandstone group contains all the various forms of sandstone, including regul
 | `minecraft:sandstone` | <img src="https://pixlcore.com/software/mss/images/sandstone.png" width="32" height="32"> |
 | `minecraft:sandstone_slab` | <img src="https://pixlcore.com/software/mss/images/sandstone_slab.png" width="32" height="32"> |
 | `minecraft:sandstone_stairs` | <img src="https://pixlcore.com/software/mss/images/sandstone_stairs.png" width="32" height="32"> |
-| `minecraft:smooth_red_sandstone` | <img src="https://pixlcore.com/software/mss/images/smooth_red_sandstone.png" width="32" height="32"> |
-| `minecraft:smooth_sandstone` | <img src="https://pixlcore.com/software/mss/images/smooth_sandstone.png" width="32" height="32"> |
+| `minecraft:smooth_red_sandstone` | <img src="https://pixlcore.com/software/mss/images/smooth_red_sandstone.png?v=2" width="32" height="32"> |
+| `minecraft:smooth_sandstone` | <img src="https://pixlcore.com/software/mss/images/smooth_sandstone.png?v=2" width="32" height="32"> |
 
 </p>
 </details>
@@ -481,7 +481,7 @@ The Woodwork group contains all products made out of wood, including slabs, stai
 | `minecraft:oak_trapdoor` | <img src="https://pixlcore.com/software/mss/images/oak_trapdoor.png" width="32" height="32"> |
 | `minecraft:orange_bed` | <img src="https://pixlcore.com/software/mss/images/orange_bed.png" width="32" height="32"> |
 | `minecraft:painting` | <img src="https://pixlcore.com/software/mss/images/painting.png" width="32" height="32"> |
-| `minecraft:petrified_oak_slab` | <img src="https://pixlcore.com/software/mss/images/petrified_oak_slab.png" width="32" height="32"> |
+| `minecraft:petrified_oak_slab` | <img src="https://pixlcore.com/software/mss/images/petrified_oak_slab.png?v=2" width="32" height="32"> |
 | `minecraft:pink_bed` | <img src="https://pixlcore.com/software/mss/images/pink_bed.png" width="32" height="32"> |
 | `minecraft:purple_bed` | <img src="https://pixlcore.com/software/mss/images/purple_bed.png" width="32" height="32"> |
 | `minecraft:red_bed` | <img src="https://pixlcore.com/software/mss/images/red_bed.png" width="32" height="32"> |
@@ -833,7 +833,7 @@ The Plants group basically contains all the organic items in the game, if they a
 | `minecraft:lily_pad` | <img src="https://pixlcore.com/software/mss/images/lily_pad.png" width="32" height="32"> |
 | `minecraft:melon` | <img src="https://pixlcore.com/software/mss/images/melon.png" width="32" height="32"> |
 | `minecraft:melon_seeds` | <img src="https://pixlcore.com/software/mss/images/melon_seeds.png" width="32" height="32"> |
-| `minecraft:mushroom_stem` | <img src="https://pixlcore.com/software/mss/images/mushroom_stem.png" width="32" height="32"> |
+| `minecraft:mushroom_stem` | <img src="https://pixlcore.com/software/mss/images/mushroom_stem.png?v=2" width="32" height="32"> |
 | `minecraft:nether_wart` | <img src="https://pixlcore.com/software/mss/images/nether_wart.png" width="32" height="32"> |
 | `minecraft:oak_leaves` | <img src="https://pixlcore.com/software/mss/images/oak_leaves.png" width="32" height="32"> |
 | `minecraft:oak_sapling` | <img src="https://pixlcore.com/software/mss/images/oak_sapling.png" width="32" height="32"> |
