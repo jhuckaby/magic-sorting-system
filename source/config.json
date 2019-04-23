@@ -53,7 +53,15 @@
 				"minecraft:sandstone_slab",
 				"minecraft:sandstone_stairs",
 				"minecraft:smooth_red_sandstone",
-				"minecraft:smooth_sandstone"
+				"minecraft:smooth_sandstone",
+				"minecraft:cut_red_sandstone_slab",
+				"minecraft:cut_sandstone_slab",
+				"minecraft:red_sandstone_wall",
+				"minecraft:sandstone_wall",
+				"minecraft:smooth_red_sandstone_slab",
+				"minecraft:smooth_red_sandstone_stairs",
+				"minecraft:smooth_sandstone_slab",
+				"minecraft:smooth_sandstone_stairs"
 			]
 		},
 		{
@@ -175,7 +183,23 @@
 				"minecraft:spruce_stairs",
 				"minecraft:spruce_trapdoor",
 				"minecraft:white_bed",
-				"minecraft:yellow_bed"
+				"minecraft:yellow_bed",
+				"minecraft:acacia_sign‌",
+				"minecraft:acacia_wall_sign‌",
+				"minecraft:birch_sign",
+				"minecraft:birch_wall_sign",
+				"minecraft:dark_oak_sign",
+				"minecraft:dark_oak_wall_sign",
+				"minecraft:jungle_sign",
+				"minecraft:jungle_wall_sign",
+				"minecraft:oak_sign",
+				"minecraft:oak_wall_sign",
+				"minecraft:spruce_sign",
+				"minecraft:spruce_wall_sign",
+				"minecraft:scaffolding",
+				"minecraft:cartography_table",
+				"minecraft:composter",
+				"minecraft:lectern"
 			]
 		},
 		{
@@ -215,6 +239,7 @@
 				"minecraft:brick",
 				"minecraft:brick_slab",
 				"minecraft:brick_stairs",
+				"minecraft:brick_wall",
 				"minecraft:bricks",
 				"minecraft:chiseled_stone_bricks",
 				"minecraft:cobblestone_slab",
@@ -233,7 +258,31 @@
 				"minecraft:stone_button",
 				"minecraft:stone_pressure_plate",
 				"minecraft:stone_slab",
-				"minecraft:cobblestone_stairs"
+				"minecraft:cobblestone_stairs",
+				"minecraft:andesite_slab",
+				"minecraft:andesite_stairs",
+				"minecraft:andesite_wall",
+				"minecraft:bell",
+				"minecraft:diorite_slab",
+				"minecraft:diorite_stairs",
+				"minecraft:diorite_wall",
+				"minecraft:granite_slab",
+				"minecraft:granite_stairs",
+				"minecraft:granite_wall",
+				"minecraft:mossy_cobblestone_slab",
+				"minecraft:mossy_cobblestone_stairs",
+				"minecraft:mossy_stone_brick_slab",
+				"minecraft:mossy_stone_brick_stairs",
+				"minecraft:mossy_stone_brick_wall",
+				"minecraft:polished_andesite_slab",
+				"minecraft:polished_andesite_stairs",
+				"minecraft:polished_diorite_slab",
+				"minecraft:polished_diorite_stairs",
+				"minecraft:polished_granite_slab",
+				"minecraft:polished_granite_stairs",
+				"minecraft:smooth_stone_slab",
+				"minecraft:stone_brick_wall",
+				"minecraft:stone_stairs"
 			]
 		},
 		{
@@ -309,7 +358,17 @@
 				"minecraft:wooden_hoe",
 				"minecraft:wooden_pickaxe",
 				"minecraft:wooden_shovel",
-				"minecraft:wooden_sword"
+				"minecraft:wooden_sword",
+				"minecraft:crossbow",
+				"minecraft:blast_furnace",
+				"minecraft:campfire",
+				"minecraft:lantern",
+				"minecraft:fletching_table",
+				"minecraft:grindstone",
+				"minecraft:loom",
+				"minecraft:smithing_table",
+				"minecraft:smoker",
+				"minecraft:stonecutter"
 			]
 		},
 		{
@@ -336,7 +395,8 @@
 				"minecraft:shulker_box",
 				"minecraft:light_gray_shulker_box",
 				"minecraft:white_shulker_box",
-				"minecraft:yellow_shulker_box"
+				"minecraft:yellow_shulker_box",
+				"minecraft:barrel"
 			]
 		},
 		{
@@ -370,7 +430,8 @@
 				"minecraft:leather_leggings",
 				"minecraft:saddle",
 				"minecraft:shield",
-				"minecraft:turtle_helmet"
+				"minecraft:turtle_helmet",
+				"minecraft:leather_horse_armor"
 			]
 		},
 		{
@@ -437,7 +498,18 @@
 				"minecraft:tall_grass",
 				"minecraft:vine",
 				"minecraft:wheat",
-				"minecraft:wheat_seeds"
+				"minecraft:wheat_seeds",
+				"minecraft:bamboo_sapling",
+				"minecraft:cornflower",
+				"minecraft:lily_of_the_valley",
+				"minecraft:potted_bamboo",
+				"minecraft:potted_cornflower",
+				"minecraft:potted_lily_of_the_valley",
+				"minecraft:potted_wither_rose",
+				"minecraft:sweet_berry_bush",
+				"minecraft:wither_rose",
+				"minecraft:sweet_berries",
+				"minecraft:bamboo"
 			]
 		},
 		{
@@ -485,7 +557,8 @@
 				"minecraft:mushroom_stew",
 				"minecraft:pumpkin_pie",
 				"minecraft:rabbit_stew",
-				"minecraft:sugar"
+				"minecraft:sugar",
+				"minecraft:suspicious_stew"
 			]
 		},
 		{
@@ -592,7 +665,14 @@
 				"minecraft:zombie_horse_spawn_egg",
 				"minecraft:zombie_pigman_spawn_egg",
 				"minecraft:zombie_spawn_egg",
-				"minecraft:zombie_villager_spawn_egg"
+				"minecraft:zombie_villager_spawn_egg",
+				"minecraft:cat_spawn_egg",
+				"minecraft:fox_spawn_egg",
+				"minecraft:panda_spawn_egg",
+				"minecraft:pillager_spawn_egg",
+				"minecraft:ravager_spawn_egg",
+				"minecraft:trader_llama_spawn_egg",
+				"minecraft:wandering_trader_spawn_egg"
 			]
 		},
 		{
@@ -896,7 +976,8 @@
 				"minecraft:prismarine_crystals",
 				"minecraft:prismarine_shard",
 				"minecraft:prismarine_slab",
-				"minecraft:prismarine_stairs"
+				"minecraft:prismarine_stairs",
+				"minecraft:prismarine_wall"
 			]
 		},
 		{
@@ -916,7 +997,14 @@
 				"minecraft:orange_dye",
 				"minecraft:pink_dye",
 				"minecraft:purple_dye",
-				"minecraft:rose_red"
+				"minecraft:rose_red",
+				"minecraft:black_dye",
+				"minecraft:blue_dye",
+				"minecraft:brown_dye",
+				"minecraft:green_dye",
+				"minecraft:yellow_dye",
+				"minecraft:red_dye",
+				"minecraft:white_dye"
 			]
 		},
 		{
@@ -933,7 +1021,11 @@
 				"minecraft:nether_brick_fence",
 				"minecraft:nether_brick_slab",
 				"minecraft:nether_brick_stairs",
+				"minecraft:nether_brick_wall",
 				"minecraft:nether_bricks",
+				"minecraft:red_nether_brick_slab",
+				"minecraft:red_nether_brick_stairs",
+				"minecraft:red_nether_brick_wall",
 				"minecraft:nether_wart_block",
 				"minecraft:netherrack",
 				"minecraft:quartz",
@@ -943,7 +1035,9 @@
 				"minecraft:quartz_stairs",
 				"minecraft:red_nether_bricks",
 				"minecraft:smooth_quartz",
-				"minecraft:soul_sand"
+				"minecraft:soul_sand",
+				"minecraft:smooth_quartz_slab",
+				"minecraft:smooth_quartz_stairs"
 			]
 		},
 		{
@@ -1000,7 +1094,10 @@
 				"minecraft:purpur_block",
 				"minecraft:purpur_pillar",
 				"minecraft:purpur_slab",
-				"minecraft:purpur_stairs"
+				"minecraft:purpur_stairs",
+				"minecraft:end_stone_brick_slab",
+				"minecraft:end_stone_brick_stairs",
+				"minecraft:end_stone_brick_wall"
 			]
 		},
 		{

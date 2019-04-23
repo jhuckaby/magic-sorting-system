@@ -2,7 +2,7 @@
 
 ![Main Screenshot](https://pixlcore.com/software/mss/screenshots/main-title.png)
 
-The **Magic Sorting System** is a free [Data Pack](https://minecraft.gamepedia.com/Data_pack) available for [Minecraft](https://minecraft.net/) v1.13+ (Java edition).  It provides a way to craft an automatic, extensible item sorting system, which does not use redstone, nor console commands, nor command blocks.  Items are teleported to matching item frames, where they can be routed via hoppers into chests or furnaces (so it still requires considerable resources and building).  The whole system can be entirely built in survival mode, and supports both single and multiplayer (local or server install).
+The **Magic Sorting System** is a free [Data Pack](https://minecraft.gamepedia.com/Data_pack) available for [Minecraft](https://minecraft.net/) v1.13 and v1.14+ (Java edition).  It provides a way to craft an automatic, extensible item sorting system, which does not use redstone, nor console commands, nor command blocks.  Items are teleported to matching item frames, where they can be routed via hoppers into chests or furnaces (so it still requires considerable resources and building).  The whole system can be entirely built in survival mode, and supports both single and multiplayer (local or server install).
 
 The sorting system works by providing a special magic drop off chest, where you can deposit any number of unsorted items (for e.g. when you come back from a mining trip), and they will be automatically sorted into [36 different categories](#groups), each with its own item frame.  Note that you do not need all 36 categories to start out -- you can progressively build your storage system over time, and have it look however you want.  You can also provide a "misc" (catch-all) category, which catches all items which don't have their own group built.
 
@@ -21,7 +21,7 @@ Players can still build out custom storage systems using hoppers, chests, furnac
 - Build and setup everything in pure survival mode
 - Design your storage system to look however you like
 - Progressively add new categories over time
-- Sorts 775 unique items into 36 categories
+- Sorts 871 unique items into 36 categories
 - Unsorted items automatically go into a "misc" group
 - Can have multiple sorting systems in same world (128+ blocks apart)
 - Items are sorted to nearest matching item frames
@@ -333,7 +333,7 @@ The Sand group contains only sand blocks.  However, see [Sandstone](#sandstone) 
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `sandstone` | 13 | Sand | `minecraft:sandstone` | <img src="https://pixlcore.com/software/mss/images/sandstone.png?v=3" width="32" height="32"> |
+| `sandstone` | 21 | Sand | `minecraft:sandstone` | <img src="https://pixlcore.com/software/mss/images/sandstone.png?v=3" width="32" height="32"> |
 
 The Sandstone group contains all the various forms of sandstone, including regular, smooth, chiseled, cut, red, and slabs and stairs.  If you would prefer sandstone to get sorted with sand, simply omit the sandstone item frame.  All sandstone falls back to sand.
 
@@ -355,6 +355,14 @@ The Sandstone group contains all the various forms of sandstone, including regul
 | `minecraft:sandstone_stairs` | <img src="https://pixlcore.com/software/mss/images/sandstone_stairs.png?v=3" width="32" height="32"> |
 | `minecraft:smooth_red_sandstone` | <img src="https://pixlcore.com/software/mss/images/smooth_red_sandstone.png?v=3" width="32" height="32"> |
 | `minecraft:smooth_sandstone` | <img src="https://pixlcore.com/software/mss/images/smooth_sandstone.png?v=3" width="32" height="32"> |
+| `minecraft:cut_red_sandstone_slab` | <img src="https://pixlcore.com/software/mss/images/cut_red_sandstone_slab.png?v=3" width="32" height="32"> |
+| `minecraft:cut_sandstone_slab` | <img src="https://pixlcore.com/software/mss/images/cut_sandstone_slab.png?v=3" width="32" height="32"> |
+| `minecraft:red_sandstone_wall` | <img src="https://pixlcore.com/software/mss/images/red_sandstone_wall.png?v=3" width="32" height="32"> |
+| `minecraft:sandstone_wall` | <img src="https://pixlcore.com/software/mss/images/sandstone_wall.png?v=3" width="32" height="32"> |
+| `minecraft:smooth_red_sandstone_slab` | <img src="https://pixlcore.com/software/mss/images/smooth_red_sandstone_slab.png?v=3" width="32" height="32"> |
+| `minecraft:smooth_red_sandstone_stairs` | <img src="https://pixlcore.com/software/mss/images/smooth_red_sandstone_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:smooth_sandstone_slab` | <img src="https://pixlcore.com/software/mss/images/smooth_sandstone_slab.png?v=3" width="32" height="32"> |
+| `minecraft:smooth_sandstone_stairs` | <img src="https://pixlcore.com/software/mss/images/smooth_sandstone_stairs.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -411,7 +419,7 @@ The Wood group contains primarily raw wood blocks, but also includes stripped lo
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `woodwork` | 77 | Wood | `minecraft:oak_stairs` | <img src="https://pixlcore.com/software/mss/images/oak_stairs.png?v=3" width="32" height="32"> |
+| `woodwork` | 93 | Wood | `minecraft:oak_stairs` | <img src="https://pixlcore.com/software/mss/images/oak_stairs.png?v=3" width="32" height="32"> |
 
 The Woodwork group contains all products made out of wood, including slabs, stairs, boats, doors, beds, buttons, fences, gates, pressure plates, trap doors, chests, bowls, item frames, signs and ladders.  If you would prefer all wood to be sorted into a single combined group, omit the item frame for this group, and all woodwork products will fallback to the [Wood](#wood) group.
 
@@ -495,8 +503,24 @@ The Woodwork group contains all products made out of wood, including slabs, stai
 | `minecraft:spruce_slab` | <img src="https://pixlcore.com/software/mss/images/spruce_slab.png?v=3" width="32" height="32"> |
 | `minecraft:spruce_stairs` | <img src="https://pixlcore.com/software/mss/images/spruce_stairs.png?v=3" width="32" height="32"> |
 | `minecraft:spruce_trapdoor` | <img src="https://pixlcore.com/software/mss/images/spruce_trapdoor.png?v=3" width="32" height="32"> |
-| `minecraft:white_bed` | <img src="https://pixlcore.com/software/mss/images/white_bed.png?v=4" width="32" height="32"> |
+| `minecraft:white_bed` | <img src="https://pixlcore.com/software/mss/images/white_bed.png?v=3" width="32" height="32"> |
 | `minecraft:yellow_bed` | <img src="https://pixlcore.com/software/mss/images/yellow_bed.png?v=3" width="32" height="32"> |
+| `minecraft:acacia_sign‌` | <img src="https://pixlcore.com/software/mss/images/acacia_sign‌.png?v=3" width="32" height="32"> |
+| `minecraft:acacia_wall_sign‌` | <img src="https://pixlcore.com/software/mss/images/acacia_wall_sign‌.png?v=3" width="32" height="32"> |
+| `minecraft:birch_sign` | <img src="https://pixlcore.com/software/mss/images/birch_sign.png?v=3" width="32" height="32"> |
+| `minecraft:birch_wall_sign` | <img src="https://pixlcore.com/software/mss/images/birch_wall_sign.png?v=3" width="32" height="32"> |
+| `minecraft:dark_oak_sign` | <img src="https://pixlcore.com/software/mss/images/dark_oak_sign.png?v=3" width="32" height="32"> |
+| `minecraft:dark_oak_wall_sign` | <img src="https://pixlcore.com/software/mss/images/dark_oak_wall_sign.png?v=3" width="32" height="32"> |
+| `minecraft:jungle_sign` | <img src="https://pixlcore.com/software/mss/images/jungle_sign.png?v=3" width="32" height="32"> |
+| `minecraft:jungle_wall_sign` | <img src="https://pixlcore.com/software/mss/images/jungle_wall_sign.png?v=3" width="32" height="32"> |
+| `minecraft:oak_sign` | <img src="https://pixlcore.com/software/mss/images/oak_sign.png?v=3" width="32" height="32"> |
+| `minecraft:oak_wall_sign` | <img src="https://pixlcore.com/software/mss/images/oak_wall_sign.png?v=3" width="32" height="32"> |
+| `minecraft:spruce_sign` | <img src="https://pixlcore.com/software/mss/images/spruce_sign.png?v=3" width="32" height="32"> |
+| `minecraft:spruce_wall_sign` | <img src="https://pixlcore.com/software/mss/images/spruce_wall_sign.png?v=3" width="32" height="32"> |
+| `minecraft:scaffolding` | <img src="https://pixlcore.com/software/mss/images/scaffolding.png?v=3" width="32" height="32"> |
+| `minecraft:cartography_table` | <img src="https://pixlcore.com/software/mss/images/cartography_table.png?v=3" width="32" height="32"> |
+| `minecraft:composter` | <img src="https://pixlcore.com/software/mss/images/composter.png?v=3" width="32" height="32"> |
+| `minecraft:lectern` | <img src="https://pixlcore.com/software/mss/images/lectern.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -554,7 +578,7 @@ The Stone group contains primarily raw stone blocks, including regular stone, co
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `stonework` | 22 | Stone | `minecraft:cobblestone_stairs` | <img src="https://pixlcore.com/software/mss/images/cobblestone_stairs.png?v=3" width="32" height="32"> |
+| `stonework` | 47 | Stone | `minecraft:cobblestone_stairs` | <img src="https://pixlcore.com/software/mss/images/cobblestone_stairs.png?v=3" width="32" height="32"> |
 
 The Stonework group contains all products made out of stone, including slabs, stairs, bricks, walls, buttons, pressure plates, and flower pots.  This also includes variants of stone like cracked, chiseled, smooth and polished.  If you would prefer all stone to be sorted into a single combined group, omit the item frame for this group, and all stone products will fallback to the [Stone](#stone) group.
 
@@ -566,6 +590,7 @@ The Stonework group contains all products made out of stone, including slabs, st
 | `minecraft:brick` | <img src="https://pixlcore.com/software/mss/images/brick.png?v=3" width="32" height="32"> |
 | `minecraft:brick_slab` | <img src="https://pixlcore.com/software/mss/images/brick_slab.png?v=3" width="32" height="32"> |
 | `minecraft:brick_stairs` | <img src="https://pixlcore.com/software/mss/images/brick_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:brick_wall` | <img src="https://pixlcore.com/software/mss/images/brick_wall.png?v=3" width="32" height="32"> |
 | `minecraft:bricks` | <img src="https://pixlcore.com/software/mss/images/bricks.png?v=3" width="32" height="32"> |
 | `minecraft:chiseled_stone_bricks` | <img src="https://pixlcore.com/software/mss/images/chiseled_stone_bricks.png?v=3" width="32" height="32"> |
 | `minecraft:cobblestone_slab` | <img src="https://pixlcore.com/software/mss/images/cobblestone_slab.png?v=3" width="32" height="32"> |
@@ -585,6 +610,30 @@ The Stonework group contains all products made out of stone, including slabs, st
 | `minecraft:stone_pressure_plate` | <img src="https://pixlcore.com/software/mss/images/stone_pressure_plate.png?v=3" width="32" height="32"> |
 | `minecraft:stone_slab` | <img src="https://pixlcore.com/software/mss/images/stone_slab.png?v=3" width="32" height="32"> |
 | `minecraft:cobblestone_stairs` | <img src="https://pixlcore.com/software/mss/images/cobblestone_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:andesite_slab` | <img src="https://pixlcore.com/software/mss/images/andesite_slab.png?v=3" width="32" height="32"> |
+| `minecraft:andesite_stairs` | <img src="https://pixlcore.com/software/mss/images/andesite_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:andesite_wall` | <img src="https://pixlcore.com/software/mss/images/andesite_wall.png?v=3" width="32" height="32"> |
+| `minecraft:bell` | <img src="https://pixlcore.com/software/mss/images/bell.png?v=3" width="32" height="32"> |
+| `minecraft:diorite_slab` | <img src="https://pixlcore.com/software/mss/images/diorite_slab.png?v=3" width="32" height="32"> |
+| `minecraft:diorite_stairs` | <img src="https://pixlcore.com/software/mss/images/diorite_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:diorite_wall` | <img src="https://pixlcore.com/software/mss/images/diorite_wall.png?v=3" width="32" height="32"> |
+| `minecraft:granite_slab` | <img src="https://pixlcore.com/software/mss/images/granite_slab.png?v=3" width="32" height="32"> |
+| `minecraft:granite_stairs` | <img src="https://pixlcore.com/software/mss/images/granite_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:granite_wall` | <img src="https://pixlcore.com/software/mss/images/granite_wall.png?v=3" width="32" height="32"> |
+| `minecraft:mossy_cobblestone_slab` | <img src="https://pixlcore.com/software/mss/images/mossy_cobblestone_slab.png?v=3" width="32" height="32"> |
+| `minecraft:mossy_cobblestone_stairs` | <img src="https://pixlcore.com/software/mss/images/mossy_cobblestone_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:mossy_stone_brick_slab` | <img src="https://pixlcore.com/software/mss/images/mossy_stone_brick_slab.png?v=3" width="32" height="32"> |
+| `minecraft:mossy_stone_brick_stairs` | <img src="https://pixlcore.com/software/mss/images/mossy_stone_brick_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:mossy_stone_brick_wall` | <img src="https://pixlcore.com/software/mss/images/mossy_stone_brick_wall.png?v=3" width="32" height="32"> |
+| `minecraft:polished_andesite_slab` | <img src="https://pixlcore.com/software/mss/images/polished_andesite_slab.png?v=3" width="32" height="32"> |
+| `minecraft:polished_andesite_stairs` | <img src="https://pixlcore.com/software/mss/images/polished_andesite_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:polished_diorite_slab` | <img src="https://pixlcore.com/software/mss/images/polished_diorite_slab.png?v=3" width="32" height="32"> |
+| `minecraft:polished_diorite_stairs` | <img src="https://pixlcore.com/software/mss/images/polished_diorite_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:polished_granite_slab` | <img src="https://pixlcore.com/software/mss/images/polished_granite_slab.png?v=3" width="32" height="32"> |
+| `minecraft:polished_granite_stairs` | <img src="https://pixlcore.com/software/mss/images/polished_granite_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:smooth_stone_slab` | <img src="https://pixlcore.com/software/mss/images/smooth_stone_slab.png?v=3" width="32" height="32"> |
+| `minecraft:stone_brick_wall` | <img src="https://pixlcore.com/software/mss/images/stone_brick_wall.png?v=3" width="32" height="32"> |
+| `minecraft:stone_stairs` | <img src="https://pixlcore.com/software/mss/images/stone_stairs.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -613,7 +662,7 @@ The Coal group contains only coal, charcoal and coal blocks.  These three items 
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `tools` | 59 | Misc | `minecraft:wooden_pickaxe` | <img src="https://pixlcore.com/software/mss/images/wooden_pickaxe.png?v=3" width="32" height="32"> |
+| `tools` | 69 | Misc | `minecraft:wooden_pickaxe` | <img src="https://pixlcore.com/software/mss/images/wooden_pickaxe.png?v=3" width="32" height="32"> |
 
 The Tools group contains a large amount of items, but all of them can be categorized as either tools or weapons.  The short list includes pickaxes, swords, axes, bows, shovels, hoes, shears, fishing rods, furnaces, shulker boxes, ender chests, fireworks, buckets, anvils, clocks, compasses, flint, name tags, leads, TNT and torches.  The Tools group excludes [Armor](#armor), [Rails](#rails) and [Redstone](#redstone) items, which have their own respective groups.
 
@@ -681,6 +730,16 @@ The Tools group contains a large amount of items, but all of them can be categor
 | `minecraft:wooden_pickaxe` | <img src="https://pixlcore.com/software/mss/images/wooden_pickaxe.png?v=3" width="32" height="32"> |
 | `minecraft:wooden_shovel` | <img src="https://pixlcore.com/software/mss/images/wooden_shovel.png?v=3" width="32" height="32"> |
 | `minecraft:wooden_sword` | <img src="https://pixlcore.com/software/mss/images/wooden_sword.png?v=3" width="32" height="32"> |
+| `minecraft:crossbow` | <img src="https://pixlcore.com/software/mss/images/crossbow.png?v=3" width="32" height="32"> |
+| `minecraft:blast_furnace` | <img src="https://pixlcore.com/software/mss/images/blast_furnace.png?v=3" width="32" height="32"> |
+| `minecraft:campfire` | <img src="https://pixlcore.com/software/mss/images/campfire.png?v=3" width="32" height="32"> |
+| `minecraft:lantern` | <img src="https://pixlcore.com/software/mss/images/lantern.png?v=3" width="32" height="32"> |
+| `minecraft:fletching_table` | <img src="https://pixlcore.com/software/mss/images/fletching_table.png?v=3" width="32" height="32"> |
+| `minecraft:grindstone` | <img src="https://pixlcore.com/software/mss/images/grindstone.png?v=3" width="32" height="32"> |
+| `minecraft:loom` | <img src="https://pixlcore.com/software/mss/images/loom.png?v=3" width="32" height="32"> |
+| `minecraft:smithing_table` | <img src="https://pixlcore.com/software/mss/images/smithing_table.png?v=3" width="32" height="32"> |
+| `minecraft:smoker` | <img src="https://pixlcore.com/software/mss/images/smoker.png?v=3" width="32" height="32"> |
+| `minecraft:stonecutter` | <img src="https://pixlcore.com/software/mss/images/stonecutter.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -689,7 +748,7 @@ The Tools group contains a large amount of items, but all of them can be categor
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `storage` | 20 | Tools | `minecraft:chest` | <img src="https://pixlcore.com/software/mss/images/chest.png?v=3" width="32" height="32"> |
+| `storage` | 21 | Tools | `minecraft:chest` | <img src="https://pixlcore.com/software/mss/images/chest.png?v=3" width="32" height="32"> |
 
 The Storage group contains all forms of storage, including chests, trapped chests, ender chests and shulker boxes (all colors).  This group is optional, so if you omit the item frame all the items will fall back to sorting into the [Tools](#tools) group.
 
@@ -718,6 +777,7 @@ The Storage group contains all forms of storage, including chests, trapped chest
 | `minecraft:light_gray_shulker_box` | <img src="https://pixlcore.com/software/mss/images/light_gray_shulker_box.png?v=3" width="32" height="32"> |
 | `minecraft:white_shulker_box` | <img src="https://pixlcore.com/software/mss/images/white_shulker_box.png?v=3" width="32" height="32"> |
 | `minecraft:yellow_shulker_box` | <img src="https://pixlcore.com/software/mss/images/yellow_shulker_box.png?v=3" width="32" height="32"> |
+| `minecraft:barrel` | <img src="https://pixlcore.com/software/mss/images/barrel.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -726,7 +786,7 @@ The Storage group contains all forms of storage, including chests, trapped chest
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `armor` | 27 | Tools | `minecraft:leather_chestplate` | <img src="https://pixlcore.com/software/mss/images/leather_chestplate.png?v=4" width="32" height="32"> |
+| `armor` | 28 | Tools | `minecraft:leather_chestplate` | <img src="https://pixlcore.com/software/mss/images/leather_chestplate.png?v=3" width="32" height="32"> |
 
 The Armor group contains all forms of armor in the game, including boots, chestplates, leggings and helmets of all types, horse armor, saddles, shields and armor stands.
 
@@ -755,13 +815,14 @@ The Armor group contains all forms of armor in the game, including boots, chestp
 | `minecraft:iron_helmet` | <img src="https://pixlcore.com/software/mss/images/iron_helmet.png?v=3" width="32" height="32"> |
 | `minecraft:iron_horse_armor` | <img src="https://pixlcore.com/software/mss/images/iron_horse_armor.png?v=3" width="32" height="32"> |
 | `minecraft:iron_leggings` | <img src="https://pixlcore.com/software/mss/images/iron_leggings.png?v=3" width="32" height="32"> |
-| `minecraft:leather_boots` | <img src="https://pixlcore.com/software/mss/images/leather_boots.png?v=4" width="32" height="32"> |
-| `minecraft:leather_chestplate` | <img src="https://pixlcore.com/software/mss/images/leather_chestplate.png?v=4" width="32" height="32"> |
-| `minecraft:leather_helmet` | <img src="https://pixlcore.com/software/mss/images/leather_helmet.png?v=4" width="32" height="32"> |
-| `minecraft:leather_leggings` | <img src="https://pixlcore.com/software/mss/images/leather_leggings.png?v=4" width="32" height="32"> |
+| `minecraft:leather_boots` | <img src="https://pixlcore.com/software/mss/images/leather_boots.png?v=3" width="32" height="32"> |
+| `minecraft:leather_chestplate` | <img src="https://pixlcore.com/software/mss/images/leather_chestplate.png?v=3" width="32" height="32"> |
+| `minecraft:leather_helmet` | <img src="https://pixlcore.com/software/mss/images/leather_helmet.png?v=3" width="32" height="32"> |
+| `minecraft:leather_leggings` | <img src="https://pixlcore.com/software/mss/images/leather_leggings.png?v=3" width="32" height="32"> |
 | `minecraft:saddle` | <img src="https://pixlcore.com/software/mss/images/saddle.png?v=3" width="32" height="32"> |
 | `minecraft:shield` | <img src="https://pixlcore.com/software/mss/images/shield.png?v=3" width="32" height="32"> |
 | `minecraft:turtle_helmet` | <img src="https://pixlcore.com/software/mss/images/turtle_helmet.png?v=3" width="32" height="32"> |
+| `minecraft:leather_horse_armor` | <img src="https://pixlcore.com/software/mss/images/leather_horse_armor.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -797,7 +858,7 @@ The Rails group contains all items relating to rails, including rails themselves
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `plants` | 43 | Misc | `minecraft:oak_sapling` | <img src="https://pixlcore.com/software/mss/images/oak_sapling.png?v=3" width="32" height="32"> |
+| `plants` | 54 | Misc | `minecraft:oak_sapling` | <img src="https://pixlcore.com/software/mss/images/oak_sapling.png?v=3" width="32" height="32"> |
 
 The Plants group basically contains all the organic items in the game, if they are or came from plants.  This includes leaves, saplings, seeds, beans, mushrooms, cactus, pumpkins, chorus fruit, bushes, ferns, grass, hay, lily pads, melons, nether wart, sugar cane and wheat.  The group specifically excludes [Flowers](#flowers) which have their own dedicated group.
 
@@ -849,6 +910,17 @@ The Plants group basically contains all the organic items in the game, if they a
 | `minecraft:vine` | <img src="https://pixlcore.com/software/mss/images/vine.png?v=3" width="32" height="32"> |
 | `minecraft:wheat` | <img src="https://pixlcore.com/software/mss/images/wheat.png?v=3" width="32" height="32"> |
 | `minecraft:wheat_seeds` | <img src="https://pixlcore.com/software/mss/images/wheat_seeds.png?v=3" width="32" height="32"> |
+| `minecraft:bamboo_sapling` | <img src="https://pixlcore.com/software/mss/images/bamboo_sapling.png?v=3" width="32" height="32"> |
+| `minecraft:cornflower` | <img src="https://pixlcore.com/software/mss/images/cornflower.png?v=3" width="32" height="32"> |
+| `minecraft:lily_of_the_valley` | <img src="https://pixlcore.com/software/mss/images/lily_of_the_valley.png?v=3" width="32" height="32"> |
+| `minecraft:potted_bamboo` | <img src="https://pixlcore.com/software/mss/images/potted_bamboo.png?v=3" width="32" height="32"> |
+| `minecraft:potted_cornflower` | <img src="https://pixlcore.com/software/mss/images/potted_cornflower.png?v=3" width="32" height="32"> |
+| `minecraft:potted_lily_of_the_valley` | <img src="https://pixlcore.com/software/mss/images/potted_lily_of_the_valley.png?v=3" width="32" height="32"> |
+| `minecraft:potted_wither_rose` | <img src="https://pixlcore.com/software/mss/images/potted_wither_rose.png?v=3" width="32" height="32"> |
+| `minecraft:sweet_berry_bush` | <img src="https://pixlcore.com/software/mss/images/sweet_berry_bush.png?v=3" width="32" height="32"> |
+| `minecraft:wither_rose` | <img src="https://pixlcore.com/software/mss/images/wither_rose.png?v=3" width="32" height="32"> |
+| `minecraft:sweet_berries` | <img src="https://pixlcore.com/software/mss/images/sweet_berries.png?v=3" width="32" height="32"> |
+| `minecraft:bamboo` | <img src="https://pixlcore.com/software/mss/images/bamboo.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -889,7 +961,7 @@ The Flowers group contains all the flowers in the game.  These are sorted separa
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `food` | 19 | Misc | `minecraft:cooked_beef` | <img src="https://pixlcore.com/software/mss/images/cooked_beef.png?v=3" width="32" height="32"> |
+| `food` | 20 | Misc | `minecraft:cooked_beef` | <img src="https://pixlcore.com/software/mss/images/cooked_beef.png?v=3" width="32" height="32"> |
 
 The Food group contains specifically cooked foods, which are ready to eat.  It also contains some fresh foods that do not cook and can be eaten raw (e.g. carrots, apples and melon slices), and ingredients to make other foods like sugar.
 
@@ -917,6 +989,7 @@ The Food group contains specifically cooked foods, which are ready to eat.  It a
 | `minecraft:pumpkin_pie` | <img src="https://pixlcore.com/software/mss/images/pumpkin_pie.png?v=3" width="32" height="32"> |
 | `minecraft:rabbit_stew` | <img src="https://pixlcore.com/software/mss/images/rabbit_stew.png?v=3" width="32" height="32"> |
 | `minecraft:sugar` | <img src="https://pixlcore.com/software/mss/images/sugar.png?v=3" width="32" height="32"> |
+| `minecraft:suspicious_stew` | <img src="https://pixlcore.com/software/mss/images/suspicious_stew.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -950,7 +1023,7 @@ The Raw group contains specifically raw foods, which require cooking before eati
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `mobs` | 85 | Misc | `minecraft:bone` | <img src="https://pixlcore.com/software/mss/images/bone.png?v=3" width="32" height="32"> |
+| `mobs` | 92 | Misc | `minecraft:bone` | <img src="https://pixlcore.com/software/mss/images/bone.png?v=3" width="32" height="32"> |
 
 The Mobs group contains all organic items dropped from mobs.  This includes bones, cobwebs, string, eggs, feathers, tears, leather, infested blocks (hidden monster spawners), rotten flesh, feet, hides, scutes, slime, mob spawners, mob spawn eggs and mob heads.
 
@@ -1044,6 +1117,13 @@ The Mobs group contains all organic items dropped from mobs.  This includes bone
 | `minecraft:zombie_pigman_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/zombie_pigman_spawn_egg.png?v=3" width="32" height="32"> |
 | `minecraft:zombie_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/zombie_spawn_egg.png?v=3" width="32" height="32"> |
 | `minecraft:zombie_villager_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/zombie_villager_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:cat_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/cat_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:fox_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/fox_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:panda_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/panda_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:pillager_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/pillager_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:ravager_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/ravager_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:trader_llama_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/trader_llama_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:wandering_trader_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/wandering_trader_spawn_egg.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1075,7 +1155,7 @@ The Precious group contains items that can be classified as expensive or rare, l
 | `minecraft:heart_of_the_sea` | <img src="https://pixlcore.com/software/mss/images/heart_of_the_sea.png?v=3" width="32" height="32"> |
 | `minecraft:iron_ingot` | <img src="https://pixlcore.com/software/mss/images/iron_ingot.png?v=3" width="32" height="32"> |
 | `minecraft:iron_nugget` | <img src="https://pixlcore.com/software/mss/images/iron_nugget.png?v=3" width="32" height="32"> |
-| `minecraft:lapis_block` | <img src="https://pixlcore.com/software/mss/images/lapis_block.png?v=4" width="32" height="32"> |
+| `minecraft:lapis_block` | <img src="https://pixlcore.com/software/mss/images/lapis_block.png?v=3" width="32" height="32"> |
 | `minecraft:lapis_lazuli` | <img src="https://pixlcore.com/software/mss/images/lapis_lazuli.png?v=3" width="32" height="32"> |
 | `minecraft:nether_star` | <img src="https://pixlcore.com/software/mss/images/nether_star.png?v=3" width="32" height="32"> |
 | `minecraft:obsidian` | <img src="https://pixlcore.com/software/mss/images/obsidian.png?v=3" width="32" height="32"> |
@@ -1428,7 +1508,7 @@ The Coral group contains all coral blocks and items found in warm ocean biomes. 
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `prismarine` | 11 | Ocean | `minecraft:prismarine` | <img src="https://pixlcore.com/software/mss/images/prismarine.png?v=3" width="32" height="32"> |
+| `prismarine` | 12 | Ocean | `minecraft:prismarine` | <img src="https://pixlcore.com/software/mss/images/prismarine.png?v=3" width="32" height="32"> |
 
 The Prismarine group contains all prismarine blocks in the game, including slabs, stairs, bricks, crystals, shards, and dark prismarine variants.  This is an optional group, and if the item frame is omitted, all prismarine will sort into [Ocean](#ocean) instead.
 
@@ -1448,6 +1528,7 @@ The Prismarine group contains all prismarine blocks in the game, including slabs
 | `minecraft:prismarine_shard` | <img src="https://pixlcore.com/software/mss/images/prismarine_shard.png?v=3" width="32" height="32"> |
 | `minecraft:prismarine_slab` | <img src="https://pixlcore.com/software/mss/images/prismarine_slab.png?v=3" width="32" height="32"> |
 | `minecraft:prismarine_stairs` | <img src="https://pixlcore.com/software/mss/images/prismarine_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:prismarine_wall` | <img src="https://pixlcore.com/software/mss/images/prismarine_wall.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1456,7 +1537,7 @@ The Prismarine group contains all prismarine blocks in the game, including slabs
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `ink` | 13 | Misc | `minecraft:ink_sac` | <img src="https://pixlcore.com/software/mss/images/ink_sac.png?v=3" width="32" height="32"> |
+| `ink` | 20 | Misc | `minecraft:ink_sac` | <img src="https://pixlcore.com/software/mss/images/ink_sac.png?v=3" width="32" height="32"> |
 
 The Ink group contains all ink and dyes, including cactus green, cyan, dandelion yellow, gray, black, light blue, light gray, lime, magenta, orange, pink, purple and rose red.
 
@@ -1478,6 +1559,13 @@ The Ink group contains all ink and dyes, including cactus green, cyan, dandelion
 | `minecraft:pink_dye` | <img src="https://pixlcore.com/software/mss/images/pink_dye.png?v=3" width="32" height="32"> |
 | `minecraft:purple_dye` | <img src="https://pixlcore.com/software/mss/images/purple_dye.png?v=3" width="32" height="32"> |
 | `minecraft:rose_red` | <img src="https://pixlcore.com/software/mss/images/rose_red.png?v=3" width="32" height="32"> |
+| `minecraft:black_dye` | <img src="https://pixlcore.com/software/mss/images/black_dye.png?v=3" width="32" height="32"> |
+| `minecraft:blue_dye` | <img src="https://pixlcore.com/software/mss/images/blue_dye.png?v=3" width="32" height="32"> |
+| `minecraft:brown_dye` | <img src="https://pixlcore.com/software/mss/images/brown_dye.png?v=3" width="32" height="32"> |
+| `minecraft:green_dye` | <img src="https://pixlcore.com/software/mss/images/green_dye.png?v=3" width="32" height="32"> |
+| `minecraft:yellow_dye` | <img src="https://pixlcore.com/software/mss/images/yellow_dye.png?v=3" width="32" height="32"> |
+| `minecraft:red_dye` | <img src="https://pixlcore.com/software/mss/images/red_dye.png?v=3" width="32" height="32"> |
+| `minecraft:white_dye` | <img src="https://pixlcore.com/software/mss/images/white_dye.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1486,7 +1574,7 @@ The Ink group contains all ink and dyes, including cactus green, cyan, dandelion
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `nether` | 20 | Misc | `minecraft:netherrack` | <img src="https://pixlcore.com/software/mss/images/netherrack.png?v=3" width="32" height="32"> |
+| `nether` | 26 | Misc | `minecraft:netherrack` | <img src="https://pixlcore.com/software/mss/images/netherrack.png?v=3" width="32" height="32"> |
 
 The Nether group contains items found in the nether, including netherrack, nether bricks (includes fences, slabs and stairs), glowstone (blocks and dust), quartz (including variants like pillars, slabs, stairs, and chiseled), magma blocks, magma cream and soul sand.
 
@@ -1504,7 +1592,11 @@ The Nether group contains items found in the nether, including netherrack, nethe
 | `minecraft:nether_brick_fence` | <img src="https://pixlcore.com/software/mss/images/nether_brick_fence.png?v=3" width="32" height="32"> |
 | `minecraft:nether_brick_slab` | <img src="https://pixlcore.com/software/mss/images/nether_brick_slab.png?v=3" width="32" height="32"> |
 | `minecraft:nether_brick_stairs` | <img src="https://pixlcore.com/software/mss/images/nether_brick_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:nether_brick_wall` | <img src="https://pixlcore.com/software/mss/images/nether_brick_wall.png?v=3" width="32" height="32"> |
 | `minecraft:nether_bricks` | <img src="https://pixlcore.com/software/mss/images/nether_bricks.png?v=3" width="32" height="32"> |
+| `minecraft:red_nether_brick_slab` | <img src="https://pixlcore.com/software/mss/images/red_nether_brick_slab.png?v=3" width="32" height="32"> |
+| `minecraft:red_nether_brick_stairs` | <img src="https://pixlcore.com/software/mss/images/red_nether_brick_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:red_nether_brick_wall` | <img src="https://pixlcore.com/software/mss/images/red_nether_brick_wall.png?v=3" width="32" height="32"> |
 | `minecraft:nether_wart_block` | <img src="https://pixlcore.com/software/mss/images/nether_wart_block.png?v=3" width="32" height="32"> |
 | `minecraft:netherrack` | <img src="https://pixlcore.com/software/mss/images/netherrack.png?v=3" width="32" height="32"> |
 | `minecraft:quartz` | <img src="https://pixlcore.com/software/mss/images/quartz.png?v=3" width="32" height="32"> |
@@ -1515,6 +1607,8 @@ The Nether group contains items found in the nether, including netherrack, nethe
 | `minecraft:red_nether_bricks` | <img src="https://pixlcore.com/software/mss/images/red_nether_bricks.png?v=3" width="32" height="32"> |
 | `minecraft:smooth_quartz` | <img src="https://pixlcore.com/software/mss/images/smooth_quartz.png?v=3" width="32" height="32"> |
 | `minecraft:soul_sand` | <img src="https://pixlcore.com/software/mss/images/soul_sand.png?v=3" width="32" height="32"> |
+| `minecraft:smooth_quartz_slab` | <img src="https://pixlcore.com/software/mss/images/smooth_quartz_slab.png?v=3" width="32" height="32"> |
+| `minecraft:smooth_quartz_stairs` | <img src="https://pixlcore.com/software/mss/images/smooth_quartz_stairs.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1584,7 +1678,7 @@ The Redstone group contains all redstone related items, including redstone dust,
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `end` | 9 | Misc | `minecraft:end_stone` | <img src="https://pixlcore.com/software/mss/images/end_stone.png?v=3" width="32" height="32"> |
+| `end` | 12 | Misc | `minecraft:end_stone` | <img src="https://pixlcore.com/software/mss/images/end_stone.png?v=3" width="32" height="32"> |
 
 The End group contains all items found in The End dimension, including end stone, end stone bricks, end crystals, end rods, end portal frames, purpur blocks, purpur pillars, purpur slabs and stairs.
 
@@ -1602,6 +1696,9 @@ The End group contains all items found in The End dimension, including end stone
 | `minecraft:purpur_pillar` | <img src="https://pixlcore.com/software/mss/images/purpur_pillar.png?v=3" width="32" height="32"> |
 | `minecraft:purpur_slab` | <img src="https://pixlcore.com/software/mss/images/purpur_slab.png?v=3" width="32" height="32"> |
 | `minecraft:purpur_stairs` | <img src="https://pixlcore.com/software/mss/images/purpur_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:end_stone_brick_slab` | <img src="https://pixlcore.com/software/mss/images/end_stone_brick_slab.png?v=3" width="32" height="32"> |
+| `minecraft:end_stone_brick_stairs` | <img src="https://pixlcore.com/software/mss/images/end_stone_brick_stairs.png?v=3" width="32" height="32"> |
+| `minecraft:end_stone_brick_wall` | <img src="https://pixlcore.com/software/mss/images/end_stone_brick_wall.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1790,9 +1887,9 @@ Note that data packs can be installed as a ZIP file, or as a folder.
 
 # License
 
-The MIT License (MIT)
+**The MIT License (MIT)**
 
-Copyright (c) 2018 Joseph Huckaby
+*Copyright (c) 2018 - 2019 Joseph Huckaby*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
