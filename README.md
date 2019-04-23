@@ -8,6 +8,8 @@ The sorting system works by providing a special magic drop off chest, where you 
 
 Items are teleported directly to their matching [item frames](https://minecraft.gamepedia.com/Item_Frame) for the category.  The idea is that you can place a [hopper](https://minecraft.gamepedia.com/Hopper) directly under each item frame, which then routes the items into a connected chest (or multiple chests), or furnaces for auto-smelting.  Item routing and storing is left up to the player, which can be simple or quite complex.
 
+Check out this [video review](https://www.youtube.com/watch?v=rH_y-Krdll8) by [skunkmunkee](https://www.youtube.com/channel/UC457iBM1tdswTFnQRr6r3SQ).
+
 ## Why
 
 It is entirely possible to build a complete item sorting and storage system using built-in vanilla Minecraft features.  I've seen some [incredible systems](https://www.youtube.com/watch?v=wsNV9Mo00Gw), and my hat is off to those amazing builders.  However in practice, actually doing it is very difficult and tedious in my experience.  It requires a large amount of hoppers and complex redstone contraptions for filtering.  For example, to filter and store every item in the game, it would take at least 2 hoppers per unique item, or 1,550 hoppers total (3,875 iron ingots).  Doing this in survival mode would take a very long time, and use up an enormous amount of space just for the machinery.
