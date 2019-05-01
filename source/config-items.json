@@ -1,0 +1,6994 @@
+{
+	"max_teleport_distance": 128,
+	"final_fallback": "teleport @s @p",
+	"effects": [
+		"playsound minecraft:entity.illusioner.mirror_move block @a[distance=..5] ~ ~ ~ 1.0 1.0",
+		"particle minecraft:entity_effect ~ ~ ~ 1 1 1 1 100"
+	],
+	"groups": [
+		{
+			"group_name": "dirt",
+			"item_frame": "minecraft:dirt",
+			"fallback": "misc",
+			"items": [
+				"minecraft:dirt"
+			]
+		},
+		{
+		  "group_name": "stone",
+		  "item_frame": "minecraft:stone",
+		  "fallback": "misc",
+		  "items": [
+				"minecraft:stone"
+		  ]
+		},
+		{
+		  "group_name": "stone_bricks",
+		  "item_frame": "minecraft:stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "diorite",
+		  "item_frame": "minecraft:diorite",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diorite"
+		  ]
+		},
+		{
+		  "group_name": "cobblestone",
+		  "item_frame": "minecraft:cobblestone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cobblestone"
+		  ]
+		},
+		{
+		  "group_name": "redstone",
+		  "item_frame": "minecraft:redstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:redstone"
+		  ]
+		},
+		{
+		  "group_name": "flint",
+		  "item_frame": "minecraft:flint",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:flint"
+		  ]
+		},
+		{
+		  "group_name": "wheat_seeds",
+		  "item_frame": "minecraft:wheat_seeds",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wheat_seeds"
+		  ]
+		},
+		{
+		  "group_name": "cooked_cod",
+		  "item_frame": "minecraft:cooked_cod",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cooked_cod"
+		  ]
+		},
+		{
+		  "group_name": "gold_ingot",
+		  "item_frame": "minecraft:gold_ingot",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gold_ingot"
+		  ]
+		},
+		{
+		  "group_name": "lapis_block",
+		  "item_frame": "minecraft:lapis_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lapis_block"
+		  ]
+		},
+		{
+		  "group_name": "repeater",
+		  "item_frame": "minecraft:repeater",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:repeater"
+		  ]
+		},
+		{
+		  "group_name": "arrow",
+		  "item_frame": "minecraft:arrow",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:arrow"
+		  ]
+		},
+		{
+		  "group_name": "torch",
+		  "item_frame": "minecraft:torch",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:torch"
+		  ]
+		},
+		{
+		  "group_name": "iron_ingot",
+		  "item_frame": "minecraft:iron_ingot",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_ingot"
+		  ]
+		},
+		{
+		  "group_name": "lever",
+		  "item_frame": "minecraft:lever",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lever"
+		  ]
+		},
+		{
+		  "group_name": "glass",
+		  "item_frame": "minecraft:glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:glass"
+		  ]
+		},
+		{
+		  "group_name": "hopper",
+		  "item_frame": "minecraft:hopper",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:hopper"
+		  ]
+		},
+		{
+		  "group_name": "item_frame",
+		  "item_frame": "minecraft:item_frame",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:item_frame"
+		  ]
+		},
+		{
+		  "group_name": "chest",
+		  "item_frame": "minecraft:chest",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chest"
+		  ]
+		},
+		{
+		  "group_name": "acacia_fence",
+		  "item_frame": "minecraft:acacia_fence",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_fence"
+		  ]
+		},
+		{
+		  "group_name": "coal_block",
+		  "item_frame": "minecraft:coal_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:coal_block"
+		  ]
+		},
+		{
+		  "group_name": "oak_fence",
+		  "item_frame": "minecraft:oak_fence",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_fence"
+		  ]
+		},
+		{
+		  "group_name": "spider_eye",
+		  "item_frame": "minecraft:spider_eye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spider_eye"
+		  ]
+		},
+		{
+		  "group_name": "furnace",
+		  "item_frame": "minecraft:furnace",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:furnace"
+		  ]
+		},
+		{
+		  "group_name": "cobblestone_slab",
+		  "item_frame": "minecraft:cobblestone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cobblestone_slab"
+		  ]
+		},
+		{
+		  "group_name": "glass_bottle",
+		  "item_frame": "minecraft:glass_bottle",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:glass_bottle"
+		  ]
+		},
+		{
+		  "group_name": "red_sand",
+		  "item_frame": "minecraft:red_sand",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_sand"
+		  ]
+		},
+		{
+		  "group_name": "stone_pressure_plate",
+		  "item_frame": "minecraft:stone_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "glass_pane",
+		  "item_frame": "minecraft:glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "mossy_cobblestone",
+		  "item_frame": "minecraft:mossy_cobblestone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mossy_cobblestone"
+		  ]
+		},
+		{
+		  "group_name": "acacia_stairs",
+		  "item_frame": "minecraft:acacia_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_stairs"
+		  ]
+		},
+		{
+		  "group_name": "coarse_dirt",
+		  "item_frame": "minecraft:coarse_dirt",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:coarse_dirt"
+		  ]
+		},
+		{
+		  "group_name": "farmland",
+		  "item_frame": "minecraft:farmland",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:farmland"
+		  ]
+		},
+		{
+		  "group_name": "grass_block",
+		  "item_frame": "minecraft:grass_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:grass_block"
+		  ]
+		},
+		{
+		  "group_name": "grass_path",
+		  "item_frame": "minecraft:grass_path",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:grass_path"
+		  ]
+		},
+		{
+		  "group_name": "mycelium",
+		  "item_frame": "minecraft:mycelium",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mycelium"
+		  ]
+		},
+		{
+		  "group_name": "podzol",
+		  "item_frame": "minecraft:podzol",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:podzol"
+		  ]
+		},
+		{
+		  "group_name": "gravel",
+		  "item_frame": "minecraft:gravel",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gravel"
+		  ]
+		},
+		{
+		  "group_name": "sand",
+		  "item_frame": "minecraft:sand",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sand"
+		  ]
+		},
+		{
+		  "group_name": "chiseled_red_sandstone",
+		  "item_frame": "minecraft:chiseled_red_sandstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chiseled_red_sandstone"
+		  ]
+		},
+		{
+		  "group_name": "chiseled_sandstone",
+		  "item_frame": "minecraft:chiseled_sandstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chiseled_sandstone"
+		  ]
+		},
+		{
+		  "group_name": "cut_red_sandstone",
+		  "item_frame": "minecraft:cut_red_sandstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cut_red_sandstone"
+		  ]
+		},
+		{
+		  "group_name": "cut_sandstone",
+		  "item_frame": "minecraft:cut_sandstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cut_sandstone"
+		  ]
+		},
+		{
+		  "group_name": "red_sandstone",
+		  "item_frame": "minecraft:red_sandstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_sandstone"
+		  ]
+		},
+		{
+		  "group_name": "red_sandstone_slab",
+		  "item_frame": "minecraft:red_sandstone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_sandstone_slab"
+		  ]
+		},
+		{
+		  "group_name": "red_sandstone_stairs",
+		  "item_frame": "minecraft:red_sandstone_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_sandstone_stairs"
+		  ]
+		},
+		{
+		  "group_name": "sandstone",
+		  "item_frame": "minecraft:sandstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sandstone"
+		  ]
+		},
+		{
+		  "group_name": "sandstone_slab",
+		  "item_frame": "minecraft:sandstone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sandstone_slab"
+		  ]
+		},
+		{
+		  "group_name": "sandstone_stairs",
+		  "item_frame": "minecraft:sandstone_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sandstone_stairs"
+		  ]
+		},
+		{
+		  "group_name": "smooth_red_sandstone",
+		  "item_frame": "minecraft:smooth_red_sandstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_red_sandstone"
+		  ]
+		},
+		{
+		  "group_name": "smooth_sandstone",
+		  "item_frame": "minecraft:smooth_sandstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_sandstone"
+		  ]
+		},
+		{
+		  "group_name": "cut_red_sandstone_slab",
+		  "item_frame": "minecraft:cut_red_sandstone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cut_red_sandstone_slab"
+		  ]
+		},
+		{
+		  "group_name": "cut_sandstone_slab",
+		  "item_frame": "minecraft:cut_sandstone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cut_sandstone_slab"
+		  ]
+		},
+		{
+		  "group_name": "red_sandstone_wall",
+		  "item_frame": "minecraft:red_sandstone_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_sandstone_wall"
+		  ]
+		},
+		{
+		  "group_name": "sandstone_wall",
+		  "item_frame": "minecraft:sandstone_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sandstone_wall"
+		  ]
+		},
+		{
+		  "group_name": "smooth_red_sandstone_slab",
+		  "item_frame": "minecraft:smooth_red_sandstone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_red_sandstone_slab"
+		  ]
+		},
+		{
+		  "group_name": "smooth_red_sandstone_stairs",
+		  "item_frame": "minecraft:smooth_red_sandstone_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_red_sandstone_stairs"
+		  ]
+		},
+		{
+		  "group_name": "smooth_sandstone_slab",
+		  "item_frame": "minecraft:smooth_sandstone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_sandstone_slab"
+		  ]
+		},
+		{
+		  "group_name": "smooth_sandstone_stairs",
+		  "item_frame": "minecraft:smooth_sandstone_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_sandstone_stairs"
+		  ]
+		},
+		{
+		  "group_name": "acacia_log",
+		  "item_frame": "minecraft:acacia_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_log"
+		  ]
+		},
+		{
+		  "group_name": "acacia_planks",
+		  "item_frame": "minecraft:acacia_planks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_planks"
+		  ]
+		},
+		{
+		  "group_name": "acacia_wood",
+		  "item_frame": "minecraft:acacia_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_wood"
+		  ]
+		},
+		{
+		  "group_name": "birch_log",
+		  "item_frame": "minecraft:birch_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_log"
+		  ]
+		},
+		{
+		  "group_name": "birch_planks",
+		  "item_frame": "minecraft:birch_planks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_planks"
+		  ]
+		},
+		{
+		  "group_name": "birch_wood",
+		  "item_frame": "minecraft:birch_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_wood"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_log",
+		  "item_frame": "minecraft:dark_oak_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_log"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_planks",
+		  "item_frame": "minecraft:dark_oak_planks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_planks"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_wood",
+		  "item_frame": "minecraft:dark_oak_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_wood"
+		  ]
+		},
+		{
+		  "group_name": "jungle_log",
+		  "item_frame": "minecraft:jungle_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_log"
+		  ]
+		},
+		{
+		  "group_name": "jungle_planks",
+		  "item_frame": "minecraft:jungle_planks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_planks"
+		  ]
+		},
+		{
+		  "group_name": "jungle_wood",
+		  "item_frame": "minecraft:jungle_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_wood"
+		  ]
+		},
+		{
+		  "group_name": "oak_log",
+		  "item_frame": "minecraft:oak_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_log"
+		  ]
+		},
+		{
+		  "group_name": "oak_planks",
+		  "item_frame": "minecraft:oak_planks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_planks"
+		  ]
+		},
+		{
+		  "group_name": "oak_wood",
+		  "item_frame": "minecraft:oak_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_wood"
+		  ]
+		},
+		{
+		  "group_name": "spruce_log",
+		  "item_frame": "minecraft:spruce_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_log"
+		  ]
+		},
+		{
+		  "group_name": "spruce_planks",
+		  "item_frame": "minecraft:spruce_planks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_planks"
+		  ]
+		},
+		{
+		  "group_name": "spruce_wood",
+		  "item_frame": "minecraft:spruce_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_wood"
+		  ]
+		},
+		{
+		  "group_name": "stick",
+		  "item_frame": "minecraft:stick",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stick"
+		  ]
+		},
+		{
+		  "group_name": "stripped_acacia_log",
+		  "item_frame": "minecraft:stripped_acacia_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_acacia_log"
+		  ]
+		},
+		{
+		  "group_name": "stripped_acacia_wood",
+		  "item_frame": "minecraft:stripped_acacia_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_acacia_wood"
+		  ]
+		},
+		{
+		  "group_name": "stripped_birch_log",
+		  "item_frame": "minecraft:stripped_birch_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_birch_log"
+		  ]
+		},
+		{
+		  "group_name": "stripped_birch_wood",
+		  "item_frame": "minecraft:stripped_birch_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_birch_wood"
+		  ]
+		},
+		{
+		  "group_name": "stripped_dark_oak_log",
+		  "item_frame": "minecraft:stripped_dark_oak_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_dark_oak_log"
+		  ]
+		},
+		{
+		  "group_name": "stripped_dark_oak_wood",
+		  "item_frame": "minecraft:stripped_dark_oak_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_dark_oak_wood"
+		  ]
+		},
+		{
+		  "group_name": "stripped_jungle_log",
+		  "item_frame": "minecraft:stripped_jungle_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_jungle_log"
+		  ]
+		},
+		{
+		  "group_name": "stripped_jungle_wood",
+		  "item_frame": "minecraft:stripped_jungle_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_jungle_wood"
+		  ]
+		},
+		{
+		  "group_name": "stripped_oak_log",
+		  "item_frame": "minecraft:stripped_oak_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_oak_log"
+		  ]
+		},
+		{
+		  "group_name": "stripped_oak_wood",
+		  "item_frame": "minecraft:stripped_oak_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_oak_wood"
+		  ]
+		},
+		{
+		  "group_name": "stripped_spruce_log",
+		  "item_frame": "minecraft:stripped_spruce_log",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_spruce_log"
+		  ]
+		},
+		{
+		  "group_name": "stripped_spruce_wood",
+		  "item_frame": "minecraft:stripped_spruce_wood",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stripped_spruce_wood"
+		  ]
+		},
+		{
+		  "group_name": "acacia_boat",
+		  "item_frame": "minecraft:acacia_boat",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_boat"
+		  ]
+		},
+		{
+		  "group_name": "acacia_button",
+		  "item_frame": "minecraft:acacia_button",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_button"
+		  ]
+		},
+		{
+		  "group_name": "acacia_door",
+		  "item_frame": "minecraft:acacia_door",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_door"
+		  ]
+		},
+		{
+		  "group_name": "acacia_fence_gate",
+		  "item_frame": "minecraft:acacia_fence_gate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_fence_gate"
+		  ]
+		},
+		{
+		  "group_name": "acacia_pressure_plate",
+		  "item_frame": "minecraft:acacia_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "acacia_slab",
+		  "item_frame": "minecraft:acacia_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_slab"
+		  ]
+		},
+		{
+		  "group_name": "acacia_trapdoor",
+		  "item_frame": "minecraft:acacia_trapdoor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_trapdoor"
+		  ]
+		},
+		{
+		  "group_name": "birch_boat",
+		  "item_frame": "minecraft:birch_boat",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_boat"
+		  ]
+		},
+		{
+		  "group_name": "birch_button",
+		  "item_frame": "minecraft:birch_button",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_button"
+		  ]
+		},
+		{
+		  "group_name": "birch_door",
+		  "item_frame": "minecraft:birch_door",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_door"
+		  ]
+		},
+		{
+		  "group_name": "birch_fence",
+		  "item_frame": "minecraft:birch_fence",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_fence"
+		  ]
+		},
+		{
+		  "group_name": "birch_fence_gate",
+		  "item_frame": "minecraft:birch_fence_gate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_fence_gate"
+		  ]
+		},
+		{
+		  "group_name": "birch_pressure_plate",
+		  "item_frame": "minecraft:birch_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "birch_slab",
+		  "item_frame": "minecraft:birch_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_slab"
+		  ]
+		},
+		{
+		  "group_name": "birch_stairs",
+		  "item_frame": "minecraft:birch_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_stairs"
+		  ]
+		},
+		{
+		  "group_name": "birch_trapdoor",
+		  "item_frame": "minecraft:birch_trapdoor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_trapdoor"
+		  ]
+		},
+		{
+		  "group_name": "black_bed",
+		  "item_frame": "minecraft:black_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_bed"
+		  ]
+		},
+		{
+		  "group_name": "blue_bed",
+		  "item_frame": "minecraft:blue_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_bed"
+		  ]
+		},
+		{
+		  "group_name": "bowl",
+		  "item_frame": "minecraft:bowl",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bowl"
+		  ]
+		},
+		{
+		  "group_name": "brown_bed",
+		  "item_frame": "minecraft:brown_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_bed"
+		  ]
+		},
+		{
+		  "group_name": "crafting_table",
+		  "item_frame": "minecraft:crafting_table",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:crafting_table"
+		  ]
+		},
+		{
+		  "group_name": "cyan_bed",
+		  "item_frame": "minecraft:cyan_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_bed"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_boat",
+		  "item_frame": "minecraft:dark_oak_boat",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_boat"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_button",
+		  "item_frame": "minecraft:dark_oak_button",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_button"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_door",
+		  "item_frame": "minecraft:dark_oak_door",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_door"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_fence",
+		  "item_frame": "minecraft:dark_oak_fence",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_fence"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_fence_gate",
+		  "item_frame": "minecraft:dark_oak_fence_gate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_fence_gate"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_pressure_plate",
+		  "item_frame": "minecraft:dark_oak_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_slab",
+		  "item_frame": "minecraft:dark_oak_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_slab"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_stairs",
+		  "item_frame": "minecraft:dark_oak_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_stairs"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_trapdoor",
+		  "item_frame": "minecraft:dark_oak_trapdoor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_trapdoor"
+		  ]
+		},
+		{
+		  "group_name": "gray_bed",
+		  "item_frame": "minecraft:gray_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_bed"
+		  ]
+		},
+		{
+		  "group_name": "green_bed",
+		  "item_frame": "minecraft:green_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_bed"
+		  ]
+		},
+		{
+		  "group_name": "jungle_boat",
+		  "item_frame": "minecraft:jungle_boat",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_boat"
+		  ]
+		},
+		{
+		  "group_name": "jungle_button",
+		  "item_frame": "minecraft:jungle_button",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_button"
+		  ]
+		},
+		{
+		  "group_name": "jungle_door",
+		  "item_frame": "minecraft:jungle_door",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_door"
+		  ]
+		},
+		{
+		  "group_name": "jungle_fence",
+		  "item_frame": "minecraft:jungle_fence",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_fence"
+		  ]
+		},
+		{
+		  "group_name": "jungle_fence_gate",
+		  "item_frame": "minecraft:jungle_fence_gate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_fence_gate"
+		  ]
+		},
+		{
+		  "group_name": "jungle_pressure_plate",
+		  "item_frame": "minecraft:jungle_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "jungle_slab",
+		  "item_frame": "minecraft:jungle_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_slab"
+		  ]
+		},
+		{
+		  "group_name": "jungle_stairs",
+		  "item_frame": "minecraft:jungle_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_stairs"
+		  ]
+		},
+		{
+		  "group_name": "jungle_trapdoor",
+		  "item_frame": "minecraft:jungle_trapdoor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_trapdoor"
+		  ]
+		},
+		{
+		  "group_name": "ladder",
+		  "item_frame": "minecraft:ladder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ladder"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_bed",
+		  "item_frame": "minecraft:light_blue_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_bed"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_bed",
+		  "item_frame": "minecraft:light_gray_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_bed"
+		  ]
+		},
+		{
+		  "group_name": "lime_bed",
+		  "item_frame": "minecraft:lime_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_bed"
+		  ]
+		},
+		{
+		  "group_name": "magenta_bed",
+		  "item_frame": "minecraft:magenta_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_bed"
+		  ]
+		},
+		{
+		  "group_name": "oak_boat",
+		  "item_frame": "minecraft:oak_boat",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_boat"
+		  ]
+		},
+		{
+		  "group_name": "oak_button",
+		  "item_frame": "minecraft:oak_button",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_button"
+		  ]
+		},
+		{
+		  "group_name": "oak_door",
+		  "item_frame": "minecraft:oak_door",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_door"
+		  ]
+		},
+		{
+		  "group_name": "oak_fence_gate",
+		  "item_frame": "minecraft:oak_fence_gate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_fence_gate"
+		  ]
+		},
+		{
+		  "group_name": "oak_pressure_plate",
+		  "item_frame": "minecraft:oak_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "oak_slab",
+		  "item_frame": "minecraft:oak_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_slab"
+		  ]
+		},
+		{
+		  "group_name": "oak_stairs",
+		  "item_frame": "minecraft:oak_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_stairs"
+		  ]
+		},
+		{
+		  "group_name": "oak_trapdoor",
+		  "item_frame": "minecraft:oak_trapdoor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_trapdoor"
+		  ]
+		},
+		{
+		  "group_name": "orange_bed",
+		  "item_frame": "minecraft:orange_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_bed"
+		  ]
+		},
+		{
+		  "group_name": "painting",
+		  "item_frame": "minecraft:painting",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:painting"
+		  ]
+		},
+		{
+		  "group_name": "petrified_oak_slab",
+		  "item_frame": "minecraft:petrified_oak_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:petrified_oak_slab"
+		  ]
+		},
+		{
+		  "group_name": "pink_bed",
+		  "item_frame": "minecraft:pink_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_bed"
+		  ]
+		},
+		{
+		  "group_name": "purple_bed",
+		  "item_frame": "minecraft:purple_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_bed"
+		  ]
+		},
+		{
+		  "group_name": "red_bed",
+		  "item_frame": "minecraft:red_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_bed"
+		  ]
+		},
+		{
+		  "group_name": "sign",
+		  "item_frame": "minecraft:sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sign"
+		  ]
+		},
+		{
+		  "group_name": "spruce_boat",
+		  "item_frame": "minecraft:spruce_boat",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_boat"
+		  ]
+		},
+		{
+		  "group_name": "spruce_button",
+		  "item_frame": "minecraft:spruce_button",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_button"
+		  ]
+		},
+		{
+		  "group_name": "spruce_door",
+		  "item_frame": "minecraft:spruce_door",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_door"
+		  ]
+		},
+		{
+		  "group_name": "spruce_fence",
+		  "item_frame": "minecraft:spruce_fence",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_fence"
+		  ]
+		},
+		{
+		  "group_name": "spruce_fence_gate",
+		  "item_frame": "minecraft:spruce_fence_gate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_fence_gate"
+		  ]
+		},
+		{
+		  "group_name": "spruce_pressure_plate",
+		  "item_frame": "minecraft:spruce_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "spruce_slab",
+		  "item_frame": "minecraft:spruce_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_slab"
+		  ]
+		},
+		{
+		  "group_name": "spruce_stairs",
+		  "item_frame": "minecraft:spruce_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_stairs"
+		  ]
+		},
+		{
+		  "group_name": "spruce_trapdoor",
+		  "item_frame": "minecraft:spruce_trapdoor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_trapdoor"
+		  ]
+		},
+		{
+		  "group_name": "white_bed",
+		  "item_frame": "minecraft:white_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_bed"
+		  ]
+		},
+		{
+		  "group_name": "yellow_bed",
+		  "item_frame": "minecraft:yellow_bed",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_bed"
+		  ]
+		},
+		{
+		  "group_name": "acacia_sign‌",
+		  "item_frame": "minecraft:acacia_sign‌",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_sign‌"
+		  ]
+		},
+		{
+		  "group_name": "acacia_wall_sign‌",
+		  "item_frame": "minecraft:acacia_wall_sign‌",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_wall_sign‌"
+		  ]
+		},
+		{
+		  "group_name": "birch_sign",
+		  "item_frame": "minecraft:birch_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_sign"
+		  ]
+		},
+		{
+		  "group_name": "birch_wall_sign",
+		  "item_frame": "minecraft:birch_wall_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_wall_sign"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_sign",
+		  "item_frame": "minecraft:dark_oak_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_sign"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_wall_sign",
+		  "item_frame": "minecraft:dark_oak_wall_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_wall_sign"
+		  ]
+		},
+		{
+		  "group_name": "jungle_sign",
+		  "item_frame": "minecraft:jungle_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_sign"
+		  ]
+		},
+		{
+		  "group_name": "jungle_wall_sign",
+		  "item_frame": "minecraft:jungle_wall_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_wall_sign"
+		  ]
+		},
+		{
+		  "group_name": "oak_sign",
+		  "item_frame": "minecraft:oak_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_sign"
+		  ]
+		},
+		{
+		  "group_name": "oak_wall_sign",
+		  "item_frame": "minecraft:oak_wall_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_wall_sign"
+		  ]
+		},
+		{
+		  "group_name": "spruce_sign",
+		  "item_frame": "minecraft:spruce_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_sign"
+		  ]
+		},
+		{
+		  "group_name": "spruce_wall_sign",
+		  "item_frame": "minecraft:spruce_wall_sign",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_wall_sign"
+		  ]
+		},
+		{
+		  "group_name": "scaffolding",
+		  "item_frame": "minecraft:scaffolding",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:scaffolding"
+		  ]
+		},
+		{
+		  "group_name": "cartography_table",
+		  "item_frame": "minecraft:cartography_table",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cartography_table"
+		  ]
+		},
+		{
+		  "group_name": "composter",
+		  "item_frame": "minecraft:composter",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:composter"
+		  ]
+		},
+		{
+		  "group_name": "lectern",
+		  "item_frame": "minecraft:lectern",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lectern"
+		  ]
+		},
+		{
+		  "group_name": "book",
+		  "item_frame": "minecraft:book",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:book"
+		  ]
+		},
+		{
+		  "group_name": "bookshelf",
+		  "item_frame": "minecraft:bookshelf",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bookshelf"
+		  ]
+		},
+		{
+		  "group_name": "filled_map",
+		  "item_frame": "minecraft:filled_map",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:filled_map"
+		  ]
+		},
+		{
+		  "group_name": "map",
+		  "item_frame": "minecraft:map",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:map"
+		  ]
+		},
+		{
+		  "group_name": "paper",
+		  "item_frame": "minecraft:paper",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:paper"
+		  ]
+		},
+		{
+		  "group_name": "writable_book",
+		  "item_frame": "minecraft:writable_book",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:writable_book"
+		  ]
+		},
+		{
+		  "group_name": "written_book",
+		  "item_frame": "minecraft:written_book",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:written_book"
+		  ]
+		},
+		{
+		  "group_name": "andesite",
+		  "item_frame": "minecraft:andesite",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:andesite"
+		  ]
+		},
+		{
+		  "group_name": "clay",
+		  "item_frame": "minecraft:clay",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:clay"
+		  ]
+		},
+		{
+		  "group_name": "clay_ball",
+		  "item_frame": "minecraft:clay_ball",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:clay_ball"
+		  ]
+		},
+		{
+		  "group_name": "granite",
+		  "item_frame": "minecraft:granite",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:granite"
+		  ]
+		},
+		{
+		  "group_name": "brick",
+		  "item_frame": "minecraft:brick",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brick"
+		  ]
+		},
+		{
+		  "group_name": "brick_slab",
+		  "item_frame": "minecraft:brick_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brick_slab"
+		  ]
+		},
+		{
+		  "group_name": "brick_stairs",
+		  "item_frame": "minecraft:brick_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brick_stairs"
+		  ]
+		},
+		{
+		  "group_name": "brick_wall",
+		  "item_frame": "minecraft:brick_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brick_wall"
+		  ]
+		},
+		{
+		  "group_name": "bricks",
+		  "item_frame": "minecraft:bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bricks"
+		  ]
+		},
+		{
+		  "group_name": "chiseled_stone_bricks",
+		  "item_frame": "minecraft:chiseled_stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chiseled_stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "cobblestone_wall",
+		  "item_frame": "minecraft:cobblestone_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cobblestone_wall"
+		  ]
+		},
+		{
+		  "group_name": "cracked_stone_bricks",
+		  "item_frame": "minecraft:cracked_stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cracked_stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "flower_pot",
+		  "item_frame": "minecraft:flower_pot",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:flower_pot"
+		  ]
+		},
+		{
+		  "group_name": "mossy_cobblestone_wall",
+		  "item_frame": "minecraft:mossy_cobblestone_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mossy_cobblestone_wall"
+		  ]
+		},
+		{
+		  "group_name": "mossy_stone_bricks",
+		  "item_frame": "minecraft:mossy_stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mossy_stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "polished_andesite",
+		  "item_frame": "minecraft:polished_andesite",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_andesite"
+		  ]
+		},
+		{
+		  "group_name": "polished_diorite",
+		  "item_frame": "minecraft:polished_diorite",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_diorite"
+		  ]
+		},
+		{
+		  "group_name": "polished_granite",
+		  "item_frame": "minecraft:polished_granite",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_granite"
+		  ]
+		},
+		{
+		  "group_name": "smooth_stone",
+		  "item_frame": "minecraft:smooth_stone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_stone"
+		  ]
+		},
+		{
+		  "group_name": "stone_brick_slab",
+		  "item_frame": "minecraft:stone_brick_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_brick_slab"
+		  ]
+		},
+		{
+		  "group_name": "stone_brick_stairs",
+		  "item_frame": "minecraft:stone_brick_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_brick_stairs"
+		  ]
+		},
+		{
+		  "group_name": "stone_button",
+		  "item_frame": "minecraft:stone_button",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_button"
+		  ]
+		},
+		{
+		  "group_name": "stone_slab",
+		  "item_frame": "minecraft:stone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_slab"
+		  ]
+		},
+		{
+		  "group_name": "cobblestone_stairs",
+		  "item_frame": "minecraft:cobblestone_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cobblestone_stairs"
+		  ]
+		},
+		{
+		  "group_name": "andesite_slab",
+		  "item_frame": "minecraft:andesite_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:andesite_slab"
+		  ]
+		},
+		{
+		  "group_name": "andesite_stairs",
+		  "item_frame": "minecraft:andesite_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:andesite_stairs"
+		  ]
+		},
+		{
+		  "group_name": "andesite_wall",
+		  "item_frame": "minecraft:andesite_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:andesite_wall"
+		  ]
+		},
+		{
+		  "group_name": "bell",
+		  "item_frame": "minecraft:bell",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bell"
+		  ]
+		},
+		{
+		  "group_name": "diorite_slab",
+		  "item_frame": "minecraft:diorite_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diorite_slab"
+		  ]
+		},
+		{
+		  "group_name": "diorite_stairs",
+		  "item_frame": "minecraft:diorite_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diorite_stairs"
+		  ]
+		},
+		{
+		  "group_name": "diorite_wall",
+		  "item_frame": "minecraft:diorite_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diorite_wall"
+		  ]
+		},
+		{
+		  "group_name": "granite_slab",
+		  "item_frame": "minecraft:granite_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:granite_slab"
+		  ]
+		},
+		{
+		  "group_name": "granite_stairs",
+		  "item_frame": "minecraft:granite_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:granite_stairs"
+		  ]
+		},
+		{
+		  "group_name": "granite_wall",
+		  "item_frame": "minecraft:granite_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:granite_wall"
+		  ]
+		},
+		{
+		  "group_name": "mossy_cobblestone_slab",
+		  "item_frame": "minecraft:mossy_cobblestone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mossy_cobblestone_slab"
+		  ]
+		},
+		{
+		  "group_name": "mossy_cobblestone_stairs",
+		  "item_frame": "minecraft:mossy_cobblestone_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mossy_cobblestone_stairs"
+		  ]
+		},
+		{
+		  "group_name": "mossy_stone_brick_slab",
+		  "item_frame": "minecraft:mossy_stone_brick_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mossy_stone_brick_slab"
+		  ]
+		},
+		{
+		  "group_name": "mossy_stone_brick_stairs",
+		  "item_frame": "minecraft:mossy_stone_brick_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mossy_stone_brick_stairs"
+		  ]
+		},
+		{
+		  "group_name": "mossy_stone_brick_wall",
+		  "item_frame": "minecraft:mossy_stone_brick_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mossy_stone_brick_wall"
+		  ]
+		},
+		{
+		  "group_name": "polished_andesite_slab",
+		  "item_frame": "minecraft:polished_andesite_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_andesite_slab"
+		  ]
+		},
+		{
+		  "group_name": "polished_andesite_stairs",
+		  "item_frame": "minecraft:polished_andesite_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_andesite_stairs"
+		  ]
+		},
+		{
+		  "group_name": "polished_diorite_slab",
+		  "item_frame": "minecraft:polished_diorite_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_diorite_slab"
+		  ]
+		},
+		{
+		  "group_name": "polished_diorite_stairs",
+		  "item_frame": "minecraft:polished_diorite_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_diorite_stairs"
+		  ]
+		},
+		{
+		  "group_name": "polished_granite_slab",
+		  "item_frame": "minecraft:polished_granite_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_granite_slab"
+		  ]
+		},
+		{
+		  "group_name": "polished_granite_stairs",
+		  "item_frame": "minecraft:polished_granite_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polished_granite_stairs"
+		  ]
+		},
+		{
+		  "group_name": "smooth_stone_slab",
+		  "item_frame": "minecraft:smooth_stone_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_stone_slab"
+		  ]
+		},
+		{
+		  "group_name": "stone_brick_wall",
+		  "item_frame": "minecraft:stone_brick_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_brick_wall"
+		  ]
+		},
+		{
+		  "group_name": "stone_stairs",
+		  "item_frame": "minecraft:stone_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_stairs"
+		  ]
+		},
+		{
+		  "group_name": "charcoal",
+		  "item_frame": "minecraft:charcoal",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:charcoal"
+		  ]
+		},
+		{
+		  "group_name": "coal",
+		  "item_frame": "minecraft:coal",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:coal"
+		  ]
+		},
+		{
+		  "group_name": "anvil",
+		  "item_frame": "minecraft:anvil",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:anvil"
+		  ]
+		},
+		{
+		  "group_name": "bow",
+		  "item_frame": "minecraft:bow",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bow"
+		  ]
+		},
+		{
+		  "group_name": "bucket",
+		  "item_frame": "minecraft:bucket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bucket"
+		  ]
+		},
+		{
+		  "group_name": "chipped_anvil",
+		  "item_frame": "minecraft:chipped_anvil",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chipped_anvil"
+		  ]
+		},
+		{
+		  "group_name": "clock",
+		  "item_frame": "minecraft:clock",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:clock"
+		  ]
+		},
+		{
+		  "group_name": "clownfish_bucket",
+		  "item_frame": "minecraft:clownfish_bucket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:clownfish_bucket"
+		  ]
+		},
+		{
+		  "group_name": "cod_bucket",
+		  "item_frame": "minecraft:cod_bucket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cod_bucket"
+		  ]
+		},
+		{
+		  "group_name": "compass",
+		  "item_frame": "minecraft:compass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:compass"
+		  ]
+		},
+		{
+		  "group_name": "damaged_anvil",
+		  "item_frame": "minecraft:damaged_anvil",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:damaged_anvil"
+		  ]
+		},
+		{
+		  "group_name": "diamond_axe",
+		  "item_frame": "minecraft:diamond_axe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_axe"
+		  ]
+		},
+		{
+		  "group_name": "diamond_hoe",
+		  "item_frame": "minecraft:diamond_hoe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_hoe"
+		  ]
+		},
+		{
+		  "group_name": "diamond_pickaxe",
+		  "item_frame": "minecraft:diamond_pickaxe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_pickaxe"
+		  ]
+		},
+		{
+		  "group_name": "diamond_shovel",
+		  "item_frame": "minecraft:diamond_shovel",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_shovel"
+		  ]
+		},
+		{
+		  "group_name": "diamond_sword",
+		  "item_frame": "minecraft:diamond_sword",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_sword"
+		  ]
+		},
+		{
+		  "group_name": "fire_charge",
+		  "item_frame": "minecraft:fire_charge",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fire_charge"
+		  ]
+		},
+		{
+		  "group_name": "firework_rocket",
+		  "item_frame": "minecraft:firework_rocket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:firework_rocket"
+		  ]
+		},
+		{
+		  "group_name": "firework_star",
+		  "item_frame": "minecraft:firework_star",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:firework_star"
+		  ]
+		},
+		{
+		  "group_name": "fishing_rod",
+		  "item_frame": "minecraft:fishing_rod",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fishing_rod"
+		  ]
+		},
+		{
+		  "group_name": "flint_and_steel",
+		  "item_frame": "minecraft:flint_and_steel",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:flint_and_steel"
+		  ]
+		},
+		{
+		  "group_name": "golden_axe",
+		  "item_frame": "minecraft:golden_axe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_axe"
+		  ]
+		},
+		{
+		  "group_name": "golden_hoe",
+		  "item_frame": "minecraft:golden_hoe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_hoe"
+		  ]
+		},
+		{
+		  "group_name": "golden_pickaxe",
+		  "item_frame": "minecraft:golden_pickaxe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_pickaxe"
+		  ]
+		},
+		{
+		  "group_name": "golden_shovel",
+		  "item_frame": "minecraft:golden_shovel",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_shovel"
+		  ]
+		},
+		{
+		  "group_name": "golden_sword",
+		  "item_frame": "minecraft:golden_sword",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_sword"
+		  ]
+		},
+		{
+		  "group_name": "gunpowder",
+		  "item_frame": "minecraft:gunpowder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gunpowder"
+		  ]
+		},
+		{
+		  "group_name": "iron_axe",
+		  "item_frame": "minecraft:iron_axe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_axe"
+		  ]
+		},
+		{
+		  "group_name": "iron_bars",
+		  "item_frame": "minecraft:iron_bars",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_bars"
+		  ]
+		},
+		{
+		  "group_name": "iron_block",
+		  "item_frame": "minecraft:iron_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_block"
+		  ]
+		},
+		{
+		  "group_name": "iron_door",
+		  "item_frame": "minecraft:iron_door",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_door"
+		  ]
+		},
+		{
+		  "group_name": "iron_hoe",
+		  "item_frame": "minecraft:iron_hoe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_hoe"
+		  ]
+		},
+		{
+		  "group_name": "iron_pickaxe",
+		  "item_frame": "minecraft:iron_pickaxe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_pickaxe"
+		  ]
+		},
+		{
+		  "group_name": "iron_shovel",
+		  "item_frame": "minecraft:iron_shovel",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_shovel"
+		  ]
+		},
+		{
+		  "group_name": "iron_sword",
+		  "item_frame": "minecraft:iron_sword",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_sword"
+		  ]
+		},
+		{
+		  "group_name": "iron_trapdoor",
+		  "item_frame": "minecraft:iron_trapdoor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_trapdoor"
+		  ]
+		},
+		{
+		  "group_name": "lava_bucket",
+		  "item_frame": "minecraft:lava_bucket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lava_bucket"
+		  ]
+		},
+		{
+		  "group_name": "lead",
+		  "item_frame": "minecraft:lead",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lead"
+		  ]
+		},
+		{
+		  "group_name": "milk_bucket",
+		  "item_frame": "minecraft:milk_bucket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:milk_bucket"
+		  ]
+		},
+		{
+		  "group_name": "name_tag",
+		  "item_frame": "minecraft:name_tag",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:name_tag"
+		  ]
+		},
+		{
+		  "group_name": "pufferfish_bucket",
+		  "item_frame": "minecraft:pufferfish_bucket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pufferfish_bucket"
+		  ]
+		},
+		{
+		  "group_name": "salmon_bucket",
+		  "item_frame": "minecraft:salmon_bucket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:salmon_bucket"
+		  ]
+		},
+		{
+		  "group_name": "shears",
+		  "item_frame": "minecraft:shears",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:shears"
+		  ]
+		},
+		{
+		  "group_name": "spectral_arrow",
+		  "item_frame": "minecraft:spectral_arrow",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spectral_arrow"
+		  ]
+		},
+		{
+		  "group_name": "stone_axe",
+		  "item_frame": "minecraft:stone_axe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_axe"
+		  ]
+		},
+		{
+		  "group_name": "stone_hoe",
+		  "item_frame": "minecraft:stone_hoe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_hoe"
+		  ]
+		},
+		{
+		  "group_name": "stone_pickaxe",
+		  "item_frame": "minecraft:stone_pickaxe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_pickaxe"
+		  ]
+		},
+		{
+		  "group_name": "stone_shovel",
+		  "item_frame": "minecraft:stone_shovel",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_shovel"
+		  ]
+		},
+		{
+		  "group_name": "stone_sword",
+		  "item_frame": "minecraft:stone_sword",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stone_sword"
+		  ]
+		},
+		{
+		  "group_name": "tipped_arrow",
+		  "item_frame": "minecraft:tipped_arrow",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tipped_arrow"
+		  ]
+		},
+		{
+		  "group_name": "tnt",
+		  "item_frame": "minecraft:tnt",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tnt"
+		  ]
+		},
+		{
+		  "group_name": "water_bucket",
+		  "item_frame": "minecraft:water_bucket",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:water_bucket"
+		  ]
+		},
+		{
+		  "group_name": "wooden_axe",
+		  "item_frame": "minecraft:wooden_axe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wooden_axe"
+		  ]
+		},
+		{
+		  "group_name": "wooden_hoe",
+		  "item_frame": "minecraft:wooden_hoe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wooden_hoe"
+		  ]
+		},
+		{
+		  "group_name": "wooden_pickaxe",
+		  "item_frame": "minecraft:wooden_pickaxe",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wooden_pickaxe"
+		  ]
+		},
+		{
+		  "group_name": "wooden_shovel",
+		  "item_frame": "minecraft:wooden_shovel",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wooden_shovel"
+		  ]
+		},
+		{
+		  "group_name": "wooden_sword",
+		  "item_frame": "minecraft:wooden_sword",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wooden_sword"
+		  ]
+		},
+		{
+		  "group_name": "crossbow",
+		  "item_frame": "minecraft:crossbow",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:crossbow"
+		  ]
+		},
+		{
+		  "group_name": "blast_furnace",
+		  "item_frame": "minecraft:blast_furnace",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blast_furnace"
+		  ]
+		},
+		{
+		  "group_name": "campfire",
+		  "item_frame": "minecraft:campfire",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:campfire"
+		  ]
+		},
+		{
+		  "group_name": "lantern",
+		  "item_frame": "minecraft:lantern",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lantern"
+		  ]
+		},
+		{
+		  "group_name": "fletching_table",
+		  "item_frame": "minecraft:fletching_table",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fletching_table"
+		  ]
+		},
+		{
+		  "group_name": "grindstone",
+		  "item_frame": "minecraft:grindstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:grindstone"
+		  ]
+		},
+		{
+		  "group_name": "loom",
+		  "item_frame": "minecraft:loom",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:loom"
+		  ]
+		},
+		{
+		  "group_name": "smithing_table",
+		  "item_frame": "minecraft:smithing_table",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smithing_table"
+		  ]
+		},
+		{
+		  "group_name": "smoker",
+		  "item_frame": "minecraft:smoker",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smoker"
+		  ]
+		},
+		{
+		  "group_name": "stonecutter",
+		  "item_frame": "minecraft:stonecutter",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stonecutter"
+		  ]
+		},
+		{
+		  "group_name": "chest",
+		  "item_frame": "minecraft:chest",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chest"
+		  ]
+		},
+		{
+		  "group_name": "trapped_chest",
+		  "item_frame": "minecraft:trapped_chest",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:trapped_chest"
+		  ]
+		},
+		{
+		  "group_name": "ender_chest",
+		  "item_frame": "minecraft:ender_chest",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ender_chest"
+		  ]
+		},
+		{
+		  "group_name": "black_shulker_box",
+		  "item_frame": "minecraft:black_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "blue_shulker_box",
+		  "item_frame": "minecraft:blue_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "brown_shulker_box",
+		  "item_frame": "minecraft:brown_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "cyan_shulker_box",
+		  "item_frame": "minecraft:cyan_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "gray_shulker_box",
+		  "item_frame": "minecraft:gray_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "green_shulker_box",
+		  "item_frame": "minecraft:green_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_shulker_box",
+		  "item_frame": "minecraft:light_blue_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "lime_shulker_box",
+		  "item_frame": "minecraft:lime_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "magenta_shulker_box",
+		  "item_frame": "minecraft:magenta_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "orange_shulker_box",
+		  "item_frame": "minecraft:orange_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "pink_shulker_box",
+		  "item_frame": "minecraft:pink_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "purple_shulker_box",
+		  "item_frame": "minecraft:purple_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "red_shulker_box",
+		  "item_frame": "minecraft:red_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "shulker_box",
+		  "item_frame": "minecraft:shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_shulker_box",
+		  "item_frame": "minecraft:light_gray_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "white_shulker_box",
+		  "item_frame": "minecraft:white_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "yellow_shulker_box",
+		  "item_frame": "minecraft:yellow_shulker_box",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_shulker_box"
+		  ]
+		},
+		{
+		  "group_name": "barrel",
+		  "item_frame": "minecraft:barrel",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:barrel"
+		  ]
+		},
+		{
+		  "group_name": "armor_stand",
+		  "item_frame": "minecraft:armor_stand",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:armor_stand"
+		  ]
+		},
+		{
+		  "group_name": "chainmail_boots",
+		  "item_frame": "minecraft:chainmail_boots",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chainmail_boots"
+		  ]
+		},
+		{
+		  "group_name": "chainmail_chestplate",
+		  "item_frame": "minecraft:chainmail_chestplate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chainmail_chestplate"
+		  ]
+		},
+		{
+		  "group_name": "chainmail_helmet",
+		  "item_frame": "minecraft:chainmail_helmet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chainmail_helmet"
+		  ]
+		},
+		{
+		  "group_name": "chainmail_leggings",
+		  "item_frame": "minecraft:chainmail_leggings",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chainmail_leggings"
+		  ]
+		},
+		{
+		  "group_name": "diamond_boots",
+		  "item_frame": "minecraft:diamond_boots",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_boots"
+		  ]
+		},
+		{
+		  "group_name": "diamond_chestplate",
+		  "item_frame": "minecraft:diamond_chestplate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_chestplate"
+		  ]
+		},
+		{
+		  "group_name": "diamond_helmet",
+		  "item_frame": "minecraft:diamond_helmet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_helmet"
+		  ]
+		},
+		{
+		  "group_name": "diamond_horse_armor",
+		  "item_frame": "minecraft:diamond_horse_armor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_horse_armor"
+		  ]
+		},
+		{
+		  "group_name": "diamond_leggings",
+		  "item_frame": "minecraft:diamond_leggings",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_leggings"
+		  ]
+		},
+		{
+		  "group_name": "golden_boots",
+		  "item_frame": "minecraft:golden_boots",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_boots"
+		  ]
+		},
+		{
+		  "group_name": "golden_chestplate",
+		  "item_frame": "minecraft:golden_chestplate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_chestplate"
+		  ]
+		},
+		{
+		  "group_name": "golden_helmet",
+		  "item_frame": "minecraft:golden_helmet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_helmet"
+		  ]
+		},
+		{
+		  "group_name": "golden_horse_armor",
+		  "item_frame": "minecraft:golden_horse_armor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_horse_armor"
+		  ]
+		},
+		{
+		  "group_name": "golden_leggings",
+		  "item_frame": "minecraft:golden_leggings",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_leggings"
+		  ]
+		},
+		{
+		  "group_name": "iron_boots",
+		  "item_frame": "minecraft:iron_boots",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_boots"
+		  ]
+		},
+		{
+		  "group_name": "iron_chestplate",
+		  "item_frame": "minecraft:iron_chestplate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_chestplate"
+		  ]
+		},
+		{
+		  "group_name": "iron_helmet",
+		  "item_frame": "minecraft:iron_helmet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_helmet"
+		  ]
+		},
+		{
+		  "group_name": "iron_horse_armor",
+		  "item_frame": "minecraft:iron_horse_armor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_horse_armor"
+		  ]
+		},
+		{
+		  "group_name": "iron_leggings",
+		  "item_frame": "minecraft:iron_leggings",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_leggings"
+		  ]
+		},
+		{
+		  "group_name": "leather_boots",
+		  "item_frame": "minecraft:leather_boots",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:leather_boots"
+		  ]
+		},
+		{
+		  "group_name": "leather_chestplate",
+		  "item_frame": "minecraft:leather_chestplate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:leather_chestplate"
+		  ]
+		},
+		{
+		  "group_name": "leather_helmet",
+		  "item_frame": "minecraft:leather_helmet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:leather_helmet"
+		  ]
+		},
+		{
+		  "group_name": "leather_leggings",
+		  "item_frame": "minecraft:leather_leggings",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:leather_leggings"
+		  ]
+		},
+		{
+		  "group_name": "saddle",
+		  "item_frame": "minecraft:saddle",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:saddle"
+		  ]
+		},
+		{
+		  "group_name": "shield",
+		  "item_frame": "minecraft:shield",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:shield"
+		  ]
+		},
+		{
+		  "group_name": "turtle_helmet",
+		  "item_frame": "minecraft:turtle_helmet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:turtle_helmet"
+		  ]
+		},
+		{
+		  "group_name": "leather_horse_armor",
+		  "item_frame": "minecraft:leather_horse_armor",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:leather_horse_armor"
+		  ]
+		},
+		{
+		  "group_name": "activator_rail",
+		  "item_frame": "minecraft:activator_rail",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:activator_rail"
+		  ]
+		},
+		{
+		  "group_name": "chest_minecart",
+		  "item_frame": "minecraft:chest_minecart",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chest_minecart"
+		  ]
+		},
+		{
+		  "group_name": "command_block_minecart",
+		  "item_frame": "minecraft:command_block_minecart",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:command_block_minecart"
+		  ]
+		},
+		{
+		  "group_name": "detector_rail",
+		  "item_frame": "minecraft:detector_rail",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:detector_rail"
+		  ]
+		},
+		{
+		  "group_name": "furnace_minecart",
+		  "item_frame": "minecraft:furnace_minecart",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:furnace_minecart"
+		  ]
+		},
+		{
+		  "group_name": "hopper_minecart",
+		  "item_frame": "minecraft:hopper_minecart",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:hopper_minecart"
+		  ]
+		},
+		{
+		  "group_name": "minecart",
+		  "item_frame": "minecraft:minecart",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:minecart"
+		  ]
+		},
+		{
+		  "group_name": "powered_rail",
+		  "item_frame": "minecraft:powered_rail",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:powered_rail"
+		  ]
+		},
+		{
+		  "group_name": "rail",
+		  "item_frame": "minecraft:rail",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rail"
+		  ]
+		},
+		{
+		  "group_name": "tnt_minecart",
+		  "item_frame": "minecraft:tnt_minecart",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tnt_minecart"
+		  ]
+		},
+		{
+		  "group_name": "acacia_leaves",
+		  "item_frame": "minecraft:acacia_leaves",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_leaves"
+		  ]
+		},
+		{
+		  "group_name": "acacia_sapling",
+		  "item_frame": "minecraft:acacia_sapling",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:acacia_sapling"
+		  ]
+		},
+		{
+		  "group_name": "beetroot",
+		  "item_frame": "minecraft:beetroot",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:beetroot"
+		  ]
+		},
+		{
+		  "group_name": "beetroot_seeds",
+		  "item_frame": "minecraft:beetroot_seeds",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:beetroot_seeds"
+		  ]
+		},
+		{
+		  "group_name": "birch_leaves",
+		  "item_frame": "minecraft:birch_leaves",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_leaves"
+		  ]
+		},
+		{
+		  "group_name": "birch_sapling",
+		  "item_frame": "minecraft:birch_sapling",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:birch_sapling"
+		  ]
+		},
+		{
+		  "group_name": "brown_mushroom",
+		  "item_frame": "minecraft:brown_mushroom",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_mushroom"
+		  ]
+		},
+		{
+		  "group_name": "brown_mushroom_block",
+		  "item_frame": "minecraft:brown_mushroom_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_mushroom_block"
+		  ]
+		},
+		{
+		  "group_name": "cactus",
+		  "item_frame": "minecraft:cactus",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cactus"
+		  ]
+		},
+		{
+		  "group_name": "carved_pumpkin",
+		  "item_frame": "minecraft:carved_pumpkin",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:carved_pumpkin"
+		  ]
+		},
+		{
+		  "group_name": "chorus_fruit",
+		  "item_frame": "minecraft:chorus_fruit",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chorus_fruit"
+		  ]
+		},
+		{
+		  "group_name": "popped_chorus_fruit",
+		  "item_frame": "minecraft:popped_chorus_fruit",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:popped_chorus_fruit"
+		  ]
+		},
+		{
+		  "group_name": "chorus_plant",
+		  "item_frame": "minecraft:chorus_plant",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chorus_plant"
+		  ]
+		},
+		{
+		  "group_name": "cocoa_beans",
+		  "item_frame": "minecraft:cocoa_beans",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cocoa_beans"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_leaves",
+		  "item_frame": "minecraft:dark_oak_leaves",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_leaves"
+		  ]
+		},
+		{
+		  "group_name": "dark_oak_sapling",
+		  "item_frame": "minecraft:dark_oak_sapling",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_oak_sapling"
+		  ]
+		},
+		{
+		  "group_name": "dead_bush",
+		  "item_frame": "minecraft:dead_bush",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dead_bush"
+		  ]
+		},
+		{
+		  "group_name": "fern",
+		  "item_frame": "minecraft:fern",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fern"
+		  ]
+		},
+		{
+		  "group_name": "grass",
+		  "item_frame": "minecraft:grass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:grass"
+		  ]
+		},
+		{
+		  "group_name": "hay_block",
+		  "item_frame": "minecraft:hay_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:hay_block"
+		  ]
+		},
+		{
+		  "group_name": "jack_o_lantern",
+		  "item_frame": "minecraft:jack_o_lantern",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jack_o_lantern"
+		  ]
+		},
+		{
+		  "group_name": "jungle_leaves",
+		  "item_frame": "minecraft:jungle_leaves",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_leaves"
+		  ]
+		},
+		{
+		  "group_name": "jungle_sapling",
+		  "item_frame": "minecraft:jungle_sapling",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jungle_sapling"
+		  ]
+		},
+		{
+		  "group_name": "large_fern",
+		  "item_frame": "minecraft:large_fern",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:large_fern"
+		  ]
+		},
+		{
+		  "group_name": "lily_pad",
+		  "item_frame": "minecraft:lily_pad",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lily_pad"
+		  ]
+		},
+		{
+		  "group_name": "melon",
+		  "item_frame": "minecraft:melon",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:melon"
+		  ]
+		},
+		{
+		  "group_name": "melon_seeds",
+		  "item_frame": "minecraft:melon_seeds",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:melon_seeds"
+		  ]
+		},
+		{
+		  "group_name": "mushroom_stem",
+		  "item_frame": "minecraft:mushroom_stem",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mushroom_stem"
+		  ]
+		},
+		{
+		  "group_name": "nether_wart",
+		  "item_frame": "minecraft:nether_wart",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_wart"
+		  ]
+		},
+		{
+		  "group_name": "oak_leaves",
+		  "item_frame": "minecraft:oak_leaves",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_leaves"
+		  ]
+		},
+		{
+		  "group_name": "oak_sapling",
+		  "item_frame": "minecraft:oak_sapling",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oak_sapling"
+		  ]
+		},
+		{
+		  "group_name": "poisonous_potato",
+		  "item_frame": "minecraft:poisonous_potato",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:poisonous_potato"
+		  ]
+		},
+		{
+		  "group_name": "pumpkin",
+		  "item_frame": "minecraft:pumpkin",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pumpkin"
+		  ]
+		},
+		{
+		  "group_name": "pumpkin_seeds",
+		  "item_frame": "minecraft:pumpkin_seeds",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pumpkin_seeds"
+		  ]
+		},
+		{
+		  "group_name": "red_mushroom",
+		  "item_frame": "minecraft:red_mushroom",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_mushroom"
+		  ]
+		},
+		{
+		  "group_name": "red_mushroom_block",
+		  "item_frame": "minecraft:red_mushroom_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_mushroom_block"
+		  ]
+		},
+		{
+		  "group_name": "spruce_leaves",
+		  "item_frame": "minecraft:spruce_leaves",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_leaves"
+		  ]
+		},
+		{
+		  "group_name": "spruce_sapling",
+		  "item_frame": "minecraft:spruce_sapling",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spruce_sapling"
+		  ]
+		},
+		{
+		  "group_name": "sugar_cane",
+		  "item_frame": "minecraft:sugar_cane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sugar_cane"
+		  ]
+		},
+		{
+		  "group_name": "tall_grass",
+		  "item_frame": "minecraft:tall_grass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tall_grass"
+		  ]
+		},
+		{
+		  "group_name": "vine",
+		  "item_frame": "minecraft:vine",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:vine"
+		  ]
+		},
+		{
+		  "group_name": "wheat",
+		  "item_frame": "minecraft:wheat",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wheat"
+		  ]
+		},
+		{
+		  "group_name": "bamboo_sapling",
+		  "item_frame": "minecraft:bamboo_sapling",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bamboo_sapling"
+		  ]
+		},
+		{
+		  "group_name": "cornflower",
+		  "item_frame": "minecraft:cornflower",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cornflower"
+		  ]
+		},
+		{
+		  "group_name": "lily_of_the_valley",
+		  "item_frame": "minecraft:lily_of_the_valley",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lily_of_the_valley"
+		  ]
+		},
+		{
+		  "group_name": "potted_bamboo",
+		  "item_frame": "minecraft:potted_bamboo",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:potted_bamboo"
+		  ]
+		},
+		{
+		  "group_name": "potted_cornflower",
+		  "item_frame": "minecraft:potted_cornflower",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:potted_cornflower"
+		  ]
+		},
+		{
+		  "group_name": "potted_lily_of_the_valley",
+		  "item_frame": "minecraft:potted_lily_of_the_valley",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:potted_lily_of_the_valley"
+		  ]
+		},
+		{
+		  "group_name": "potted_wither_rose",
+		  "item_frame": "minecraft:potted_wither_rose",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:potted_wither_rose"
+		  ]
+		},
+		{
+		  "group_name": "sweet_berry_bush",
+		  "item_frame": "minecraft:sweet_berry_bush",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sweet_berry_bush"
+		  ]
+		},
+		{
+		  "group_name": "wither_rose",
+		  "item_frame": "minecraft:wither_rose",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wither_rose"
+		  ]
+		},
+		{
+		  "group_name": "sweet_berries",
+		  "item_frame": "minecraft:sweet_berries",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sweet_berries"
+		  ]
+		},
+		{
+		  "group_name": "bamboo",
+		  "item_frame": "minecraft:bamboo",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bamboo"
+		  ]
+		},
+		{
+		  "group_name": "allium",
+		  "item_frame": "minecraft:allium",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:allium"
+		  ]
+		},
+		{
+		  "group_name": "azure_bluet",
+		  "item_frame": "minecraft:azure_bluet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:azure_bluet"
+		  ]
+		},
+		{
+		  "group_name": "blue_orchid",
+		  "item_frame": "minecraft:blue_orchid",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_orchid"
+		  ]
+		},
+		{
+		  "group_name": "chorus_flower",
+		  "item_frame": "minecraft:chorus_flower",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chorus_flower"
+		  ]
+		},
+		{
+		  "group_name": "dandelion",
+		  "item_frame": "minecraft:dandelion",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dandelion"
+		  ]
+		},
+		{
+		  "group_name": "lilac",
+		  "item_frame": "minecraft:lilac",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lilac"
+		  ]
+		},
+		{
+		  "group_name": "orange_tulip",
+		  "item_frame": "minecraft:orange_tulip",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_tulip"
+		  ]
+		},
+		{
+		  "group_name": "oxeye_daisy",
+		  "item_frame": "minecraft:oxeye_daisy",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:oxeye_daisy"
+		  ]
+		},
+		{
+		  "group_name": "peony",
+		  "item_frame": "minecraft:peony",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:peony"
+		  ]
+		},
+		{
+		  "group_name": "pink_tulip",
+		  "item_frame": "minecraft:pink_tulip",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_tulip"
+		  ]
+		},
+		{
+		  "group_name": "poppy",
+		  "item_frame": "minecraft:poppy",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:poppy"
+		  ]
+		},
+		{
+		  "group_name": "red_tulip",
+		  "item_frame": "minecraft:red_tulip",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_tulip"
+		  ]
+		},
+		{
+		  "group_name": "rose_bush",
+		  "item_frame": "minecraft:rose_bush",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rose_bush"
+		  ]
+		},
+		{
+		  "group_name": "sunflower",
+		  "item_frame": "minecraft:sunflower",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sunflower"
+		  ]
+		},
+		{
+		  "group_name": "white_tulip",
+		  "item_frame": "minecraft:white_tulip",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_tulip"
+		  ]
+		},
+		{
+		  "group_name": "apple",
+		  "item_frame": "minecraft:apple",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:apple"
+		  ]
+		},
+		{
+		  "group_name": "baked_potato",
+		  "item_frame": "minecraft:baked_potato",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:baked_potato"
+		  ]
+		},
+		{
+		  "group_name": "beetroot_soup",
+		  "item_frame": "minecraft:beetroot_soup",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:beetroot_soup"
+		  ]
+		},
+		{
+		  "group_name": "bread",
+		  "item_frame": "minecraft:bread",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bread"
+		  ]
+		},
+		{
+		  "group_name": "cake",
+		  "item_frame": "minecraft:cake",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cake"
+		  ]
+		},
+		{
+		  "group_name": "carrot",
+		  "item_frame": "minecraft:carrot",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:carrot"
+		  ]
+		},
+		{
+		  "group_name": "cooked_beef",
+		  "item_frame": "minecraft:cooked_beef",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cooked_beef"
+		  ]
+		},
+		{
+		  "group_name": "cooked_chicken",
+		  "item_frame": "minecraft:cooked_chicken",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cooked_chicken"
+		  ]
+		},
+		{
+		  "group_name": "cooked_mutton",
+		  "item_frame": "minecraft:cooked_mutton",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cooked_mutton"
+		  ]
+		},
+		{
+		  "group_name": "cooked_porkchop",
+		  "item_frame": "minecraft:cooked_porkchop",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cooked_porkchop"
+		  ]
+		},
+		{
+		  "group_name": "cooked_rabbit",
+		  "item_frame": "minecraft:cooked_rabbit",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cooked_rabbit"
+		  ]
+		},
+		{
+		  "group_name": "cooked_salmon",
+		  "item_frame": "minecraft:cooked_salmon",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cooked_salmon"
+		  ]
+		},
+		{
+		  "group_name": "cookie",
+		  "item_frame": "minecraft:cookie",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cookie"
+		  ]
+		},
+		{
+		  "group_name": "melon_slice",
+		  "item_frame": "minecraft:melon_slice",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:melon_slice"
+		  ]
+		},
+		{
+		  "group_name": "mushroom_stew",
+		  "item_frame": "minecraft:mushroom_stew",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mushroom_stew"
+		  ]
+		},
+		{
+		  "group_name": "pumpkin_pie",
+		  "item_frame": "minecraft:pumpkin_pie",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pumpkin_pie"
+		  ]
+		},
+		{
+		  "group_name": "rabbit_stew",
+		  "item_frame": "minecraft:rabbit_stew",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rabbit_stew"
+		  ]
+		},
+		{
+		  "group_name": "sugar",
+		  "item_frame": "minecraft:sugar",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sugar"
+		  ]
+		},
+		{
+		  "group_name": "suspicious_stew",
+		  "item_frame": "minecraft:suspicious_stew",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:suspicious_stew"
+		  ]
+		},
+		{
+		  "group_name": "beef",
+		  "item_frame": "minecraft:beef",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:beef"
+		  ]
+		},
+		{
+		  "group_name": "chicken",
+		  "item_frame": "minecraft:chicken",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chicken"
+		  ]
+		},
+		{
+		  "group_name": "cod",
+		  "item_frame": "minecraft:cod",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cod"
+		  ]
+		},
+		{
+		  "group_name": "mutton",
+		  "item_frame": "minecraft:mutton",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mutton"
+		  ]
+		},
+		{
+		  "group_name": "porkchop",
+		  "item_frame": "minecraft:porkchop",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:porkchop"
+		  ]
+		},
+		{
+		  "group_name": "potato",
+		  "item_frame": "minecraft:potato",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:potato"
+		  ]
+		},
+		{
+		  "group_name": "rabbit",
+		  "item_frame": "minecraft:rabbit",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rabbit"
+		  ]
+		},
+		{
+		  "group_name": "salmon",
+		  "item_frame": "minecraft:salmon",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:salmon"
+		  ]
+		},
+		{
+		  "group_name": "bat_spawn_egg",
+		  "item_frame": "minecraft:bat_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bat_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "blaze_spawn_egg",
+		  "item_frame": "minecraft:blaze_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blaze_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "bone",
+		  "item_frame": "minecraft:bone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bone"
+		  ]
+		},
+		{
+		  "group_name": "bone_block",
+		  "item_frame": "minecraft:bone_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bone_block"
+		  ]
+		},
+		{
+		  "group_name": "bone_meal",
+		  "item_frame": "minecraft:bone_meal",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bone_meal"
+		  ]
+		},
+		{
+		  "group_name": "cave_spider_spawn_egg",
+		  "item_frame": "minecraft:cave_spider_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cave_spider_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "chicken_spawn_egg",
+		  "item_frame": "minecraft:chicken_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chicken_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "cobweb",
+		  "item_frame": "minecraft:cobweb",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cobweb"
+		  ]
+		},
+		{
+		  "group_name": "cod_spawn_egg",
+		  "item_frame": "minecraft:cod_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cod_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "cow_spawn_egg",
+		  "item_frame": "minecraft:cow_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cow_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "creeper_head",
+		  "item_frame": "minecraft:creeper_head",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:creeper_head"
+		  ]
+		},
+		{
+		  "group_name": "creeper_spawn_egg",
+		  "item_frame": "minecraft:creeper_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:creeper_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "dolphin_spawn_egg",
+		  "item_frame": "minecraft:dolphin_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dolphin_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "donkey_spawn_egg",
+		  "item_frame": "minecraft:donkey_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:donkey_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "dragon_egg",
+		  "item_frame": "minecraft:dragon_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dragon_egg"
+		  ]
+		},
+		{
+		  "group_name": "dragon_head",
+		  "item_frame": "minecraft:dragon_head",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dragon_head"
+		  ]
+		},
+		{
+		  "group_name": "drowned_spawn_egg",
+		  "item_frame": "minecraft:drowned_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:drowned_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "egg",
+		  "item_frame": "minecraft:egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:egg"
+		  ]
+		},
+		{
+		  "group_name": "elder_guardian_spawn_egg",
+		  "item_frame": "minecraft:elder_guardian_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:elder_guardian_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "enderman_spawn_egg",
+		  "item_frame": "minecraft:enderman_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:enderman_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "endermite_spawn_egg",
+		  "item_frame": "minecraft:endermite_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:endermite_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "evoker_spawn_egg",
+		  "item_frame": "minecraft:evoker_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:evoker_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "feather",
+		  "item_frame": "minecraft:feather",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:feather"
+		  ]
+		},
+		{
+		  "group_name": "fermented_spider_eye",
+		  "item_frame": "minecraft:fermented_spider_eye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fermented_spider_eye"
+		  ]
+		},
+		{
+		  "group_name": "ghast_spawn_egg",
+		  "item_frame": "minecraft:ghast_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ghast_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "ghast_tear",
+		  "item_frame": "minecraft:ghast_tear",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ghast_tear"
+		  ]
+		},
+		{
+		  "group_name": "guardian_spawn_egg",
+		  "item_frame": "minecraft:guardian_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:guardian_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "horse_spawn_egg",
+		  "item_frame": "minecraft:horse_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:horse_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "husk_spawn_egg",
+		  "item_frame": "minecraft:husk_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:husk_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "infested_chiseled_stone_bricks",
+		  "item_frame": "minecraft:infested_chiseled_stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:infested_chiseled_stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "infested_cobblestone",
+		  "item_frame": "minecraft:infested_cobblestone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:infested_cobblestone"
+		  ]
+		},
+		{
+		  "group_name": "infested_cracked_stone_bricks",
+		  "item_frame": "minecraft:infested_cracked_stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:infested_cracked_stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "infested_mossy_stone_bricks",
+		  "item_frame": "minecraft:infested_mossy_stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:infested_mossy_stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "infested_stone",
+		  "item_frame": "minecraft:infested_stone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:infested_stone"
+		  ]
+		},
+		{
+		  "group_name": "infested_stone_bricks",
+		  "item_frame": "minecraft:infested_stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:infested_stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "leather",
+		  "item_frame": "minecraft:leather",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:leather"
+		  ]
+		},
+		{
+		  "group_name": "llama_spawn_egg",
+		  "item_frame": "minecraft:llama_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:llama_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "magma_cube_spawn_egg",
+		  "item_frame": "minecraft:magma_cube_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magma_cube_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "spawner",
+		  "item_frame": "minecraft:spawner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spawner"
+		  ]
+		},
+		{
+		  "group_name": "mooshroom_spawn_egg",
+		  "item_frame": "minecraft:mooshroom_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mooshroom_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "mule_spawn_egg",
+		  "item_frame": "minecraft:mule_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:mule_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "ocelot_spawn_egg",
+		  "item_frame": "minecraft:ocelot_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ocelot_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "parrot_spawn_egg",
+		  "item_frame": "minecraft:parrot_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:parrot_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "phantom_membrane",
+		  "item_frame": "minecraft:phantom_membrane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:phantom_membrane"
+		  ]
+		},
+		{
+		  "group_name": "phantom_spawn_egg",
+		  "item_frame": "minecraft:phantom_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:phantom_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "pig_spawn_egg",
+		  "item_frame": "minecraft:pig_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pig_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "player_head",
+		  "item_frame": "minecraft:player_head",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:player_head"
+		  ]
+		},
+		{
+		  "group_name": "polar_bear_spawn_egg",
+		  "item_frame": "minecraft:polar_bear_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:polar_bear_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "pufferfish_spawn_egg",
+		  "item_frame": "minecraft:pufferfish_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pufferfish_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "rabbit_foot",
+		  "item_frame": "minecraft:rabbit_foot",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rabbit_foot"
+		  ]
+		},
+		{
+		  "group_name": "rabbit_hide",
+		  "item_frame": "minecraft:rabbit_hide",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rabbit_hide"
+		  ]
+		},
+		{
+		  "group_name": "rabbit_spawn_egg",
+		  "item_frame": "minecraft:rabbit_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rabbit_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "rotten_flesh",
+		  "item_frame": "minecraft:rotten_flesh",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rotten_flesh"
+		  ]
+		},
+		{
+		  "group_name": "salmon_spawn_egg",
+		  "item_frame": "minecraft:salmon_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:salmon_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "scute",
+		  "item_frame": "minecraft:scute",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:scute"
+		  ]
+		},
+		{
+		  "group_name": "sheep_spawn_egg",
+		  "item_frame": "minecraft:sheep_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sheep_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "shulker_shell",
+		  "item_frame": "minecraft:shulker_shell",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:shulker_shell"
+		  ]
+		},
+		{
+		  "group_name": "shulker_spawn_egg",
+		  "item_frame": "minecraft:shulker_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:shulker_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "silverfish_spawn_egg",
+		  "item_frame": "minecraft:silverfish_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:silverfish_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "skeleton_horse_spawn_egg",
+		  "item_frame": "minecraft:skeleton_horse_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:skeleton_horse_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "skeleton_skull",
+		  "item_frame": "minecraft:skeleton_skull",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:skeleton_skull"
+		  ]
+		},
+		{
+		  "group_name": "skeleton_spawn_egg",
+		  "item_frame": "minecraft:skeleton_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:skeleton_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "slime_ball",
+		  "item_frame": "minecraft:slime_ball",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:slime_ball"
+		  ]
+		},
+		{
+		  "group_name": "slime_block",
+		  "item_frame": "minecraft:slime_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:slime_block"
+		  ]
+		},
+		{
+		  "group_name": "slime_spawn_egg",
+		  "item_frame": "minecraft:slime_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:slime_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "spider_spawn_egg",
+		  "item_frame": "minecraft:spider_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:spider_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "squid_spawn_egg",
+		  "item_frame": "minecraft:squid_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:squid_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "stray_spawn_egg",
+		  "item_frame": "minecraft:stray_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:stray_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "string",
+		  "item_frame": "minecraft:string",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:string"
+		  ]
+		},
+		{
+		  "group_name": "tropical_fish_spawn_egg",
+		  "item_frame": "minecraft:tropical_fish_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tropical_fish_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "turtle_egg",
+		  "item_frame": "minecraft:turtle_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:turtle_egg"
+		  ]
+		},
+		{
+		  "group_name": "turtle_spawn_egg",
+		  "item_frame": "minecraft:turtle_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:turtle_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "vex_spawn_egg",
+		  "item_frame": "minecraft:vex_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:vex_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "villager_spawn_egg",
+		  "item_frame": "minecraft:villager_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:villager_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "vindicator_spawn_egg",
+		  "item_frame": "minecraft:vindicator_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:vindicator_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "witch_spawn_egg",
+		  "item_frame": "minecraft:witch_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:witch_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "wither_skeleton_skull",
+		  "item_frame": "minecraft:wither_skeleton_skull",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wither_skeleton_skull"
+		  ]
+		},
+		{
+		  "group_name": "wither_skeleton_spawn_egg",
+		  "item_frame": "minecraft:wither_skeleton_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wither_skeleton_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "wolf_spawn_egg",
+		  "item_frame": "minecraft:wolf_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wolf_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "zombie_head",
+		  "item_frame": "minecraft:zombie_head",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:zombie_head"
+		  ]
+		},
+		{
+		  "group_name": "zombie_horse_spawn_egg",
+		  "item_frame": "minecraft:zombie_horse_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:zombie_horse_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "zombie_pigman_spawn_egg",
+		  "item_frame": "minecraft:zombie_pigman_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:zombie_pigman_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "zombie_spawn_egg",
+		  "item_frame": "minecraft:zombie_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:zombie_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "zombie_villager_spawn_egg",
+		  "item_frame": "minecraft:zombie_villager_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:zombie_villager_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "cat_spawn_egg",
+		  "item_frame": "minecraft:cat_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cat_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "fox_spawn_egg",
+		  "item_frame": "minecraft:fox_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fox_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "panda_spawn_egg",
+		  "item_frame": "minecraft:panda_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:panda_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "pillager_spawn_egg",
+		  "item_frame": "minecraft:pillager_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pillager_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "ravager_spawn_egg",
+		  "item_frame": "minecraft:ravager_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ravager_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "trader_llama_spawn_egg",
+		  "item_frame": "minecraft:trader_llama_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:trader_llama_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "wandering_trader_spawn_egg",
+		  "item_frame": "minecraft:wandering_trader_spawn_egg",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wandering_trader_spawn_egg"
+		  ]
+		},
+		{
+		  "group_name": "beacon",
+		  "item_frame": "minecraft:beacon",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:beacon"
+		  ]
+		},
+		{
+		  "group_name": "conduit",
+		  "item_frame": "minecraft:conduit",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:conduit"
+		  ]
+		},
+		{
+		  "group_name": "diamond",
+		  "item_frame": "minecraft:diamond",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond"
+		  ]
+		},
+		{
+		  "group_name": "diamond_block",
+		  "item_frame": "minecraft:diamond_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_block"
+		  ]
+		},
+		{
+		  "group_name": "diamond_ore",
+		  "item_frame": "minecraft:diamond_ore",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:diamond_ore"
+		  ]
+		},
+		{
+		  "group_name": "elytra",
+		  "item_frame": "minecraft:elytra",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:elytra"
+		  ]
+		},
+		{
+		  "group_name": "emerald",
+		  "item_frame": "minecraft:emerald",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:emerald"
+		  ]
+		},
+		{
+		  "group_name": "emerald_block",
+		  "item_frame": "minecraft:emerald_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:emerald_block"
+		  ]
+		},
+		{
+		  "group_name": "gold_block",
+		  "item_frame": "minecraft:gold_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gold_block"
+		  ]
+		},
+		{
+		  "group_name": "gold_nugget",
+		  "item_frame": "minecraft:gold_nugget",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gold_nugget"
+		  ]
+		},
+		{
+		  "group_name": "heart_of_the_sea",
+		  "item_frame": "minecraft:heart_of_the_sea",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:heart_of_the_sea"
+		  ]
+		},
+		{
+		  "group_name": "iron_nugget",
+		  "item_frame": "minecraft:iron_nugget",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_nugget"
+		  ]
+		},
+		{
+		  "group_name": "lapis_block",
+		  "item_frame": "minecraft:lapis_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lapis_block"
+		  ]
+		},
+		{
+		  "group_name": "lapis_lazuli",
+		  "item_frame": "minecraft:lapis_lazuli",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lapis_lazuli"
+		  ]
+		},
+		{
+		  "group_name": "nether_star",
+		  "item_frame": "minecraft:nether_star",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_star"
+		  ]
+		},
+		{
+		  "group_name": "obsidian",
+		  "item_frame": "minecraft:obsidian",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:obsidian"
+		  ]
+		},
+		{
+		  "group_name": "totem_of_undying",
+		  "item_frame": "minecraft:totem_of_undying",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:totem_of_undying"
+		  ]
+		},
+		{
+		  "group_name": "trident",
+		  "item_frame": "minecraft:trident",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:trident"
+		  ]
+		},
+		{
+		  "group_name": "bedrock",
+		  "item_frame": "minecraft:bedrock",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bedrock"
+		  ]
+		},
+		{
+		  "group_name": "blaze_powder",
+		  "item_frame": "minecraft:blaze_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blaze_powder"
+		  ]
+		},
+		{
+		  "group_name": "blaze_rod",
+		  "item_frame": "minecraft:blaze_rod",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blaze_rod"
+		  ]
+		},
+		{
+		  "group_name": "brewing_stand",
+		  "item_frame": "minecraft:brewing_stand",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brewing_stand"
+		  ]
+		},
+		{
+		  "group_name": "cauldron",
+		  "item_frame": "minecraft:cauldron",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cauldron"
+		  ]
+		},
+		{
+		  "group_name": "dragon_breath",
+		  "item_frame": "minecraft:dragon_breath",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dragon_breath"
+		  ]
+		},
+		{
+		  "group_name": "enchanted_book",
+		  "item_frame": "minecraft:enchanted_book",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:enchanted_book"
+		  ]
+		},
+		{
+		  "group_name": "enchanted_golden_apple",
+		  "item_frame": "minecraft:enchanted_golden_apple",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:enchanted_golden_apple"
+		  ]
+		},
+		{
+		  "group_name": "enchanting_table",
+		  "item_frame": "minecraft:enchanting_table",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:enchanting_table"
+		  ]
+		},
+		{
+		  "group_name": "ender_eye",
+		  "item_frame": "minecraft:ender_eye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ender_eye"
+		  ]
+		},
+		{
+		  "group_name": "ender_pearl",
+		  "item_frame": "minecraft:ender_pearl",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ender_pearl"
+		  ]
+		},
+		{
+		  "group_name": "experience_bottle",
+		  "item_frame": "minecraft:experience_bottle",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:experience_bottle"
+		  ]
+		},
+		{
+		  "group_name": "glistering_melon_slice",
+		  "item_frame": "minecraft:glistering_melon_slice",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:glistering_melon_slice"
+		  ]
+		},
+		{
+		  "group_name": "golden_apple",
+		  "item_frame": "minecraft:golden_apple",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_apple"
+		  ]
+		},
+		{
+		  "group_name": "golden_carrot",
+		  "item_frame": "minecraft:golden_carrot",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:golden_carrot"
+		  ]
+		},
+		{
+		  "group_name": "lingering_potion",
+		  "item_frame": "minecraft:lingering_potion",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lingering_potion"
+		  ]
+		},
+		{
+		  "group_name": "potion",
+		  "item_frame": "minecraft:potion",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:potion"
+		  ]
+		},
+		{
+		  "group_name": "splash_potion",
+		  "item_frame": "minecraft:splash_potion",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:splash_potion"
+		  ]
+		},
+		{
+		  "group_name": "black_banner",
+		  "item_frame": "minecraft:black_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_banner"
+		  ]
+		},
+		{
+		  "group_name": "black_carpet",
+		  "item_frame": "minecraft:black_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_carpet"
+		  ]
+		},
+		{
+		  "group_name": "black_wool",
+		  "item_frame": "minecraft:black_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_wool"
+		  ]
+		},
+		{
+		  "group_name": "blue_banner",
+		  "item_frame": "minecraft:blue_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_banner"
+		  ]
+		},
+		{
+		  "group_name": "blue_carpet",
+		  "item_frame": "minecraft:blue_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_carpet"
+		  ]
+		},
+		{
+		  "group_name": "blue_wool",
+		  "item_frame": "minecraft:blue_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_wool"
+		  ]
+		},
+		{
+		  "group_name": "brown_banner",
+		  "item_frame": "minecraft:brown_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_banner"
+		  ]
+		},
+		{
+		  "group_name": "brown_carpet",
+		  "item_frame": "minecraft:brown_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_carpet"
+		  ]
+		},
+		{
+		  "group_name": "brown_wool",
+		  "item_frame": "minecraft:brown_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_wool"
+		  ]
+		},
+		{
+		  "group_name": "cyan_banner",
+		  "item_frame": "minecraft:cyan_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_banner"
+		  ]
+		},
+		{
+		  "group_name": "cyan_carpet",
+		  "item_frame": "minecraft:cyan_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_carpet"
+		  ]
+		},
+		{
+		  "group_name": "cyan_wool",
+		  "item_frame": "minecraft:cyan_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_wool"
+		  ]
+		},
+		{
+		  "group_name": "gray_banner",
+		  "item_frame": "minecraft:gray_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_banner"
+		  ]
+		},
+		{
+		  "group_name": "gray_carpet",
+		  "item_frame": "minecraft:gray_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_carpet"
+		  ]
+		},
+		{
+		  "group_name": "gray_wool",
+		  "item_frame": "minecraft:gray_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_wool"
+		  ]
+		},
+		{
+		  "group_name": "green_banner",
+		  "item_frame": "minecraft:green_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_banner"
+		  ]
+		},
+		{
+		  "group_name": "green_carpet",
+		  "item_frame": "minecraft:green_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_carpet"
+		  ]
+		},
+		{
+		  "group_name": "green_wool",
+		  "item_frame": "minecraft:green_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_wool"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_banner",
+		  "item_frame": "minecraft:light_blue_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_banner"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_carpet",
+		  "item_frame": "minecraft:light_blue_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_carpet"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_wool",
+		  "item_frame": "minecraft:light_blue_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_wool"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_banner",
+		  "item_frame": "minecraft:light_gray_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_banner"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_carpet",
+		  "item_frame": "minecraft:light_gray_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_carpet"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_wool",
+		  "item_frame": "minecraft:light_gray_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_wool"
+		  ]
+		},
+		{
+		  "group_name": "lime_banner",
+		  "item_frame": "minecraft:lime_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_banner"
+		  ]
+		},
+		{
+		  "group_name": "lime_carpet",
+		  "item_frame": "minecraft:lime_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_carpet"
+		  ]
+		},
+		{
+		  "group_name": "lime_wool",
+		  "item_frame": "minecraft:lime_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_wool"
+		  ]
+		},
+		{
+		  "group_name": "magenta_banner",
+		  "item_frame": "minecraft:magenta_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_banner"
+		  ]
+		},
+		{
+		  "group_name": "magenta_carpet",
+		  "item_frame": "minecraft:magenta_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_carpet"
+		  ]
+		},
+		{
+		  "group_name": "magenta_wool",
+		  "item_frame": "minecraft:magenta_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_wool"
+		  ]
+		},
+		{
+		  "group_name": "orange_banner",
+		  "item_frame": "minecraft:orange_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_banner"
+		  ]
+		},
+		{
+		  "group_name": "orange_carpet",
+		  "item_frame": "minecraft:orange_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_carpet"
+		  ]
+		},
+		{
+		  "group_name": "orange_wool",
+		  "item_frame": "minecraft:orange_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_wool"
+		  ]
+		},
+		{
+		  "group_name": "pink_banner",
+		  "item_frame": "minecraft:pink_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_banner"
+		  ]
+		},
+		{
+		  "group_name": "pink_carpet",
+		  "item_frame": "minecraft:pink_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_carpet"
+		  ]
+		},
+		{
+		  "group_name": "pink_wool",
+		  "item_frame": "minecraft:pink_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_wool"
+		  ]
+		},
+		{
+		  "group_name": "purple_banner",
+		  "item_frame": "minecraft:purple_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_banner"
+		  ]
+		},
+		{
+		  "group_name": "purple_carpet",
+		  "item_frame": "minecraft:purple_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_carpet"
+		  ]
+		},
+		{
+		  "group_name": "purple_wool",
+		  "item_frame": "minecraft:purple_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_wool"
+		  ]
+		},
+		{
+		  "group_name": "red_banner",
+		  "item_frame": "minecraft:red_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_banner"
+		  ]
+		},
+		{
+		  "group_name": "red_carpet",
+		  "item_frame": "minecraft:red_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_carpet"
+		  ]
+		},
+		{
+		  "group_name": "red_wool",
+		  "item_frame": "minecraft:red_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_wool"
+		  ]
+		},
+		{
+		  "group_name": "white_banner",
+		  "item_frame": "minecraft:white_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_banner"
+		  ]
+		},
+		{
+		  "group_name": "white_carpet",
+		  "item_frame": "minecraft:white_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_carpet"
+		  ]
+		},
+		{
+		  "group_name": "white_wool",
+		  "item_frame": "minecraft:white_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_wool"
+		  ]
+		},
+		{
+		  "group_name": "yellow_banner",
+		  "item_frame": "minecraft:yellow_banner",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_banner"
+		  ]
+		},
+		{
+		  "group_name": "yellow_carpet",
+		  "item_frame": "minecraft:yellow_carpet",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_carpet"
+		  ]
+		},
+		{
+		  "group_name": "yellow_wool",
+		  "item_frame": "minecraft:yellow_wool",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_wool"
+		  ]
+		},
+		{
+		  "group_name": "black_concrete",
+		  "item_frame": "minecraft:black_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_concrete"
+		  ]
+		},
+		{
+		  "group_name": "black_concrete_powder",
+		  "item_frame": "minecraft:black_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "blue_concrete",
+		  "item_frame": "minecraft:blue_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_concrete"
+		  ]
+		},
+		{
+		  "group_name": "blue_concrete_powder",
+		  "item_frame": "minecraft:blue_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "brown_concrete",
+		  "item_frame": "minecraft:brown_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_concrete"
+		  ]
+		},
+		{
+		  "group_name": "brown_concrete_powder",
+		  "item_frame": "minecraft:brown_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "cyan_concrete",
+		  "item_frame": "minecraft:cyan_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_concrete"
+		  ]
+		},
+		{
+		  "group_name": "cyan_concrete_powder",
+		  "item_frame": "minecraft:cyan_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "gray_concrete",
+		  "item_frame": "minecraft:gray_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_concrete"
+		  ]
+		},
+		{
+		  "group_name": "gray_concrete_powder",
+		  "item_frame": "minecraft:gray_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "green_concrete",
+		  "item_frame": "minecraft:green_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_concrete"
+		  ]
+		},
+		{
+		  "group_name": "green_concrete_powder",
+		  "item_frame": "minecraft:green_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_concrete",
+		  "item_frame": "minecraft:light_blue_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_concrete"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_concrete_powder",
+		  "item_frame": "minecraft:light_blue_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_concrete",
+		  "item_frame": "minecraft:light_gray_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_concrete"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_concrete_powder",
+		  "item_frame": "minecraft:light_gray_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "lime_concrete",
+		  "item_frame": "minecraft:lime_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_concrete"
+		  ]
+		},
+		{
+		  "group_name": "lime_concrete_powder",
+		  "item_frame": "minecraft:lime_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "magenta_concrete",
+		  "item_frame": "minecraft:magenta_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_concrete"
+		  ]
+		},
+		{
+		  "group_name": "magenta_concrete_powder",
+		  "item_frame": "minecraft:magenta_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "orange_concrete",
+		  "item_frame": "minecraft:orange_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_concrete"
+		  ]
+		},
+		{
+		  "group_name": "orange_concrete_powder",
+		  "item_frame": "minecraft:orange_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "pink_concrete",
+		  "item_frame": "minecraft:pink_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_concrete"
+		  ]
+		},
+		{
+		  "group_name": "pink_concrete_powder",
+		  "item_frame": "minecraft:pink_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "purple_concrete",
+		  "item_frame": "minecraft:purple_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_concrete"
+		  ]
+		},
+		{
+		  "group_name": "purple_concrete_powder",
+		  "item_frame": "minecraft:purple_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "red_concrete",
+		  "item_frame": "minecraft:red_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_concrete"
+		  ]
+		},
+		{
+		  "group_name": "red_concrete_powder",
+		  "item_frame": "minecraft:red_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "white_concrete",
+		  "item_frame": "minecraft:white_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_concrete"
+		  ]
+		},
+		{
+		  "group_name": "white_concrete_powder",
+		  "item_frame": "minecraft:white_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "yellow_concrete",
+		  "item_frame": "minecraft:yellow_concrete",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_concrete"
+		  ]
+		},
+		{
+		  "group_name": "yellow_concrete_powder",
+		  "item_frame": "minecraft:yellow_concrete_powder",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_concrete_powder"
+		  ]
+		},
+		{
+		  "group_name": "black_glazed_terracotta",
+		  "item_frame": "minecraft:black_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "black_terracotta",
+		  "item_frame": "minecraft:black_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "blue_glazed_terracotta",
+		  "item_frame": "minecraft:blue_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "blue_terracotta",
+		  "item_frame": "minecraft:blue_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "brown_glazed_terracotta",
+		  "item_frame": "minecraft:brown_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "brown_terracotta",
+		  "item_frame": "minecraft:brown_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "cyan_glazed_terracotta",
+		  "item_frame": "minecraft:cyan_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "cyan_terracotta",
+		  "item_frame": "minecraft:cyan_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "gray_glazed_terracotta",
+		  "item_frame": "minecraft:gray_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "gray_terracotta",
+		  "item_frame": "minecraft:gray_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "green_glazed_terracotta",
+		  "item_frame": "minecraft:green_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "green_terracotta",
+		  "item_frame": "minecraft:green_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_glazed_terracotta",
+		  "item_frame": "minecraft:light_blue_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_terracotta",
+		  "item_frame": "minecraft:light_blue_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_terracotta",
+		  "item_frame": "minecraft:light_gray_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "lime_glazed_terracotta",
+		  "item_frame": "minecraft:lime_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "lime_terracotta",
+		  "item_frame": "minecraft:lime_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "magenta_glazed_terracotta",
+		  "item_frame": "minecraft:magenta_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "magenta_terracotta",
+		  "item_frame": "minecraft:magenta_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "orange_glazed_terracotta",
+		  "item_frame": "minecraft:orange_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "orange_terracotta",
+		  "item_frame": "minecraft:orange_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "pink_glazed_terracotta",
+		  "item_frame": "minecraft:pink_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "pink_terracotta",
+		  "item_frame": "minecraft:pink_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "purple_glazed_terracotta",
+		  "item_frame": "minecraft:purple_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "purple_terracotta",
+		  "item_frame": "minecraft:purple_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "red_glazed_terracotta",
+		  "item_frame": "minecraft:red_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "red_terracotta",
+		  "item_frame": "minecraft:red_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_glazed_terracotta",
+		  "item_frame": "minecraft:light_gray_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "terracotta",
+		  "item_frame": "minecraft:terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:terracotta"
+		  ]
+		},
+		{
+		  "group_name": "white_glazed_terracotta",
+		  "item_frame": "minecraft:white_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "white_terracotta",
+		  "item_frame": "minecraft:white_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "yellow_glazed_terracotta",
+		  "item_frame": "minecraft:yellow_glazed_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_glazed_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "yellow_terracotta",
+		  "item_frame": "minecraft:yellow_terracotta",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_terracotta"
+		  ]
+		},
+		{
+		  "group_name": "black_stained_glass",
+		  "item_frame": "minecraft:black_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "black_stained_glass_pane",
+		  "item_frame": "minecraft:black_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "blue_stained_glass",
+		  "item_frame": "minecraft:blue_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "blue_stained_glass_pane",
+		  "item_frame": "minecraft:blue_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "brown_stained_glass",
+		  "item_frame": "minecraft:brown_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "brown_stained_glass_pane",
+		  "item_frame": "minecraft:brown_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "cyan_stained_glass",
+		  "item_frame": "minecraft:cyan_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "cyan_stained_glass_pane",
+		  "item_frame": "minecraft:cyan_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "gray_stained_glass",
+		  "item_frame": "minecraft:gray_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "gray_stained_glass_pane",
+		  "item_frame": "minecraft:gray_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "green_stained_glass",
+		  "item_frame": "minecraft:green_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "green_stained_glass_pane",
+		  "item_frame": "minecraft:green_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_stained_glass",
+		  "item_frame": "minecraft:light_blue_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_stained_glass_pane",
+		  "item_frame": "minecraft:light_blue_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_stained_glass",
+		  "item_frame": "minecraft:light_gray_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_stained_glass_pane",
+		  "item_frame": "minecraft:light_gray_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "lime_stained_glass",
+		  "item_frame": "minecraft:lime_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "lime_stained_glass_pane",
+		  "item_frame": "minecraft:lime_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "magenta_stained_glass",
+		  "item_frame": "minecraft:magenta_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "magenta_stained_glass_pane",
+		  "item_frame": "minecraft:magenta_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "orange_stained_glass",
+		  "item_frame": "minecraft:orange_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "orange_stained_glass_pane",
+		  "item_frame": "minecraft:orange_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "pink_stained_glass",
+		  "item_frame": "minecraft:pink_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "pink_stained_glass_pane",
+		  "item_frame": "minecraft:pink_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "purple_stained_glass",
+		  "item_frame": "minecraft:purple_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "purple_stained_glass_pane",
+		  "item_frame": "minecraft:purple_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "red_stained_glass",
+		  "item_frame": "minecraft:red_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "red_stained_glass_pane",
+		  "item_frame": "minecraft:red_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "white_stained_glass",
+		  "item_frame": "minecraft:white_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "white_stained_glass_pane",
+		  "item_frame": "minecraft:white_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "yellow_stained_glass",
+		  "item_frame": "minecraft:yellow_stained_glass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_stained_glass"
+		  ]
+		},
+		{
+		  "group_name": "yellow_stained_glass_pane",
+		  "item_frame": "minecraft:yellow_stained_glass_pane",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_stained_glass_pane"
+		  ]
+		},
+		{
+		  "group_name": "blue_ice",
+		  "item_frame": "minecraft:blue_ice",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_ice"
+		  ]
+		},
+		{
+		  "group_name": "ice",
+		  "item_frame": "minecraft:ice",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ice"
+		  ]
+		},
+		{
+		  "group_name": "packed_ice",
+		  "item_frame": "minecraft:packed_ice",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:packed_ice"
+		  ]
+		},
+		{
+		  "group_name": "snow",
+		  "item_frame": "minecraft:snow",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:snow"
+		  ]
+		},
+		{
+		  "group_name": "snow_block",
+		  "item_frame": "minecraft:snow_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:snow_block"
+		  ]
+		},
+		{
+		  "group_name": "snowball",
+		  "item_frame": "minecraft:snowball",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:snowball"
+		  ]
+		},
+		{
+		  "group_name": "dried_kelp",
+		  "item_frame": "minecraft:dried_kelp",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dried_kelp"
+		  ]
+		},
+		{
+		  "group_name": "dried_kelp_block",
+		  "item_frame": "minecraft:dried_kelp_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dried_kelp_block"
+		  ]
+		},
+		{
+		  "group_name": "kelp",
+		  "item_frame": "minecraft:kelp",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:kelp"
+		  ]
+		},
+		{
+		  "group_name": "nautilus_shell",
+		  "item_frame": "minecraft:nautilus_shell",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nautilus_shell"
+		  ]
+		},
+		{
+		  "group_name": "pufferfish",
+		  "item_frame": "minecraft:pufferfish",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pufferfish"
+		  ]
+		},
+		{
+		  "group_name": "sea_lantern",
+		  "item_frame": "minecraft:sea_lantern",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sea_lantern"
+		  ]
+		},
+		{
+		  "group_name": "sea_pickle",
+		  "item_frame": "minecraft:sea_pickle",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sea_pickle"
+		  ]
+		},
+		{
+		  "group_name": "seagrass",
+		  "item_frame": "minecraft:seagrass",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:seagrass"
+		  ]
+		},
+		{
+		  "group_name": "sponge",
+		  "item_frame": "minecraft:sponge",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sponge"
+		  ]
+		},
+		{
+		  "group_name": "tropical_fish",
+		  "item_frame": "minecraft:tropical_fish",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tropical_fish"
+		  ]
+		},
+		{
+		  "group_name": "wet_sponge",
+		  "item_frame": "minecraft:wet_sponge",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:wet_sponge"
+		  ]
+		},
+		{
+		  "group_name": "brain_coral",
+		  "item_frame": "minecraft:brain_coral",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brain_coral"
+		  ]
+		},
+		{
+		  "group_name": "brain_coral_block",
+		  "item_frame": "minecraft:brain_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brain_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "brain_coral_fan",
+		  "item_frame": "minecraft:brain_coral_fan",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brain_coral_fan"
+		  ]
+		},
+		{
+		  "group_name": "bubble_coral",
+		  "item_frame": "minecraft:bubble_coral",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bubble_coral"
+		  ]
+		},
+		{
+		  "group_name": "bubble_coral_block",
+		  "item_frame": "minecraft:bubble_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bubble_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "bubble_coral_fan",
+		  "item_frame": "minecraft:bubble_coral_fan",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:bubble_coral_fan"
+		  ]
+		},
+		{
+		  "group_name": "dead_brain_coral_block",
+		  "item_frame": "minecraft:dead_brain_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dead_brain_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "dead_bubble_coral_block",
+		  "item_frame": "minecraft:dead_bubble_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dead_bubble_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "dead_fire_coral_block",
+		  "item_frame": "minecraft:dead_fire_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dead_fire_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "dead_horn_coral_block",
+		  "item_frame": "minecraft:dead_horn_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dead_horn_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "dead_tube_coral_block",
+		  "item_frame": "minecraft:dead_tube_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dead_tube_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "fire_coral",
+		  "item_frame": "minecraft:fire_coral",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fire_coral"
+		  ]
+		},
+		{
+		  "group_name": "fire_coral_block",
+		  "item_frame": "minecraft:fire_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fire_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "fire_coral_fan",
+		  "item_frame": "minecraft:fire_coral_fan",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:fire_coral_fan"
+		  ]
+		},
+		{
+		  "group_name": "horn_coral",
+		  "item_frame": "minecraft:horn_coral",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:horn_coral"
+		  ]
+		},
+		{
+		  "group_name": "horn_coral_block",
+		  "item_frame": "minecraft:horn_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:horn_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "horn_coral_fan",
+		  "item_frame": "minecraft:horn_coral_fan",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:horn_coral_fan"
+		  ]
+		},
+		{
+		  "group_name": "tube_coral",
+		  "item_frame": "minecraft:tube_coral",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tube_coral"
+		  ]
+		},
+		{
+		  "group_name": "tube_coral_block",
+		  "item_frame": "minecraft:tube_coral_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tube_coral_block"
+		  ]
+		},
+		{
+		  "group_name": "tube_coral_fan",
+		  "item_frame": "minecraft:tube_coral_fan",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tube_coral_fan"
+		  ]
+		},
+		{
+		  "group_name": "dark_prismarine",
+		  "item_frame": "minecraft:dark_prismarine",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_prismarine"
+		  ]
+		},
+		{
+		  "group_name": "dark_prismarine_slab",
+		  "item_frame": "minecraft:dark_prismarine_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_prismarine_slab"
+		  ]
+		},
+		{
+		  "group_name": "dark_prismarine_stairs",
+		  "item_frame": "minecraft:dark_prismarine_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dark_prismarine_stairs"
+		  ]
+		},
+		{
+		  "group_name": "prismarine",
+		  "item_frame": "minecraft:prismarine",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine"
+		  ]
+		},
+		{
+		  "group_name": "prismarine_brick_slab",
+		  "item_frame": "minecraft:prismarine_brick_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine_brick_slab"
+		  ]
+		},
+		{
+		  "group_name": "prismarine_brick_stairs",
+		  "item_frame": "minecraft:prismarine_brick_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine_brick_stairs"
+		  ]
+		},
+		{
+		  "group_name": "prismarine_bricks",
+		  "item_frame": "minecraft:prismarine_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine_bricks"
+		  ]
+		},
+		{
+		  "group_name": "prismarine_crystals",
+		  "item_frame": "minecraft:prismarine_crystals",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine_crystals"
+		  ]
+		},
+		{
+		  "group_name": "prismarine_shard",
+		  "item_frame": "minecraft:prismarine_shard",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine_shard"
+		  ]
+		},
+		{
+		  "group_name": "prismarine_slab",
+		  "item_frame": "minecraft:prismarine_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine_slab"
+		  ]
+		},
+		{
+		  "group_name": "prismarine_stairs",
+		  "item_frame": "minecraft:prismarine_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine_stairs"
+		  ]
+		},
+		{
+		  "group_name": "prismarine_wall",
+		  "item_frame": "minecraft:prismarine_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:prismarine_wall"
+		  ]
+		},
+		{
+		  "group_name": "cactus_green",
+		  "item_frame": "minecraft:cactus_green",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cactus_green"
+		  ]
+		},
+		{
+		  "group_name": "cyan_dye",
+		  "item_frame": "minecraft:cyan_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:cyan_dye"
+		  ]
+		},
+		{
+		  "group_name": "dandelion_yellow",
+		  "item_frame": "minecraft:dandelion_yellow",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dandelion_yellow"
+		  ]
+		},
+		{
+		  "group_name": "gray_dye",
+		  "item_frame": "minecraft:gray_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gray_dye"
+		  ]
+		},
+		{
+		  "group_name": "ink_sac",
+		  "item_frame": "minecraft:ink_sac",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:ink_sac"
+		  ]
+		},
+		{
+		  "group_name": "light_blue_dye",
+		  "item_frame": "minecraft:light_blue_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_blue_dye"
+		  ]
+		},
+		{
+		  "group_name": "light_gray_dye",
+		  "item_frame": "minecraft:light_gray_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_gray_dye"
+		  ]
+		},
+		{
+		  "group_name": "lime_dye",
+		  "item_frame": "minecraft:lime_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lime_dye"
+		  ]
+		},
+		{
+		  "group_name": "magenta_dye",
+		  "item_frame": "minecraft:magenta_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magenta_dye"
+		  ]
+		},
+		{
+		  "group_name": "orange_dye",
+		  "item_frame": "minecraft:orange_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:orange_dye"
+		  ]
+		},
+		{
+		  "group_name": "pink_dye",
+		  "item_frame": "minecraft:pink_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:pink_dye"
+		  ]
+		},
+		{
+		  "group_name": "purple_dye",
+		  "item_frame": "minecraft:purple_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purple_dye"
+		  ]
+		},
+		{
+		  "group_name": "rose_red",
+		  "item_frame": "minecraft:rose_red",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:rose_red"
+		  ]
+		},
+		{
+		  "group_name": "black_dye",
+		  "item_frame": "minecraft:black_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:black_dye"
+		  ]
+		},
+		{
+		  "group_name": "blue_dye",
+		  "item_frame": "minecraft:blue_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:blue_dye"
+		  ]
+		},
+		{
+		  "group_name": "brown_dye",
+		  "item_frame": "minecraft:brown_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:brown_dye"
+		  ]
+		},
+		{
+		  "group_name": "green_dye",
+		  "item_frame": "minecraft:green_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:green_dye"
+		  ]
+		},
+		{
+		  "group_name": "yellow_dye",
+		  "item_frame": "minecraft:yellow_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:yellow_dye"
+		  ]
+		},
+		{
+		  "group_name": "red_dye",
+		  "item_frame": "minecraft:red_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_dye"
+		  ]
+		},
+		{
+		  "group_name": "white_dye",
+		  "item_frame": "minecraft:white_dye",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:white_dye"
+		  ]
+		},
+		{
+		  "group_name": "chiseled_quartz_block",
+		  "item_frame": "minecraft:chiseled_quartz_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chiseled_quartz_block"
+		  ]
+		},
+		{
+		  "group_name": "glowstone",
+		  "item_frame": "minecraft:glowstone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:glowstone"
+		  ]
+		},
+		{
+		  "group_name": "glowstone_dust",
+		  "item_frame": "minecraft:glowstone_dust",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:glowstone_dust"
+		  ]
+		},
+		{
+		  "group_name": "magma_block",
+		  "item_frame": "minecraft:magma_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magma_block"
+		  ]
+		},
+		{
+		  "group_name": "magma_cream",
+		  "item_frame": "minecraft:magma_cream",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:magma_cream"
+		  ]
+		},
+		{
+		  "group_name": "nether_brick",
+		  "item_frame": "minecraft:nether_brick",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_brick"
+		  ]
+		},
+		{
+		  "group_name": "nether_brick_fence",
+		  "item_frame": "minecraft:nether_brick_fence",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_brick_fence"
+		  ]
+		},
+		{
+		  "group_name": "nether_brick_slab",
+		  "item_frame": "minecraft:nether_brick_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_brick_slab"
+		  ]
+		},
+		{
+		  "group_name": "nether_brick_stairs",
+		  "item_frame": "minecraft:nether_brick_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_brick_stairs"
+		  ]
+		},
+		{
+		  "group_name": "nether_brick_wall",
+		  "item_frame": "minecraft:nether_brick_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_brick_wall"
+		  ]
+		},
+		{
+		  "group_name": "nether_bricks",
+		  "item_frame": "minecraft:nether_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_bricks"
+		  ]
+		},
+		{
+		  "group_name": "red_nether_brick_slab",
+		  "item_frame": "minecraft:red_nether_brick_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_nether_brick_slab"
+		  ]
+		},
+		{
+		  "group_name": "red_nether_brick_stairs",
+		  "item_frame": "minecraft:red_nether_brick_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_nether_brick_stairs"
+		  ]
+		},
+		{
+		  "group_name": "red_nether_brick_wall",
+		  "item_frame": "minecraft:red_nether_brick_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_nether_brick_wall"
+		  ]
+		},
+		{
+		  "group_name": "nether_wart_block",
+		  "item_frame": "minecraft:nether_wart_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_wart_block"
+		  ]
+		},
+		{
+		  "group_name": "netherrack",
+		  "item_frame": "minecraft:netherrack",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:netherrack"
+		  ]
+		},
+		{
+		  "group_name": "quartz",
+		  "item_frame": "minecraft:quartz",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:quartz"
+		  ]
+		},
+		{
+		  "group_name": "quartz_block",
+		  "item_frame": "minecraft:quartz_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:quartz_block"
+		  ]
+		},
+		{
+		  "group_name": "quartz_pillar",
+		  "item_frame": "minecraft:quartz_pillar",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:quartz_pillar"
+		  ]
+		},
+		{
+		  "group_name": "quartz_slab",
+		  "item_frame": "minecraft:quartz_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:quartz_slab"
+		  ]
+		},
+		{
+		  "group_name": "quartz_stairs",
+		  "item_frame": "minecraft:quartz_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:quartz_stairs"
+		  ]
+		},
+		{
+		  "group_name": "red_nether_bricks",
+		  "item_frame": "minecraft:red_nether_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:red_nether_bricks"
+		  ]
+		},
+		{
+		  "group_name": "smooth_quartz",
+		  "item_frame": "minecraft:smooth_quartz",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_quartz"
+		  ]
+		},
+		{
+		  "group_name": "soul_sand",
+		  "item_frame": "minecraft:soul_sand",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:soul_sand"
+		  ]
+		},
+		{
+		  "group_name": "smooth_quartz_slab",
+		  "item_frame": "minecraft:smooth_quartz_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_quartz_slab"
+		  ]
+		},
+		{
+		  "group_name": "smooth_quartz_stairs",
+		  "item_frame": "minecraft:smooth_quartz_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:smooth_quartz_stairs"
+		  ]
+		},
+		{
+		  "group_name": "coal_ore",
+		  "item_frame": "minecraft:coal_ore",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:coal_ore"
+		  ]
+		},
+		{
+		  "group_name": "emerald_ore",
+		  "item_frame": "minecraft:emerald_ore",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:emerald_ore"
+		  ]
+		},
+		{
+		  "group_name": "gold_ore",
+		  "item_frame": "minecraft:gold_ore",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:gold_ore"
+		  ]
+		},
+		{
+		  "group_name": "iron_ore",
+		  "item_frame": "minecraft:iron_ore",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:iron_ore"
+		  ]
+		},
+		{
+		  "group_name": "lapis_ore",
+		  "item_frame": "minecraft:lapis_ore",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:lapis_ore"
+		  ]
+		},
+		{
+		  "group_name": "nether_quartz_ore",
+		  "item_frame": "minecraft:nether_quartz_ore",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:nether_quartz_ore"
+		  ]
+		},
+		{
+		  "group_name": "redstone_ore",
+		  "item_frame": "minecraft:redstone_ore",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:redstone_ore"
+		  ]
+		},
+		{
+		  "group_name": "chain_command_block",
+		  "item_frame": "minecraft:chain_command_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:chain_command_block"
+		  ]
+		},
+		{
+		  "group_name": "command_block",
+		  "item_frame": "minecraft:command_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:command_block"
+		  ]
+		},
+		{
+		  "group_name": "comparator",
+		  "item_frame": "minecraft:comparator",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:comparator"
+		  ]
+		},
+		{
+		  "group_name": "daylight_detector",
+		  "item_frame": "minecraft:daylight_detector",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:daylight_detector"
+		  ]
+		},
+		{
+		  "group_name": "dispenser",
+		  "item_frame": "minecraft:dispenser",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dispenser"
+		  ]
+		},
+		{
+		  "group_name": "dropper",
+		  "item_frame": "minecraft:dropper",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:dropper"
+		  ]
+		},
+		{
+		  "group_name": "heavy_weighted_pressure_plate",
+		  "item_frame": "minecraft:heavy_weighted_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:heavy_weighted_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "light_weighted_pressure_plate",
+		  "item_frame": "minecraft:light_weighted_pressure_plate",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:light_weighted_pressure_plate"
+		  ]
+		},
+		{
+		  "group_name": "observer",
+		  "item_frame": "minecraft:observer",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:observer"
+		  ]
+		},
+		{
+		  "group_name": "piston",
+		  "item_frame": "minecraft:piston",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:piston"
+		  ]
+		},
+		{
+		  "group_name": "redstone_block",
+		  "item_frame": "minecraft:redstone_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:redstone_block"
+		  ]
+		},
+		{
+		  "group_name": "redstone_lamp",
+		  "item_frame": "minecraft:redstone_lamp",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:redstone_lamp"
+		  ]
+		},
+		{
+		  "group_name": "redstone_torch",
+		  "item_frame": "minecraft:redstone_torch",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:redstone_torch"
+		  ]
+		},
+		{
+		  "group_name": "repeating_command_block",
+		  "item_frame": "minecraft:repeating_command_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:repeating_command_block"
+		  ]
+		},
+		{
+		  "group_name": "sticky_piston",
+		  "item_frame": "minecraft:sticky_piston",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:sticky_piston"
+		  ]
+		},
+		{
+		  "group_name": "tripwire_hook",
+		  "item_frame": "minecraft:tripwire_hook",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:tripwire_hook"
+		  ]
+		},
+		{
+		  "group_name": "end_crystal",
+		  "item_frame": "minecraft:end_crystal",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:end_crystal"
+		  ]
+		},
+		{
+		  "group_name": "end_portal_frame",
+		  "item_frame": "minecraft:end_portal_frame",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:end_portal_frame"
+		  ]
+		},
+		{
+		  "group_name": "end_rod",
+		  "item_frame": "minecraft:end_rod",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:end_rod"
+		  ]
+		},
+		{
+		  "group_name": "end_stone",
+		  "item_frame": "minecraft:end_stone",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:end_stone"
+		  ]
+		},
+		{
+		  "group_name": "end_stone_bricks",
+		  "item_frame": "minecraft:end_stone_bricks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:end_stone_bricks"
+		  ]
+		},
+		{
+		  "group_name": "purpur_block",
+		  "item_frame": "minecraft:purpur_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purpur_block"
+		  ]
+		},
+		{
+		  "group_name": "purpur_pillar",
+		  "item_frame": "minecraft:purpur_pillar",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purpur_pillar"
+		  ]
+		},
+		{
+		  "group_name": "purpur_slab",
+		  "item_frame": "minecraft:purpur_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purpur_slab"
+		  ]
+		},
+		{
+		  "group_name": "purpur_stairs",
+		  "item_frame": "minecraft:purpur_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:purpur_stairs"
+		  ]
+		},
+		{
+		  "group_name": "end_stone_brick_slab",
+		  "item_frame": "minecraft:end_stone_brick_slab",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:end_stone_brick_slab"
+		  ]
+		},
+		{
+		  "group_name": "end_stone_brick_stairs",
+		  "item_frame": "minecraft:end_stone_brick_stairs",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:end_stone_brick_stairs"
+		  ]
+		},
+		{
+		  "group_name": "end_stone_brick_wall",
+		  "item_frame": "minecraft:end_stone_brick_wall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:end_stone_brick_wall"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_11",
+		  "item_frame": "minecraft:music_disc_11",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_11"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_13",
+		  "item_frame": "minecraft:music_disc_13",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_13"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_blocks",
+		  "item_frame": "minecraft:music_disc_blocks",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_blocks"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_cat",
+		  "item_frame": "minecraft:music_disc_cat",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_cat"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_chirp",
+		  "item_frame": "minecraft:music_disc_chirp",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_chirp"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_far",
+		  "item_frame": "minecraft:music_disc_far",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_far"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_mall",
+		  "item_frame": "minecraft:music_disc_mall",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_mall"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_mellohi",
+		  "item_frame": "minecraft:music_disc_mellohi",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_mellohi"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_stal",
+		  "item_frame": "minecraft:music_disc_stal",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_stal"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_strad",
+		  "item_frame": "minecraft:music_disc_strad",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_strad"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_wait",
+		  "item_frame": "minecraft:music_disc_wait",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_wait"
+		  ]
+		},
+		{
+		  "group_name": "music_disc_ward",
+		  "item_frame": "minecraft:music_disc_ward",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:music_disc_ward"
+		  ]
+		},
+		{
+		  "group_name": "note_block",
+		  "item_frame": "minecraft:note_block",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:note_block"
+		  ]
+		},
+		{
+		  "group_name": "jukebox",
+		  "item_frame": "minecraft:jukebox",
+		  "fallback": "misc",
+		  "items": [
+		    "minecraft:jukebox"
+		  ]
+		},
+		{
+			"group_name": "misc",
+			"item_frame": "minecraft:carrot_on_a_stick",
+			"note": "This is a special catch-all group, which receives all unsorted items when the system cannot find their proper homes.  Using this you can progressively build a sorting system over time, that only has some groups but not all.",
+			"items": [
+				"minecraft:carrot_on_a_stick"
+			]
+		}
+	]
+}
