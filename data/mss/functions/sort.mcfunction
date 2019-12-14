@@ -161,6 +161,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:scaffolding"}}] ru
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:cartography_table"}}] run function mss:sort_woodwork
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:composter"}}] run function mss:sort_woodwork
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:lectern"}}] run function mss:sort_woodwork
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:beehive"}}] run function mss:sort_woodwork
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:book"}}] run function mss:sort_office
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:bookshelf"}}] run function mss:sort_office
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:filled_map"}}] run function mss:sort_office
@@ -543,6 +544,11 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:pillager_spawn_egg
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:ravager_spawn_egg"}}] run function mss:sort_mobs
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:trader_llama_spawn_egg"}}] run function mss:sort_mobs
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:wandering_trader_spawn_egg"}}] run function mss:sort_mobs
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:bee_nest"}}] run function mss:sort_mobs
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:bee_spawn_egg"}}] run function mss:sort_mobs
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:honey_block"}}] run function mss:sort_mobs
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:honeycomb"}}] run function mss:sort_mobs
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:honeycomb_block"}}] run function mss:sort_mobs
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:beacon"}}] run function mss:sort_precious
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:conduit"}}] run function mss:sort_precious
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:diamond"}}] run function mss:sort_precious
@@ -582,6 +588,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:golden_carrot"}}] 
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:lingering_potion"}}] run function mss:sort_magic
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:potion"}}] run function mss:sort_magic
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:splash_potion"}}] run function mss:sort_magic
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:honey_bottle"}}] run function mss:sort_magic
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:black_banner"}}] run function mss:sort_wool
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:black_carpet"}}] run function mss:sort_wool
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:black_wool"}}] run function mss:sort_wool

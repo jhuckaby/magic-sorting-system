@@ -2,7 +2,7 @@
 
 ![Main Screenshot](https://pixlcore.com/software/mss/screenshots/main-title.png)
 
-The **Magic Sorting System** is a free [Data Pack](https://minecraft.gamepedia.com/Data_pack) available for [Minecraft](https://minecraft.net/) v1.13 and v1.14+ (Java edition).  It provides a way to craft an automatic, extensible item sorting system, which does not use redstone, nor console commands, nor command blocks.  Items are teleported to matching item frames, where they can be routed via hoppers into chests or furnaces (so it still requires considerable resources and building).  The whole system can be entirely built in survival mode, and supports both single and multiplayer (local or server install).
+The **Magic Sorting System** is a free [Data Pack](https://minecraft.gamepedia.com/Data_pack) available for [Minecraft](https://minecraft.net/) v1.13, v1.14 and v1.15 (Java edition).  It provides a way to craft an automatic, extensible item sorting system, which does not use redstone, nor console commands, nor command blocks.  Items are teleported to matching item frames, where they can be routed via hoppers into chests or furnaces (so it still requires considerable resources and building).  The whole system can be entirely built in survival mode, and supports both single and multiplayer (local or server install).
 
 The sorting system works by providing a special magic drop off chest, where you can deposit any number of unsorted items (for e.g. when you come back from a mining trip), and they will be automatically sorted into [36 different categories](#groups), each with its own item frame.  Note that you do not need all 36 categories to start out -- you can progressively build your storage system over time, and have it look however you want.  You can also provide a "misc" (catch-all) category, which catches all items which don't have their own group built.
 
@@ -421,7 +421,7 @@ The Wood group contains primarily raw wood blocks, but also includes stripped lo
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `woodwork` | 93 | Wood | `minecraft:oak_stairs` | <img src="https://pixlcore.com/software/mss/images/oak_stairs.png?v=3" width="32" height="32"> |
+| `woodwork` | 94 | Wood | `minecraft:oak_stairs` | <img src="https://pixlcore.com/software/mss/images/oak_stairs.png?v=3" width="32" height="32"> |
 
 The Woodwork group contains all products made out of wood, including slabs, stairs, boats, doors, beds, buttons, fences, gates, pressure plates, trap doors, chests, bowls, item frames, signs and ladders.  If you would prefer all wood to be sorted into a single combined group, omit the item frame for this group, and all woodwork products will fallback to the [Wood](#wood) group.
 
@@ -523,6 +523,7 @@ The Woodwork group contains all products made out of wood, including slabs, stai
 | `minecraft:cartography_table` | <img src="https://pixlcore.com/software/mss/images/cartography_table.png?v=3" width="32" height="32"> |
 | `minecraft:composter` | <img src="https://pixlcore.com/software/mss/images/composter.png?v=3" width="32" height="32"> |
 | `minecraft:lectern` | <img src="https://pixlcore.com/software/mss/images/lectern.png?v=3" width="32" height="32"> |
+| `minecraft:beehive` | <img src="https://pixlcore.com/software/mss/images/beehive.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1025,7 +1026,7 @@ The Raw group contains specifically raw foods, which require cooking before eati
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `mobs` | 92 | Misc | `minecraft:bone` | <img src="https://pixlcore.com/software/mss/images/bone.png?v=3" width="32" height="32"> |
+| `mobs` | 97 | Misc | `minecraft:bone` | <img src="https://pixlcore.com/software/mss/images/bone.png?v=3" width="32" height="32"> |
 
 The Mobs group contains all organic items dropped from mobs.  This includes bones, cobwebs, string, eggs, feathers, tears, leather, infested blocks (hidden monster spawners), rotten flesh, feet, hides, scutes, slime, mob spawners, mob spawn eggs and mob heads.
 
@@ -1126,6 +1127,11 @@ The Mobs group contains all organic items dropped from mobs.  This includes bone
 | `minecraft:ravager_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/ravager_spawn_egg.png?v=3" width="32" height="32"> |
 | `minecraft:trader_llama_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/trader_llama_spawn_egg.png?v=3" width="32" height="32"> |
 | `minecraft:wandering_trader_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/wandering_trader_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:bee_nest` | <img src="https://pixlcore.com/software/mss/images/bee_nest.png?v=3" width="32" height="32"> |
+| `minecraft:bee_spawn_egg` | <img src="https://pixlcore.com/software/mss/images/bee_spawn_egg.png?v=3" width="32" height="32"> |
+| `minecraft:honey_block` | <img src="https://pixlcore.com/software/mss/images/honey_block.png?v=3" width="32" height="32"> |
+| `minecraft:honeycomb` | <img src="https://pixlcore.com/software/mss/images/honeycomb.png?v=3" width="32" height="32"> |
+| `minecraft:honeycomb_block` | <img src="https://pixlcore.com/software/mss/images/honeycomb_block.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1171,7 +1177,7 @@ The Precious group contains items that can be classified as expensive or rare, l
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `magic` | 19 | Misc | `minecraft:glass_bottle` | <img src="https://pixlcore.com/software/mss/images/glass_bottle.png?v=3" width="32" height="32"> |
+| `magic` | 20 | Misc | `minecraft:glass_bottle` | <img src="https://pixlcore.com/software/mss/images/glass_bottle.png?v=3" width="32" height="32"> |
 
 The Magic group contains magical items, or items designed to work with magic or potions.  This includes blaze powder, blaze rods, brewing stands, cauldrons, enchanted books, ender eyes and pearls, potions of all kinds, golden apples and golden carrots.
 
@@ -1199,6 +1205,7 @@ The Magic group contains magical items, or items designed to work with magic or 
 | `minecraft:lingering_potion` | <img src="https://pixlcore.com/software/mss/images/lingering_potion.png?v=3" width="32" height="32"> |
 | `minecraft:potion` | <img src="https://pixlcore.com/software/mss/images/potion.png?v=3" width="32" height="32"> |
 | `minecraft:splash_potion` | <img src="https://pixlcore.com/software/mss/images/splash_potion.png?v=3" width="32" height="32"> |
+| `minecraft:honey_bottle` | <img src="https://pixlcore.com/software/mss/images/honey_bottle.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1891,7 +1898,7 @@ Note that data packs can be installed as a ZIP file, or as a folder.
 
 **The MIT License (MIT)**
 
-*Copyright (c) 2018 - 2019 Joseph Huckaby*
+*Copyright (c) 2018 - 2020 Joseph Huckaby*
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

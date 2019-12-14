@@ -199,7 +199,8 @@
 				"minecraft:scaffolding",
 				"minecraft:cartography_table",
 				"minecraft:composter",
-				"minecraft:lectern"
+				"minecraft:lectern",
+				"minecraft:beehive"
 			]
 		},
 		{
@@ -672,7 +673,12 @@
 				"minecraft:pillager_spawn_egg",
 				"minecraft:ravager_spawn_egg",
 				"minecraft:trader_llama_spawn_egg",
-				"minecraft:wandering_trader_spawn_egg"
+				"minecraft:wandering_trader_spawn_egg",
+				"minecraft:bee_nest",
+				"minecraft:bee_spawn_egg",
+				"minecraft:honey_block",
+				"minecraft:honeycomb",
+				"minecraft:honeycomb_block"
 			]
 		},
 		{
@@ -725,7 +731,8 @@
 				"minecraft:golden_carrot",
 				"minecraft:lingering_potion",
 				"minecraft:potion",
-				"minecraft:splash_potion"
+				"minecraft:splash_potion",
+				"minecraft:honey_bottle"
 			]
 		},
 		{
