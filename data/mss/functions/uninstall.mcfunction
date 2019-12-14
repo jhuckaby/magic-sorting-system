@@ -1,6 +1,5 @@
 # Uninstall MSS
 
-kill @e[type=minecraft:armor_stand,name=MSS]
 scoreboard objectives remove hc_tick
 scoreboard objectives remove mss_cooldown
 

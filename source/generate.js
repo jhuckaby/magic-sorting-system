@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // Magic Sorting System
-// (c) 2018 Joseph Huckaby, MIT License
+// (c) 2018 - 2020 Joseph Huckaby, MIT License
 // Minecraft Data Pack Function Generator
 // Reads item sorting info from config.json and generates all .mcfunction files
 // Usage: node generate.js
@@ -17,7 +17,7 @@ var group_names = config.groups.map( function(group) { return group.group_name; 
 
 // start generating main sort.mcfunction code
 var sort_lines = [
-	"# Magic Sorting System -- Sort Single Item",
+	"# Magic Sorting System v2.0 -- Sort Single Item",
 	"# Expects input @s from previous execute / run",
 	"# " + group_names.length + " Groups: " + group_names.join(', '),
 	""
@@ -30,14 +30,13 @@ if (config.effects) {
 	} );
 }
 
-// replace chest and set cooldown flag
+// set cooldown flag
 sort_lines.push(
-	"execute at @s unless score #mss_cooldown mss_cooldown matches 1 run kill @e[limit=1,sort=nearest,type=item,nbt={Item:{id:\"minecraft:chest\",Count:1b}}]",
 	"scoreboard players set #mss_cooldown mss_cooldown 1",
 	""
 );
 
-console.log("Magic Sorting System -- Code Generator v1.0");
+console.log("Magic Sorting System -- Code Generator v2.0");
 console.log("");
 
 var total_items = 0;

@@ -4,7 +4,6 @@
 
 execute at @s unless score #mss_cooldown mss_cooldown matches 1 run playsound minecraft:entity.illusioner.mirror_move block @a[distance=..5] ~ ~ ~ 1.0 1.0
 execute at @s unless score #mss_cooldown mss_cooldown matches 1 run particle minecraft:entity_effect ~ ~ ~ 1 1 1 1 100
-execute at @s unless score #mss_cooldown mss_cooldown matches 1 run kill @e[limit=1,sort=nearest,type=item,nbt={Item:{id:"minecraft:chest",Count:1b}}]
 scoreboard players set #mss_cooldown mss_cooldown 1
 
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:coarse_dirt"}}] run function mss:sort_dirt

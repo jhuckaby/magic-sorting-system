@@ -1,18 +1,16 @@
 # Overview
 
-![Main Screenshot](https://pixlcore.com/software/mss/screenshots/main-title.png)
+![Main Screenshot](https://pixlcore.com/software/mss/screenshots/v2/main-v2.png)
 
 The **Magic Sorting System** is a free [Data Pack](https://minecraft.gamepedia.com/Data_pack) available for [Minecraft](https://minecraft.net/) v1.13, v1.14 and v1.15 (Java edition).  It provides a way to craft an automatic, extensible item sorting system, which does not use redstone, nor console commands, nor command blocks.  Items are teleported to matching item frames, where they can be routed via hoppers into chests or furnaces (so it still requires considerable resources and building).  The whole system can be entirely built in survival mode, and supports both single and multiplayer (local or server install).
 
-The sorting system works by providing a special magic drop off chest, where you can deposit any number of unsorted items (for e.g. when you come back from a mining trip), and they will be automatically sorted into [36 different categories](#groups), each with its own item frame.  Note that you do not need all 36 categories to start out -- you can progressively build your storage system over time, and have it look however you want.  You can also provide a "misc" (catch-all) category, which catches all items which don't have their own group built.
+The sorting system works by providing a special magic drop off area, where you can dump any number of unsorted items (for e.g. when you come back from a mining trip), and they will be automatically sorted into [36 different categories](#groups), each with its own item frame.  Note that you do not need all 36 categories to start out -- you can progressively build your storage system over time, and have it look however you want.  You can also provide a "misc" (catch-all) category, which catches all items which don't have their own group built.
 
 Items are teleported directly to their matching [item frames](https://minecraft.gamepedia.com/Item_Frame) for the category.  The idea is that you can place a [hopper](https://minecraft.gamepedia.com/Hopper) directly under each item frame, which then routes the items into a connected chest (or multiple chests), or furnaces for auto-smelting.  Item routing and storing is left up to the player, which can be simple or quite complex.
 
-Check out this [video review](https://www.youtube.com/watch?v=rH_y-Krdll8) by [skunkmunkee](https://www.youtube.com/channel/UC457iBM1tdswTFnQRr6r3SQ).
-
 ## Why
 
-It is entirely possible to build a complete item sorting and storage system using built-in vanilla Minecraft features.  I've seen some [incredible systems](https://www.youtube.com/watch?v=wsNV9Mo00Gw), and my hat is off to those amazing builders.  However in practice, actually doing it is very difficult and tedious in my experience.  It requires a large amount of hoppers and complex redstone contraptions for filtering.  For example, to filter and store every item in the game, it would take at least 2 hoppers per unique item, or 1,550 hoppers total (3,875 iron ingots).  Doing this in survival mode would take a very long time, and use up an enormous amount of space just for the machinery.
+It is already possible to build a complete item sorting and storage system using built-in vanilla Minecraft features.  I've seen some [incredible systems](https://www.youtube.com/watch?v=wsNV9Mo00Gw), and my hat is off to those amazing builders.  However in practice, actually doing it is very difficult and tedious in my experience.  It requires a large amount of hoppers and complex redstone contraptions for filtering.  For example, to filter and store every item in the game, it would take at least 2 hoppers per unique item, or 1,550 hoppers total (3,875 iron ingots).  Doing this in survival mode would take a very long time, and use up an enormous amount of space just for the machinery.
 
 The magic sorting system is designed to make all this much easier to build.  It requires only 1 hopper per category (36 categories total for sorting all items in the game), and handles all the item filtering and routing "magically" (i.e. by automatic item teleportation).  It is server-friendly (lag-free), and it keeps survival gameplay balanced by requiring some expensive resources to start out.
 
@@ -28,17 +26,20 @@ Players can still build out custom storage systems using hoppers, chests, furnac
 - Can have multiple sorting systems in same world (128+ blocks apart)
 - Items are sorted to nearest matching item frames
 - Very server-friendly (lag-free design)
-- No redstone, no command blocks, and no console commands
-- Costs 1 gold block, 1 lapis block and 1 input chest for controller
+- No redstone, no command blocks, and no console commands required
+- Costs 1 gold block and 1 lapis block for controller
 - Each sort group costs at least 1 item frame, 1 hopper and 1 chest
 - Can extend sort groups into infinite chests with chained hoppers
-- Can dump inventory into input chest quickly
-- Simply break chest to initiate sort (chest is recreated for you)
-- Optional bare controller (no chest) for mob farm item drops
+- Can dump entire stacks quickly using `Ctrl-Q` keybind (Windows only)
+- Items are sorted the moment they land on the pickup area
 - Many categories have fallback groups (i.e. sandstone falls back to sand, etc.)
 - Automatically distributes items across multiple item frames in same group
 - Support for automatic smelting, and automatic food cooking
 - Create your own custom sort groups by modifying config file
+
+## Upgrading from v1.0
+
+Are you upgrading from Magic Sorting System v1.0?  Version 2.0 has been completely redesigned, and no longer uses a chest (well, it still can if you want one), and there is no need to "activate" a controller by standing on it.  Please see the [Creating the Controller](#creating-the-controller) section for updated instructions.  If you still want to use a drop chest, see the [Advanced](#advanced) section for instructions.
 
 ## Table of Contents
 
@@ -56,8 +57,9 @@ Players can still build out custom storage systems using hoppers, chests, furnac
 		+ [Automatic Coal Fuel](#automatic-coal-fuel)
 		+ [Fallback Groups](#fallback-groups)
 		+ [Misc Catch-All Group](#misc-catch-all-group)
-	* [Bare Controller for Farms](#bare-controller-for-farms)
-	* [More Controller Designs](#more-controller-designs)
+	* [Controller for Farms](#controller-for-farms)
+	* [Advanced](#advanced)
+		+ [Double Speed Auto-Drop Chest](#double-speed-auto-drop-chest)
 	* [Groups](#groups)
 		+ [Dirt](#dirt)
 			- [Gravel](#gravel)
@@ -123,7 +125,7 @@ To install the data pack, download the latest ZIP file from the [releases page](
 
 # Usage
 
-In a nutshell, the magic sorting system is an item teleporter.  It will teleport unsorted items from an input chest, to their respective item frames nearby, and from there they simply fall into hoppers and into your storage chests.  So you need a special magic input chest, and one or more item groups containing item frames, hoppers and chests.  The item frames require special items displayed which identify the groups.  See [Groups](#groups) below to learn which groups require which framed items.
+In a nutshell, the magic sorting system is an item teleporter.  It will teleport unsorted items dropped onto a special pickup area, to their respective item frames nearby, and from there they simply fall into hoppers and into your storage chests.  So you need a special magic drop-off block, and one or more item groups containing item frames, hoppers and chests.  The item frames require special items displayed which identify the groups.  See [Groups](#groups) below to learn which groups require which framed items.
 
 ## Building
 
@@ -134,40 +136,42 @@ To build the magic sorting system, assuming survival mode, you will have to play
 | <img src="https://pixlcore.com/software/mss/images/gold_ingot.png" width="32" height="32"> | [Gold Ingot](https://minecraft.gamepedia.com/Gold_Ingot) | 9 | To build the lower base controller block. |
 | <img src="https://pixlcore.com/software/mss/images/lapis_lazuli.png" width="32" height="32"> | [Lapis Lazuli](https://minecraft.gamepedia.com/Lapis_Lazuli) | 9 | To build the upper base controller block. |
 | <img src="https://pixlcore.com/software/mss/images/iron_ingot.png" width="32" height="32"> | [Iron Ingot](https://minecraft.gamepedia.com/Iron_Ingot) | 5 | To build the first [hopper](https://minecraft.gamepedia.com/Hopper). |
-| <img src="https://pixlcore.com/software/mss/images/oak_log.png" width="32" height="32"> | [Wood Log](https://minecraft.gamepedia.com/Log) | 6 | To build the first [chests](https://minecraft.gamepedia.com/Chest) and [item frame](https://minecraft.gamepedia.com/Item_Frame). |
+| <img src="https://pixlcore.com/software/mss/images/oak_log.png" width="32" height="32"> | [Wood Log](https://minecraft.gamepedia.com/Log) | 4 | To build the first [chests](https://minecraft.gamepedia.com/Chest) and [item frame](https://minecraft.gamepedia.com/Item_Frame). |
 | <img src="https://pixlcore.com/software/mss/images/leather.png" width="32" height="32"> | [Leather](https://minecraft.gamepedia.com/Leather) | 1 | To build the first item frame. |
 
 As you add more groups to your sorting system, you will need additional chests, item frames (plus one special target item to put in the item frame), and a hopper.  For larger groups, multiple chests and chained hoppers are recommended (instructions below).
 
 ## Creating the Controller
 
-The first thing you will need is a storage "controller" to deposit your unsorted items into.  This is created by placing down a [gold block](https://minecraft.gamepedia.com/Block_of_Gold), with a [lapis block](https://minecraft.gamepedia.com/Lapis_Lazuli_Block) on top of it, and a single small [chest](https://minecraft.gamepedia.com/Chest) on top of that.  Example:
+The first thing you will need is a storage "controller" to deposit your unsorted items onto.  This is created by placing down a [gold block](https://minecraft.gamepedia.com/Block_of_Gold), with a [lapis block](https://minecraft.gamepedia.com/Lapis_Lazuli_Block) on top of it.
 
-![Controller Build 1](https://pixlcore.com/software/mss/screenshots/controller-1.png)
+Typically the two blocks are submerged underground, so you could start with a 2-block-deep hole like this:
 
-Typically the two blocks are submerged underground, so you could start with a hole like this:
+![Controller Build 1](https://pixlcore.com/software/mss/screenshots/v2/step-1.png)
 
-![Controller Build 2](https://pixlcore.com/software/mss/screenshots/controller-2.png)
+Place the gold block on the bottom:
 
-Then add the blocks and chest, with the chest sticking up just above the floor level:
+![Controller Build 2](https://pixlcore.com/software/mss/screenshots/v2/step-2.png)
 
-![Controller Build 3](https://pixlcore.com/software/mss/screenshots/controller-3.png)
+And then place the lapis block on top of that:
 
-And fill back in the rest of the floor:
+![Controller Build 3](https://pixlcore.com/software/mss/screenshots/v2/step-3.png)
 
-![Controller Build 4](https://pixlcore.com/software/mss/screenshots/controller-4.png)
+Fill in the rest of the hole:
 
-Now, to activate the controller, simply stand on top of the chest.  You should see a message pop in chat like this:
+![Controller Build 4](https://pixlcore.com/software/mss/screenshots/v2/step-4.png)
 
-![Controller Build 5](https://pixlcore.com/software/mss/screenshots/controller-5.png)
+And you're done:
 
-And the controller is ready to go!
+![Controller Build 5](https://pixlcore.com/software/mss/screenshots/v2/step-5.png)
 
-But wait, before you move on to creating storage groups and item receivers, it is highly recommended that you build some walls around your chest, because you have to break it to activate the sorting mechanism, and this tends to send the items flying about.  Some simple walls can prevent that issue:
+If you have more lapis and gold blocks, a 3x3 grid is recommended, so it's easier to drop items onto:
 
-![Controller Build 6](https://pixlcore.com/software/mss/screenshots/controller-6.png)
+![Controller Build 6](https://pixlcore.com/software/mss/screenshots/v2/step-6.png)
 
-There are lots of other ways to design the chest to prevent the items from escaping.  This is just one example.  You can find more below in [More Controller Designs](#more-controller-designs).
+Now the controller is ready to go!  All you have to do now is drop your items to be sorted onto any lapis block, and they will be teleported to their respective item frames.  For Windows PC users, you can drop entire stacks at a time from your inventory using the `Ctrl-Q` keybind.  For Mac users, you can press `Q` to drop single items, or click and drag each stack out of your inventory to drop it.
+
+For a more advanced auto-controller, see the [Advanced](#advanced) section below.  It requires a tiny bit of redstone, but it allows you to design a dropoff chest that automatically sorts all items placed into it.
 
 ## Creating an Item Receiver
 
@@ -196,6 +200,8 @@ For high traffic groups such as [Stone](#stone), where a player might drop off a
 Here we have two item frames with identical items inside them, pointing to hoppers that route to the same chest.  This works because the magic sorting system will pick *random item frame targets* for teleporting each item, if they both display the correct group target item, effectively balancing the drop-off load between the matching frames.  So in this case the group could handle up to 10 stacks of items dropped off at once before it overflows.
 
 There are other ways to handle item drop-off overflow, including building walls all around your item frames, so the items get "trapped" after teleporting, and just sit and wait until the hopper can service them.  However, this means your item frame would have to be hidden in a wall, or in the ceiling, and thus you lose the dual-purpose nature of having the item frame be both a visual label, and a teleportation target.
+
+Also see the [Advanced](#advanced) section for another way to solve item overflow, which is to build an automatic drop chest.
 
 ### Automatic Smelting or Cooking
 
@@ -241,31 +247,51 @@ This is a great way to start out your storage system, so you don't have to build
 
 Note that if the misc group item frame itself cannot be found, items will teleport back to the player.
 
-## Bare Controller for Farms
+## Controller for Farms
 
-In the [Creating the Controller](#creating-the-controller) section above, we talk about creating the special controller block for dropping off items into a chest.  There is actually an alternate version of the controller system which doesn't have a chest at all.  It will pick up and teleport any loose items it detects just above it, which makes it great for both mob farms item drops, and water-harvested plant farms as well.
-
-If you simply place a [lapis block](https://minecraft.gamepedia.com/Lapis_Lazuli_Block) on top of a [gold block](https://minecraft.gamepedia.com/Block_of_Gold), you have what is called a "bare controller", and it starts working right away (no need to activate it).  Any loose items detected on top of the lapis block will be sorted and teleported just like the drop-off chest.  For example, consider a simple mob farm like this:
+You can have as many controllers as you want in a Minecraft world.  All you need is another [lapis block](https://minecraft.gamepedia.com/Lapis_Lazuli_Block) on top of a [gold block](https://minecraft.gamepedia.com/Block_of_Gold).  One neat trick is to use one of these for a water-harvested plant farms or a nearby [dungeon](https://minecraft.gamepedia.com/Dungeon).  Any loose items detected on top of the lapis block will be sorted and teleported just like the drop-off chest.  For example, consider a simple mob dungeon like this:
 
 ![Mob Spawner Setup](https://pixlcore.com/software/mss/screenshots/mob-spawner.png)
 
-That's a lapis block in the bottom right corner there, just outside of the water range, with a gold block under it.  If you were to setup a kill system here, either by trapping the mobs and killing them for XP, or devising a long fall for them, their item drops would fall onto the lapis and be instantly teleported into the sorting system.
+That's a lapis block in the bottom right corner there, just outside of the water range, with a gold block under it.  If you were to setup a mob kill system here, either by trapping the mobs and killing them for XP, or devising a long fall for them, their item drops would fall onto the lapis and be instantly teleported into the sorting system.
 
 This same kind of thing can work for an automated food farm as well, assuming you have a water-flush-harvest system in place.  If all the ripe food gets flushed into a canal and routed to a single block, have it be a lapis block, with gold underneath, and you have an automated harvest sorting system!
 
-## More Controller Designs
+## Advanced
 
-As explained above in [Creating the Controller](#creating-the-controller), you have to break the chest to trigger the sorting system to pickup your items.  However, in doing so, the game tends to spread them out a bit, and some may escape the pickup zone (i.e. they may not land on the lapis block).  To fix this, we suggest building walls around the chest, but as with everything in Minecraft, there are many ways to go about this.
+One of the features of the Magic Sorting System is that no redstone is required.  That is true, however with a simple redstone clock you can build a drop-off chest that automatically sorts all items placed inside it.  It is much easier to dump your entire inventory into a chest versus tossing it out onto the floor.  Also, this has another nice side effect in that it "throttles" item sorting so your hoppers do not overload.  Here is how to build it:
 
-Here are a couple more alternate controller designs to consider.  First, if you have a few more gold and lapis ingots lying around, you can create an additional bare controller block and place it directly in front of the chest.  This makes it easier to click on the chest itself, and provides an additional catch area for items that fly out:
+![Auto-Drop Chest 1](https://pixlcore.com/software/mss/screenshots/v2/auto-chest-redstone.png)
 
-![Alternate Controller 1](https://pixlcore.com/software/mss/screenshots/alt-controller-1.png)
+This requires a one [chest](https://minecraft.gamepedia.com/Chest), one [hopper](https://minecraft.gamepedia.com/Hopper), one [dropper](https://minecraft.gamepedia.com/Dropper) facing downward, one [comparator](https://minecraft.gamepedia.com/Redstone_Comparator), one [repeater](https://minecraft.gamepedia.com/Redstone_Repeater) and 5 [redstone dust](https://minecraft.gamepedia.com/Redstone_Dust).  The redstone circuit is copied verbatim from [this video tutorial](https://www.youtube.com/watch?v=-oUSS5jTHps), so please watch that to see how to orient the blocks.  In particular, the comparator must be facing *away* from the dropper.  Here is a view from above:
 
-If you don't like the look of the walls, you can actually build a system without them.  You just need a way to catch all the items that fly out when you break the chest.  If you have a lot of spare gold and lapis (72 each) you can build catch areas all around the chest like this:
+![Auto-Drop Chest 2](https://pixlcore.com/software/mss/screenshots/v2/auto-chest-above.png)
 
-![Alternate Controller 2](https://pixlcore.com/software/mss/screenshots/alt-controller-2.png)
+The key here is to face the dropper downward, leave one block of empty space below it, and then place your [lapis block](https://minecraft.gamepedia.com/Lapis_Lazuli_Block) on top of a [gold block](https://minecraft.gamepedia.com/Block_of_Gold) underneath all that.  Here is a cross section view:
 
-This is a very expensive option in terms of resources, but probably looks the best.
+![Auto-Drop Chest 3](https://pixlcore.com/software/mss/screenshots/v2/auto-chest-cross-section.png)
+
+Then, simply place items or entire stacks into the chest and they'll automatically start sorting themselves.  This redstone clock only ticks if there are items in the chest, so it makes no noise unless items are dropped into it.
+
+**Tip:** If the dropper ticking noise bothers you, consider using a resource pack.  Check out [Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/), click to expand the "**Peace and Quiet**" group and then download the "**Quieter Dispensers and Droppers**" pack.
+
+**Tip:** If you use a [trapped chest](https://minecraft.gamepedia.com/Trapped_Chest) instead of a normal one, the system will not start sorting items until you close the chest lid.  This is a nice safeguard in case you shift-click on the wrong item in your inventory.
+
+### Double Speed Auto-Drop Chest
+
+If the auto-drop chest is too slow for your taste, you can build a much faster one with some more materials.  For this you will need two [chests](https://minecraft.gamepedia.com/Chest), two [hoppers](https://minecraft.gamepedia.com/Hopper), two [droppers](https://minecraft.gamepedia.com/Dropper) facing downward, two [comparators](https://minecraft.gamepedia.com/Redstone_Comparator), two [repeaters](https://minecraft.gamepedia.com/Redstone_Repeater) and 10 [redstone dust](https://minecraft.gamepedia.com/Redstone_Dust).  The double-speed redstone circuit is copied verbatim from [this video tutorial](https://www.youtube.com/watch?v=w5tiFl74cSI), so please watch that to see how to orient the blocks.  Here is how it should look:
+
+![Double Auto-Drop Chest 1](https://pixlcore.com/software/mss/screenshots/v2/double-auto-chest.png)
+
+Note that each comparator faces away from the droppers, but the redstone is mirrored on each side.  The [video](https://www.youtube.com/watch?v=w5tiFl74cSI) does a much better job of explaining this, but here is a view from above:
+
+![Double Auto-Drop Chest 2](https://pixlcore.com/software/mss/screenshots/v2/double-auto-chest-above.png)
+
+Just like the single drop chest, you should face both droppers downward, leave one block of empty space below them, and then place your [lapis blocks](https://minecraft.gamepedia.com/Lapis_Lazuli_Block) on top of [gold blocks](https://minecraft.gamepedia.com/Block_of_Gold) underneath all that.  Here is a cross section view:
+
+![Double Auto-Drop Chest 3](https://pixlcore.com/software/mss/screenshots/v2/double-auto-chest-cross-section.png)
+
+Feel free to bury the entire thing (leave some air for the redstone to breathe), and just have the drop chest sticking up above ground.
 
 ## Groups
 
@@ -1778,12 +1804,6 @@ A. This was actually a deliberate decision when we made the data pack.  We assum
 **Q. Why not simply teleport items to the _nearest_ matching item frame?  Then you wouldn't even need a maximum teleport distance!**
 
 A. That is true, however we actually don't want items teleported to the nearest matching item frame per se.  Consider that a single sort group may have double or more item frames, to load balance the deposited items between multiple hoppers and/or chests.  See [Multiple Item Frames](#multiple-item-frames) for an example.  In this case, to handle large numbers of deposited items at once, we need to randomize between the target item frames, but still maintain compatibility with multiple sorting systems in the same world.  That is where the maximum distance (8 chunks) comes into play.
-
-**Q. Why do I have to break the chest to sort my items?  You just recreate it anyway!**
-
-A. The way the data pack works is, can only teleport raw loose items.  That is, items outside of your inventory and chests, which are literally sitting on the ground.  You could actually just toss all the items out of your inventory onto the lapis block and they'd teleport, but that is cumbersome for a full inventory.  It is actually easier for the player and requires fewer clicks to dump your inventory into a chest, then break the chest.
-
-There are probably many ways to automate this process using redstone, trapped chests, droppers, command blocks, etc.  But one of the main features of the magic sorting system is that it doesn't require any redstone or commands.  That being said, feel free to build out any custom item drop-off system you like!
 
 **Q. I dropped off a stack of coal but it didn't split between my two item frames!**
 
