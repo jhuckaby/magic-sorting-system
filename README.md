@@ -4,7 +4,7 @@
 
 The **Magic Sorting System** is a free [Data Pack](https://minecraft.gamepedia.com/Data_pack) available for [Minecraft](https://minecraft.net/) v1.13, v1.14 and v1.15 (Java edition).  It provides an easy way to craft an automatic, extensible item sorting system, which does not require redstone, nor console commands, nor command blocks.  Items are teleported to matching item frames, where they can be routed via hoppers into chests or furnaces (so it still requires considerable resources and building).  The whole system can be entirely built in survival mode, and supports both single and multiplayer (local or server install).
 
-The sorting system works by providing a special magic drop off area, where you can dump any number of unsorted items (for e.g. when you come back from a mining trip), and they will be automatically sorted into [36 different categories](#groups), each with its own item frame.  Note that you do not need all 36 categories to start out -- you can progressively build your storage system over time, and have it look however you want.  You can also provide a "misc" (catch-all) category, which catches all items which don't have their own group built.
+The sorting system works by providing a special magic drop off area, where you can dump any number of unsorted items (for e.g. when you come back from a mining trip), and they will be automatically sorted into [39 different categories](#groups), each with its own item frame.  Note that you do not need all 39 categories to start out -- you can progressively build your storage system over time, and have it look however you want.  You can also provide a "misc" (catch-all) category, which catches all items which don't have their own group built.
 
 Items are teleported directly to their matching [item frames](https://minecraft.gamepedia.com/Item_Frame) for the category.  The idea is that you can place a [hopper](https://minecraft.gamepedia.com/Hopper) directly under each item frame, which then routes the items into a connected chest (or multiple chests), or furnaces for auto-smelting.  Item routing and storing is left up to the player, which can be simple or quite complex.
 
@@ -12,7 +12,7 @@ Items are teleported directly to their matching [item frames](https://minecraft.
 
 It is already possible to build a complete item sorting and storage system using built-in vanilla Minecraft features.  I've seen some [incredible systems](https://www.youtube.com/watch?v=wsNV9Mo00Gw), and my hat is off to those amazing builders.  However in practice, actually doing it is very difficult and tedious in my experience.  It requires a large amount of hoppers and complex redstone contraptions for filtering.  For example, to filter and store every item in the game, it would take at least 2 hoppers per unique item, or 1,550 hoppers total (3,875 iron ingots).  Doing this in survival mode would take a very long time, and use up an enormous amount of space just for the machinery.
 
-The magic sorting system is designed to make all this much easier to build.  It requires only 1 hopper per category (36 categories total for sorting all items in the game), and handles all the item filtering and routing "magically" (i.e. by automatic item teleportation).  It is server-friendly (lag-free), and it keeps survival gameplay balanced by requiring some expensive resources to start out.
+The magic sorting system is designed to make all this much easier to build.  It requires only 1 hopper per category (39 categories total for sorting all items in the game), and handles all the item filtering and routing "magically" (i.e. by automatic item teleportation).  It is server-friendly (lag-free), and it keeps survival gameplay balanced by requiring some expensive resources to start out.
 
 Players can still build out custom storage systems using hoppers, chests, furnaces and more.  They can be as simple or complex as they want.  The magic sorting system *only* teleports items to special item frames.  The rest is up to the player.
 
@@ -21,7 +21,7 @@ Players can still build out custom storage systems using hoppers, chests, furnac
 - Build and setup everything in pure survival mode
 - Design your storage system to look however you like
 - Progressively add new categories over time
-- Sorts 878 unique items into 36 categories
+- Sorts 878 unique items into 39 categories
 - Unsorted items automatically go into a "misc" group
 - Can have multiple sorting systems in same world (128+ blocks apart)
 - Items are sorted to nearest matching item frames
@@ -81,7 +81,10 @@ Are you upgrading from Magic Sorting System v1.0?  Version 2.0 has been complete
 			- [Raw](#raw)
 		+ [Mobs](#mobs)
 		+ [Precious](#precious)
+			- [Lapis](#lapis)
 		+ [Magic](#magic)
+			- [Potions](#potions)
+			- [Books](#books)
 		+ [Wool](#wool)
 		+ [Concrete](#concrete)
 		+ [Terracotta](#terracotta)
@@ -175,7 +178,7 @@ For a more advanced auto-controller, see the [Advanced](#advanced) section below
 
 ## Creating an Item Receiver
 
-An "item receiver" is just an [item frame](https://minecraft.gamepedia.com/Item_Frame) that contains a special item which represents one of the [36 groups](#groups).  Then, all items to be sorted within that group will teleport to the item frame.  What happens then?  Well, it's actually entirely up to you!  But the most common thing is to simply place a [hopper](https://minecraft.gamepedia.com/Hopper) underneath the item frame, and route that to a nearby chest.  Example:
+An "item receiver" is just an [item frame](https://minecraft.gamepedia.com/Item_Frame) that contains a special item which represents one of the [39 groups](#groups).  Then, all items to be sorted within that group will teleport to the item frame.  What happens then?  Well, it's actually entirely up to you!  But the most common thing is to simply place a [hopper](https://minecraft.gamepedia.com/Hopper) underneath the item frame, and route that to a nearby chest.  Example:
 
 ![Single Chest Receiver](https://pixlcore.com/software/mss/screenshots/single-chest.png)
 
@@ -235,7 +238,7 @@ By default, this item frame with the [kelp](https://minecraft.gamepedia.com/Kelp
 
 So in this case, all prismarine related items would teleport to the item frame with the [prismarine](https://minecraft.gamepedia.com/Prismarine) block, all coral items would teleport to the item frame with the [bubble coral](https://minecraft.gamepedia.com/Coral_Block) block, and all the *other* non-prismarine non-coral ocean items would teleport to the item frame with the [Kelp](https://minecraft.gamepedia.com/Kelp) leaf.  The magic sorting system automatically detects which item frames are on display, and sorts accordingly.
 
-See the [Groups](#groups) section below for a list of all 36 groups and to see how the sub-group hierarchy works.
+See the [Groups](#groups) section below for a list of all 39 groups and to see how the sub-group hierarchy works.
 
 ### Misc Catch-All Group
 
@@ -295,7 +298,7 @@ Feel free to bury the entire thing (leave some air for the redstone to breathe),
 
 ## Groups
 
-Here is a list of all 36 groups in the magic sorting system, how some fallback to others, and all the items they contain.
+Here is a list of all 39 groups in the magic sorting system, how some fallback to others, and all the items they contain.
 
 ### Dirt
 
@@ -558,7 +561,7 @@ The Woodwork group contains all products made out of wood, including slabs, stai
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `office` | 7 | Woodwork | `minecraft:paper` | <img src="https://pixlcore.com/software/mss/images/paper.png?v=3" width="32" height="32"> |
+| `office` | 6 | Woodwork | `minecraft:paper` | <img src="https://pixlcore.com/software/mss/images/paper.png?v=3" width="32" height="32"> |
 
 The Office group is basically an offshoot of the [Woodwork](#woodwork) group, which contains items specifcially suitable for an office.  This includes books, bookshelves, maps (empty and filled), paper, writable and written books.  This group is optional, and if the item frame is omitted, all these items will sort into the [Woodwork](#woodwork) group instead.
 
@@ -567,13 +570,12 @@ The Office group is basically an offshoot of the [Woodwork](#woodwork) group, wh
 
 | Item ID | Image |
 |---------|-------|
-| `minecraft:book` | <img src="https://pixlcore.com/software/mss/images/book.png?v=3" width="32" height="32"> |
 | `minecraft:bookshelf` | <img src="https://pixlcore.com/software/mss/images/bookshelf.png?v=3" width="32" height="32"> |
+| `minecraft:writable_book` | <img src="https://pixlcore.com/software/mss/images/writable_book.png?v=3" width="32" height="32"> |
+| `minecraft:written_book` | <img src="https://pixlcore.com/software/mss/images/written_book.png?v=3" width="32" height="32"> |
 | `minecraft:filled_map` | <img src="https://pixlcore.com/software/mss/images/filled_map.png?v=3" width="32" height="32"> |
 | `minecraft:map` | <img src="https://pixlcore.com/software/mss/images/map.png?v=3" width="32" height="32"> |
 | `minecraft:paper` | <img src="https://pixlcore.com/software/mss/images/paper.png?v=3" width="32" height="32"> |
-| `minecraft:writable_book` | <img src="https://pixlcore.com/software/mss/images/writable_book.png?v=3" width="32" height="32"> |
-| `minecraft:written_book` | <img src="https://pixlcore.com/software/mss/images/written_book.png?v=3" width="32" height="32"> |
 
 </p>
 </details>
@@ -1166,7 +1168,7 @@ The Mobs group contains all organic items dropped from mobs.  This includes bone
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `precious` | 20 | Misc | `minecraft:gold_ingot` | <img src="https://pixlcore.com/software/mss/images/gold_ingot.png?v=3" width="32" height="32"> |
+| `precious` | 18 | Misc | `minecraft:gold_ingot` | <img src="https://pixlcore.com/software/mss/images/gold_ingot.png?v=3" width="32" height="32"> |
 
 The Precious group contains items that can be classified as expensive or rare, like ingots, nuggets, elytra wings, nether stars, totems, tridents, hearts of the sea, beacons and conduits.
 
@@ -1189,8 +1191,6 @@ The Precious group contains items that can be classified as expensive or rare, l
 | `minecraft:heart_of_the_sea` | <img src="https://pixlcore.com/software/mss/images/heart_of_the_sea.png?v=3" width="32" height="32"> |
 | `minecraft:iron_ingot` | <img src="https://pixlcore.com/software/mss/images/iron_ingot.png?v=3" width="32" height="32"> |
 | `minecraft:iron_nugget` | <img src="https://pixlcore.com/software/mss/images/iron_nugget.png?v=3" width="32" height="32"> |
-| `minecraft:lapis_block` | <img src="https://pixlcore.com/software/mss/images/lapis_block.png?v=3" width="32" height="32"> |
-| `minecraft:lapis_lazuli` | <img src="https://pixlcore.com/software/mss/images/lapis_lazuli.png?v=3" width="32" height="32"> |
 | `minecraft:nether_star` | <img src="https://pixlcore.com/software/mss/images/nether_star.png?v=3" width="32" height="32"> |
 | `minecraft:obsidian` | <img src="https://pixlcore.com/software/mss/images/obsidian.png?v=3" width="32" height="32"> |
 | `minecraft:totem_of_undying` | <img src="https://pixlcore.com/software/mss/images/totem_of_undying.png?v=3" width="32" height="32"> |
@@ -1199,11 +1199,30 @@ The Precious group contains items that can be classified as expensive or rare, l
 </p>
 </details>
 
+#### Lapis
+
+| Group ID | Items | Fallback Group | Item Frame | Image |
+|----------|-------|----------------|------------|-------|
+| `lapis` | 2 | Precious | `minecraft:lapis_lazuli` | <img src="https://pixlcore.com/software/mss/images/lapis_lazuli.png?v=3" width="32" height="32"> |
+
+The Lapis group contains both lapis lazuli and lapis blocks.  This group is optional, and if omitted the items will fall back to the Precious group.
+
+<details><summary>Click to Show Lapis Items</summary>
+<p>
+
+| Item ID | Image |
+|---------|-------|
+| `minecraft:lapis_block` | <img src="https://pixlcore.com/software/mss/images/lapis_block.png?v=3" width="32" height="32"> |
+| `minecraft:lapis_lazuli` | <img src="https://pixlcore.com/software/mss/images/lapis_lazuli.png?v=3" width="32" height="32"> |
+
+</p>
+</details>
+
 ### Magic
 
 | Group ID | Items | Fallback Group | Item Frame | Image |
 |----------|-------|----------------|------------|-------|
-| `magic` | 20 | Misc | `minecraft:glass_bottle` | <img src="https://pixlcore.com/software/mss/images/glass_bottle.png?v=3" width="32" height="32"> |
+| `magic` | 16 | Misc | `minecraft:glass_bottle` | <img src="https://pixlcore.com/software/mss/images/glass_bottle.png?v=3" width="32" height="32"> |
 
 The Magic group contains magical items, or items designed to work with magic or potions.  This includes blaze powder, blaze rods, brewing stands, cauldrons, enchanted books, ender eyes and pearls, potions of all kinds, golden apples and golden carrots.
 
@@ -1218,7 +1237,6 @@ The Magic group contains magical items, or items designed to work with magic or 
 | `minecraft:brewing_stand` | <img src="https://pixlcore.com/software/mss/images/brewing_stand.png?v=3" width="32" height="32"> |
 | `minecraft:cauldron` | <img src="https://pixlcore.com/software/mss/images/cauldron.png?v=3" width="32" height="32"> |
 | `minecraft:dragon_breath` | <img src="https://pixlcore.com/software/mss/images/dragon_breath.png?v=3" width="32" height="32"> |
-| `minecraft:enchanted_book` | <img src="https://pixlcore.com/software/mss/images/enchanted_book.png?v=3" width="32" height="32"> |
 | `minecraft:enchanted_golden_apple` | <img src="https://pixlcore.com/software/mss/images/enchanted_golden_apple.png?v=3" width="32" height="32"> |
 | `minecraft:enchanting_table` | <img src="https://pixlcore.com/software/mss/images/enchanting_table.png?v=3" width="32" height="32"> |
 | `minecraft:ender_eye` | <img src="https://pixlcore.com/software/mss/images/ender_eye.png?v=3" width="32" height="32"> |
@@ -1228,10 +1246,46 @@ The Magic group contains magical items, or items designed to work with magic or 
 | `minecraft:glistering_melon_slice` | <img src="https://pixlcore.com/software/mss/images/glistering_melon_slice.png?v=3" width="32" height="32"> |
 | `minecraft:golden_apple` | <img src="https://pixlcore.com/software/mss/images/golden_apple.png?v=3" width="32" height="32"> |
 | `minecraft:golden_carrot` | <img src="https://pixlcore.com/software/mss/images/golden_carrot.png?v=3" width="32" height="32"> |
+| `minecraft:honey_bottle` | <img src="https://pixlcore.com/software/mss/images/honey_bottle.png?v=3" width="32" height="32"> |
+
+</p>
+</details>
+
+#### Potions
+
+| Group ID | Items | Fallback Group | Item Frame | Image |
+|----------|-------|----------------|------------|-------|
+| `potions` | 3 | Magic | `minecraft:potion` | <img src="https://pixlcore.com/software/mss/images/potion.png?v=3" width="32" height="32"> |
+
+The Potions group contains all three kinds of potions (standard, lingering and splash).  This group is optional, and if omitted the items will fall back to the Magic group.
+
+<details><summary>Click to Show Potions Items</summary>
+<p>
+
+| Item ID | Image |
+|---------|-------|
 | `minecraft:lingering_potion` | <img src="https://pixlcore.com/software/mss/images/lingering_potion.png?v=3" width="32" height="32"> |
 | `minecraft:potion` | <img src="https://pixlcore.com/software/mss/images/potion.png?v=3" width="32" height="32"> |
 | `minecraft:splash_potion` | <img src="https://pixlcore.com/software/mss/images/splash_potion.png?v=3" width="32" height="32"> |
-| `minecraft:honey_bottle` | <img src="https://pixlcore.com/software/mss/images/honey_bottle.png?v=3" width="32" height="32"> |
+
+</p>
+</details>
+
+#### Books
+
+| Group ID | Items | Fallback Group | Item Frame | Image |
+|----------|-------|----------------|------------|-------|
+| `books` | 2 | Magic | `minecraft:book` | <img src="https://pixlcore.com/software/mss/images/book.png?v=3" width="32" height="32"> |
+
+The Books group contains both standard books and enchanted books.  This group is optional, and if omitted the items will fall back to the Magic group.
+
+<details><summary>Click to Show Books Items</summary>
+<p>
+
+| Item ID | Image |
+|---------|-------|
+| `minecraft:book` | <img src="https://pixlcore.com/software/mss/images/book.png?v=3" width="32" height="32"> |
+| `minecraft:enchanted_book` | <img src="https://pixlcore.com/software/mss/images/enchanted_book.png?v=3" width="32" height="32"> |
 
 </p>
 </details>

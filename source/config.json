@@ -208,13 +208,12 @@
 			"item_frame": "minecraft:paper",
 			"fallback": "woodwork",
 			"items": [
-				"minecraft:book",
 				"minecraft:bookshelf",
+				"minecraft:writable_book",
+				"minecraft:written_book",
 				"minecraft:filled_map",
 				"minecraft:map",
-				"minecraft:paper",
-				"minecraft:writable_book",
-				"minecraft:written_book"
+				"minecraft:paper"
 			]
 		},
 		{
@@ -700,12 +699,19 @@
 				"minecraft:heart_of_the_sea",
 				"minecraft:iron_ingot",
 				"minecraft:iron_nugget",
-				"minecraft:lapis_block",
-				"minecraft:lapis_lazuli",
 				"minecraft:nether_star",
 				"minecraft:obsidian",
 				"minecraft:totem_of_undying",
 				"minecraft:trident"
+			]
+		},
+		{
+			"group_name": "lapis",
+			"item_frame": "minecraft:lapis_lazuli",
+			"fallback": "precious",
+			"items": [
+				"minecraft:lapis_block",
+				"minecraft:lapis_lazuli"
 			]
 		},
 		{
@@ -719,7 +725,6 @@
 				"minecraft:brewing_stand",
 				"minecraft:cauldron",
 				"minecraft:dragon_breath",
-				"minecraft:enchanted_book",
 				"minecraft:enchanted_golden_apple",
 				"minecraft:enchanting_table",
 				"minecraft:ender_eye",
@@ -729,10 +734,26 @@
 				"minecraft:glistering_melon_slice",
 				"minecraft:golden_apple",
 				"minecraft:golden_carrot",
+				"minecraft:honey_bottle"
+			]
+		},
+		{
+			"group_name": "potions",
+			"item_frame": "minecraft:potion",
+			"fallback": "magic",
+			"items": [
 				"minecraft:lingering_potion",
 				"minecraft:potion",
-				"minecraft:splash_potion",
-				"minecraft:honey_bottle"
+				"minecraft:splash_potion"
+			]
+		},
+		{
+			"group_name": "books",
+			"item_frame": "minecraft:book",
+			"fallback": "magic",
+			"items": [
+				"minecraft:book",
+				"minecraft:enchanted_book"
 			]
 		},
 		{
