@@ -21,7 +21,7 @@ Players can still build out custom storage systems using hoppers, chests, furnac
 - Build and setup everything in pure survival mode
 - Design your storage system to look however you like
 - Progressively add new categories over time
-- Sorts 871 unique items into 36 categories
+- Sorts 878 unique items into 36 categories
 - Unsorted items automatically go into a "misc" group
 - Can have multiple sorting systems in same world (128+ blocks apart)
 - Items are sorted to nearest matching item frames
