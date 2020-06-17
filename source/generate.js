@@ -64,11 +64,17 @@ config.groups.forEach( function(group) {
 	if (items && items.length && target) {
 		var group_func_file = Path.join( func_dir, "sort_" + group_id + ".mcfunction" );
 		var fallback_action = group.fallback ? ('function mss:sort_' + group.fallback) : config.final_fallback;
+		var name_selector = "";
+		if (config.named) {
+			name_selector = ',tag:{display:{Name:\'{"text":"' + config.named + '"}\'}}'
+		}
+		var entity_match_selector = '@e[type=minecraft:item_frame,nbt={Item:{id:"' + target + '"' + name_selector + '}},distance=0..' + config.max_teleport_distance + ']'
+		var entity_dest_selector = '@e[limit=1,sort=random,type=minecraft:item_frame,nbt={Item:{id:"' + target + '"' + name_selector + '}},distance=0..' + config.max_teleport_distance + ']'
 		
 		// create special sort mcfunction for group
 		fs.writeFileSync( group_func_file, 
-			'execute as @s if entity @e[type=minecraft:item_frame,nbt={Item:{id:"' + target + '"}},distance=0..' + config.max_teleport_distance + '] run teleport @s @e[limit=1,sort=random,type=minecraft:item_frame,nbt={Item:{id:"' + target + '"}},distance=0..' + config.max_teleport_distance + ']' + "\n" +
-			'execute as @s unless entity @e[type=minecraft:item_frame,nbt={Item:{id:"' + target + '"}},distance=0..' + config.max_teleport_distance + '] run ' + fallback_action + "\n"
+			'execute as @s if entity ' + entity_match_selector + ' run teleport @s ' + entity_dest_selector + "\n" +
+			'execute as @s unless entity ' + entity_match_selector + ' run ' + fallback_action + "\n"
 		);
 		console.log("Wrote file: " + Path.relative(__dirname, group_func_file));
 		
