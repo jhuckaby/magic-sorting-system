@@ -17,7 +17,9 @@
 				"minecraft:grass_block",
 				"minecraft:grass_path",
 				"minecraft:mycelium",
-				"minecraft:podzol"
+				"minecraft:podzol",
+				"minecraft:crimson_nylium",
+				"minecraft:warped_nylium"
 			]
 		},
 		{
@@ -99,7 +101,17 @@
 				"minecraft:stripped_oak_log",
 				"minecraft:stripped_oak_wood",
 				"minecraft:stripped_spruce_log",
-				"minecraft:stripped_spruce_wood"
+				"minecraft:stripped_spruce_wood",
+				"minecraft:crimson_planks",
+				"minecraft:warped_planks",
+				"minecraft:crimson_stem",
+				"minecraft:warped_stem",
+				"minecraft:stripped_crimson_stem",
+				"minecraft:stripped_warped_stem",
+				"minecraft:stripped_crimson_hyphae",
+				"minecraft:stripped_warped_hyphae",
+				"minecraft:crimson_hyphae",
+				"minecraft:warped_hyphae"
 			]
 		},
 		{
@@ -184,8 +196,8 @@
 				"minecraft:spruce_trapdoor",
 				"minecraft:white_bed",
 				"minecraft:yellow_bed",
-				"minecraft:acacia_sign‌",
-				"minecraft:acacia_wall_sign‌",
+				"minecraft:acacia_sign",
+				"minecraft:acacia_wall_sign",
 				"minecraft:birch_sign",
 				"minecraft:birch_wall_sign",
 				"minecraft:dark_oak_sign",
@@ -200,7 +212,25 @@
 				"minecraft:cartography_table",
 				"minecraft:composter",
 				"minecraft:lectern",
-				"minecraft:beehive"
+				"minecraft:beehive",
+				"minecraft:crimson_slab",
+				"minecraft:warped_slab",
+				"minecraft:crimson_pressure_plate",
+				"minecraft:warped_pressure_plate",
+				"minecraft:crimson_fence",
+				"minecraft:warped_fence",
+				"minecraft:crimson_trapdoor",
+				"minecraft:warped_trapdoor",
+				"minecraft:crimson_fence_gate",
+				"minecraft:warped_fence_gate",
+				"minecraft:crimson_stairs",
+				"minecraft:warped_stairs",
+				"minecraft:crimson_button",
+				"minecraft:warped_button",
+				"minecraft:crimson_door",
+				"minecraft:warped_door",
+				"minecraft:crimson_sign",
+				"minecraft:warped_sign"
 			]
 		},
 		{
@@ -228,7 +258,9 @@
 				"minecraft:diorite",
 				"minecraft:granite",
 				"minecraft:mossy_cobblestone",
-				"minecraft:stone"
+				"minecraft:stone",
+				"minecraft:basalt",
+				"minecraft:blackstone"
 			]
 		},
 		{
@@ -282,7 +314,24 @@
 				"minecraft:polished_granite_stairs",
 				"minecraft:smooth_stone_slab",
 				"minecraft:stone_brick_wall",
-				"minecraft:stone_stairs"
+				"minecraft:stone_stairs",
+				"minecraft:polished_blackstone_pressure_plate",
+				"minecraft:polished_basalt",
+				"minecraft:blackstone_wall",
+				"minecraft:polished_blackstone_wall",
+				"minecraft:polished_blackstone_brick_wall",
+				"minecraft:polished_blackstone_button",
+				"minecraft:blackstone_slab",
+				"minecraft:blackstone_stairs",
+				"minecraft:gilded_blackstone",
+				"minecraft:polished_blackstone",
+				"minecraft:polished_blackstone_slab",
+				"minecraft:polished_blackstone_stairs",
+				"minecraft:chiseled_polished_blackstone",
+				"minecraft:polished_blackstone_bricks",
+				"minecraft:polished_blackstone_brick_slab",
+				"minecraft:polished_blackstone_brick_stairs",
+				"minecraft:cracked_polished_blackstone_bricks"
 			]
 		},
 		{
@@ -308,6 +357,7 @@
 				"minecraft:clock",
 				"minecraft:clownfish_bucket",
 				"minecraft:cod_bucket",
+				"minecraft:tropical_fish_bucket",
 				"minecraft:compass",
 				"minecraft:damaged_anvil",
 				"minecraft:diamond_axe",
@@ -319,6 +369,7 @@
 				"minecraft:firework_rocket",
 				"minecraft:firework_star",
 				"minecraft:fishing_rod",
+				"minecraft:warped_fungus_on_a_stick",
 				"minecraft:flint",
 				"minecraft:flint_and_steel",
 				"minecraft:furnace",
@@ -353,6 +404,7 @@
 				"minecraft:tipped_arrow",
 				"minecraft:tnt",
 				"minecraft:torch",
+				"minecraft:soul_torch",
 				"minecraft:water_bucket",
 				"minecraft:wooden_axe",
 				"minecraft:wooden_hoe",
@@ -363,12 +415,23 @@
 				"minecraft:blast_furnace",
 				"minecraft:campfire",
 				"minecraft:lantern",
+				"minecraft:soul_lantern",
+				"minecraft:soul_campfire",
 				"minecraft:fletching_table",
 				"minecraft:grindstone",
 				"minecraft:loom",
 				"minecraft:smithing_table",
 				"minecraft:smoker",
-				"minecraft:stonecutter"
+				"minecraft:stonecutter",
+				"minecraft:chain",
+				"minecraft:lodestone",
+				"minecraft:target",
+				"minecraft:respawn_anchor",
+				"minecraft:netherite_sword",
+				"minecraft:netherite_shovel",
+				"minecraft:netherite_pickaxe",
+				"minecraft:netherite_axe",
+				"minecraft:netherite_hoe"
 			]
 		},
 		{
@@ -431,7 +494,11 @@
 				"minecraft:saddle",
 				"minecraft:shield",
 				"minecraft:turtle_helmet",
-				"minecraft:leather_horse_armor"
+				"minecraft:leather_horse_armor",
+				"minecraft:netherite_helmet",
+				"minecraft:netherite_chestplate",
+				"minecraft:netherite_leggings",
+				"minecraft:netherite_boots"
 			]
 		},
 		{
@@ -509,7 +576,15 @@
 				"minecraft:sweet_berry_bush",
 				"minecraft:wither_rose",
 				"minecraft:sweet_berries",
-				"minecraft:bamboo"
+				"minecraft:bamboo",
+				"minecraft:crimson_fungus",
+				"minecraft:warped_fungus",
+				"minecraft:crimson_roots",
+				"minecraft:warped_roots",
+				"minecraft:nether_sprouts",
+				"minecraft:weeping_vines",
+				"minecraft:twisting_vines",
+				"minecraft:warped_wart_block"
 			]
 		},
 		{
@@ -677,7 +752,13 @@
 				"minecraft:bee_spawn_egg",
 				"minecraft:honey_block",
 				"minecraft:honeycomb",
-				"minecraft:honeycomb_block"
+				"minecraft:honeycomb_block",
+				"minecraft:hoglin_spawn_egg",
+				"minecraft:piglin_spawn_egg",
+				"minecraft:piglin_brute_spawn_egg",
+				"minecraft:strider_spawn_egg",
+				"minecraft:zoglin_spawn_egg",
+				"minecraft:zombified_piglin_spawn_egg"
 			]
 		},
 		{
@@ -702,7 +783,10 @@
 				"minecraft:nether_star",
 				"minecraft:obsidian",
 				"minecraft:totem_of_undying",
-				"minecraft:trident"
+				"minecraft:trident",
+				"minecraft:netherite_ingot",
+				"minecraft:netherite_scrap",
+				"minecraft:netherite_block"
 			]
 		},
 		{
@@ -808,7 +892,13 @@
 				"minecraft:white_wool",
 				"minecraft:yellow_banner",
 				"minecraft:yellow_carpet",
-				"minecraft:yellow_wool"
+				"minecraft:yellow_wool",
+				"minecraft:flower_banner_pattern",
+				"minecraft:creeper_banner_pattern",
+				"minecraft:skull_banner_pattern",
+				"minecraft:mojang_banner_pattern",
+				"minecraft:globe_banner_pattern",
+				"minecraft:piglin_banner_pattern"
 			]
 		},
 		{
@@ -986,7 +1076,17 @@
 				"minecraft:horn_coral_fan",
 				"minecraft:tube_coral",
 				"minecraft:tube_coral_block",
-				"minecraft:tube_coral_fan"
+				"minecraft:tube_coral_fan",
+				"minecraft:dead_brain_coral",
+				"minecraft:dead_bubble_coral",
+				"minecraft:dead_fire_coral",
+				"minecraft:dead_horn_coral",
+				"minecraft:dead_tube_coral",
+				"minecraft:dead_tube_coral_fan",
+				"minecraft:dead_brain_coral_fan",
+				"minecraft:dead_bubble_coral_fan",
+				"minecraft:dead_fire_coral_fan",
+				"minecraft:dead_horn_coral_fan"
 			]
 		},
 		{
@@ -1064,8 +1164,14 @@
 				"minecraft:red_nether_bricks",
 				"minecraft:smooth_quartz",
 				"minecraft:soul_sand",
+				"minecraft:soul_soil",
 				"minecraft:smooth_quartz_slab",
-				"minecraft:smooth_quartz_stairs"
+				"minecraft:smooth_quartz_stairs",
+				"minecraft:cracked_nether_bricks",
+				"minecraft:chiseled_nether_bricks",
+				"minecraft:quartz_bricks",
+				"minecraft:shroomlight",
+				"minecraft:crying_obsidian"
 			]
 		},
 		{
@@ -1079,7 +1185,9 @@
 				"minecraft:iron_ore",
 				"minecraft:lapis_ore",
 				"minecraft:nether_quartz_ore",
-				"minecraft:redstone_ore"
+				"minecraft:nether_gold_ore",
+				"minecraft:redstone_ore",
+				"minecraft:ancient_debris"
 			]
 		},
 		{
@@ -1145,6 +1253,7 @@
 				"minecraft:music_disc_strad",
 				"minecraft:music_disc_wait",
 				"minecraft:music_disc_ward",
+				"minecraft:music_disc_pigstep",
 				"minecraft:note_block",
 				"minecraft:jukebox"
 			]
