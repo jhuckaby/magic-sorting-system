@@ -950,6 +950,7 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:warped_door"}}] ru
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:crimson_sign"}}] run function mss:sort_nether_update
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:warped_sign"}}] run function mss:sort_nether_update
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:basalt"}}] run function mss:sort_nether_update
+execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:smooth_basalt"}}] run function mss:sort_nether_update
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:blackstone"}}] run function mss:sort_nether_update
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:polished_blackstone_pressure_plate"}}] run function mss:sort_nether_update
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:polished_basalt"}}] run function mss:sort_nether_update
@@ -1160,7 +1161,6 @@ execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:powder_snow_cauldr
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:rooted_dirt"}}] run function mss:sort_caves
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:small_amethyst_bud"}}] run function mss:sort_caves
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:small_dripleaf"}}] run function mss:sort_caves
-execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:smooth_basalt"}}] run function mss:sort_caves
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:spore_blossom"}}] run function mss:sort_caves
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:tinted_glass"}}] run function mss:sort_caves
 execute as @s if entity @s[type=item,nbt={Item:{id:"minecraft:tuff"}}] run function mss:sort_caves
