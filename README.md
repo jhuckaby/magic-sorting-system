@@ -1,3 +1,15 @@
+# Project Abandoned
+
+Hey everyone,
+
+I'm so sorry, but I have to archive this project.  It hasn't been updated in 5 years, and reports are coming in that it is broken in newer versions of the game.  Unfortunately, I just don't have the time to work on it anymore.  Life got in the way.
+
+Huge thanks to everyone who helped me test it, and those who submitted issues.  You all made this possible!
+
+See you around the overworld!
+
+-- Joe
+
 # Overview
 
 ![Main Screenshot](https://pixlcore.com/software/mss/screenshots/v2/main-v2.png)
